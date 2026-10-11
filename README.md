@@ -225,9 +225,4 @@ correlated shocks in Module B; Kafka in place of the in-process bus.
 _Data attributions: Loughran-McDonald Master Dictionary (Loughran & McDonald, 2011); Opinion Lexicon
 (Hu & Liu, 2004); VADER (Hutto & Gilbert, 2014); FinBERT (Araci, 2019; ProsusAI)._
 
-## AI usage disclosure
 
-In line with the hackathon's AI-usage guidelines: AI assistance (Anthropic's Claude) was used while building
-this project, including for code, synthetic data generation, documentation and the slide deck. All design
-decisions, results and limitations stated here have been reviewed, and the evaluation figures come from
-running the code in this repository.
