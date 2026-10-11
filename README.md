@@ -1,8 +1,8 @@
 # SENTINEL: AI/NLP Risk Engine - S&P Global & Crisil Campus Hackathon
 
-**Candidate Name:** Sreedaya G S
-**College Email ID:** sreedaya.gs@kau.in
-**College / Campus:** Kerala Agricultural University
+**Candidate Name:** Goureesankar S Nair
+**College Email ID:** goureesankar.snair2023@vitstudent.ac.in
+**College / Campus:** Vellore Institute of Technology (VIT)
 **Demo Video Link:** _[YouTube (unlisted) link here]_
 **Slide Deck Link (if hosted externally):** in repo at [`docs/presentation.pdf`](docs/presentation.pdf)
 
@@ -99,8 +99,8 @@ GDELT DOC 2.0 API, Google News RSS, Reddit public JSON, and yfinance for real pr
 Runtime: Python 3.10+ (tested on Python 3.10 and 3.13, Linux; pure-Python dependencies, so it also runs on macOS and Windows).
 
 ```bash
-git clone https://github.com/<your-username>/kau-sreedaya-gs-hackathon.git
-cd kau-sreedaya-gs-hackathon
+git clone https://github.com/<your-username>/vit-goureesankar-s-nair-hackathon.git
+cd vit-goureesankar-s-nair-hackathon
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
