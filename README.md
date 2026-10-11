@@ -4,7 +4,7 @@
 
 **College Email ID:** goureesankar.snair2023@vitstudent.ac.in
 
-**College / Campus:** Vellore Institute of Technology (VIT)
+**College / Campus:** Vellore Institute of Technology (VIT), Vellore
 
 **Demo Video Link:** [https://youtu.be/LbYbk2UM2AU](https://youtu.be/LbYbk2UM2AU)
 
