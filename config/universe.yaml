@@ -1,0 +1,81 @@
+# Mock index universe: 15 constituents drawn from the S&P 100.
+# base_weight = approximate free-float market-cap share inside this 15-stock index
+# (rounded, illustrative; used as the neutral "benchmark" weight before sentiment tilts).
+# aliases are matched case-sensitively as whole words; cashtags ($AAPL) are always matched.
+index_name: "SENTI-15 Mock Index"
+constituents:
+  - ticker: AAPL
+    name: Apple Inc.
+    aliases: ["Apple", "iPhone", "Tim Cook", "AAPL"]
+    sector: Information Technology
+    base_weight: 0.135
+  - ticker: MSFT
+    name: Microsoft Corp.
+    aliases: ["Microsoft", "Azure", "Satya Nadella", "MSFT"]
+    sector: Information Technology
+    base_weight: 0.135
+  - ticker: NVDA
+    name: NVIDIA Corp.
+    aliases: ["Nvidia", "NVIDIA", "Jensen Huang", "NVDA"]
+    sector: Information Technology
+    base_weight: 0.140
+  - ticker: AMZN
+    name: Amazon.com Inc.
+    aliases: ["Amazon", "AWS", "Andy Jassy", "AMZN"]
+    sector: Consumer Discretionary
+    base_weight: 0.090
+  - ticker: GOOGL
+    name: Alphabet Inc.
+    aliases: ["Alphabet", "Google", "YouTube", "Sundar Pichai", "GOOGL", "GOOG"]
+    sector: Communication Services
+    base_weight: 0.090
+  - ticker: META
+    name: Meta Platforms Inc.
+    aliases: ["Meta Platforms", "Meta", "Facebook", "Instagram", "WhatsApp", "Zuckerberg", "META"]
+    sector: Communication Services
+    base_weight: 0.065
+  - ticker: TSLA
+    name: Tesla Inc.
+    aliases: ["Tesla", "Elon Musk", "Cybertruck", "TSLA"]
+    sector: Consumer Discretionary
+    base_weight: 0.040
+  - ticker: JPM
+    name: JPMorgan Chase & Co.
+    aliases: ["JPMorgan", "JP Morgan", "J.P. Morgan", "Chase", "Jamie Dimon", "JPM"]
+    sector: Financials
+    base_weight: 0.065
+  - ticker: BAC
+    name: Bank of America Corp.
+    aliases: ["Bank of America", "BofA", "BAC"]
+    sector: Financials
+    base_weight: 0.035
+  - ticker: XOM
+    name: Exxon Mobil Corp.
+    aliases: ["Exxon Mobil", "ExxonMobil", "Exxon", "XOM"]
+    sector: Energy
+    base_weight: 0.045
+  - ticker: CVX
+    name: Chevron Corp.
+    aliases: ["Chevron", "CVX"]
+    sector: Energy
+    base_weight: 0.030
+  - ticker: JNJ
+    name: Johnson & Johnson
+    aliases: ["Johnson & Johnson", "J&J", "JNJ"]
+    sector: Health Care
+    base_weight: 0.045
+  - ticker: PFE
+    name: Pfizer Inc.
+    aliases: ["Pfizer", "PFE"]
+    sector: Health Care
+    base_weight: 0.020
+  - ticker: BA
+    name: Boeing Co.
+    aliases: ["Boeing", "737 MAX"]
+    sector: Industrials
+    base_weight: 0.015
+  - ticker: WMT
+    name: Walmart Inc.
+    aliases: ["Walmart", "WMT"]
+    sector: Consumer Staples
+    base_weight: 0.050

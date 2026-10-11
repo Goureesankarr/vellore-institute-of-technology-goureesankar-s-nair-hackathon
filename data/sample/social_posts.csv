@@ -1,0 +1,441 @@
+post_id,source,platform,author,published_at,text,likes,reposts
+S00106,social_file,X (synthetic),@bearish_bob,2026-08-17T02:11:27.581385+00:00,$TSLA looking strong today 📈,1,4
+S00105,social_file,X (synthetic),@bank_analyst,2026-08-17T02:22:28.471901+00:00,Not liking the price action in $JPM 📉,15,7
+S00109,social_file,X (synthetic),@risk_ronan,2026-08-17T02:42:58.386356+00:00,Love the setup on $GOOGL here,1,1
+S00108,social_file,X (synthetic),@quant_quinn,2026-08-17T03:09:00.349872+00:00,What's everyone's take on $GOOGL?,2,2
+S00107,social_file,X (synthetic),@yield_yuki,2026-08-17T05:09:40.454319+00:00,Watching $BA this week,20,1
+S00111,social_file,X (synthetic),@tech_tara,2026-08-17T10:11:16.582203+00:00,Love the setup on $AAPL here,2,1
+S00112,social_file,X (synthetic),@em_emma,2026-08-17T17:01:13.626605+00:00,Nvidia is executing really well this year $NVDA,4,1
+S00113,social_file,X (synthetic),@em_emma,2026-08-17T17:13:41.066429+00:00,$TSLA looking strong today 📈,2,1
+S00110,social_file,X (synthetic),@valuehunter,2026-08-17T17:22:51.987476+00:00,Bearish on $JPM into the next print,70,0
+S00117,social_file,X (synthetic),@quant_quinn,2026-08-18T04:20:08.134229+00:00,"$GOOGL flat today, nothing to see",1,2
+S00115,social_file,X (synthetic),@yield_yuki,2026-08-18T05:24:18.728476+00:00,$BAC breaking out. Momentum is real,5,7
+S00122,social_file,X (synthetic),@macro_maya,2026-08-18T09:29:24.003832+00:00,"$BA overvalued imo, waiting for a pullback",16,2
+S00119,social_file,X (synthetic),@longterm_lee,2026-08-18T11:36:26.333089+00:00,Love the setup on $CVX here,6,3
+S00114,social_file,X (synthetic),@yield_yuki,2026-08-18T12:07:37.775541+00:00,$XOM looking strong today 📈,2,5
+S00120,social_file,X (synthetic),@momentum_mo,2026-08-18T12:35:37.410579+00:00,Tesla is executing really well this year $TSLA,4,15
+S00005,social_file,X (synthetic),@optionsoracle,2026-08-18T13:34:47.749897+00:00,$NVDA launch day pump again lol. Strong product though.,12,9
+S00004,social_file,X (synthetic),@fintwit_fiona,2026-08-18T13:38:37.396920+00:00,Not sure the stock can keep ripping but the Rubin launch was impressive $NVDA,118,22
+S00001,social_file,X (synthetic),@gamma_gita,2026-08-18T14:42:19.296592+00:00,$NVDA new chip looks like a monster. 3x inference?? Demand is not slowing down 🚀,39,1
+S00006,social_file,X (synthetic),@divi_dan,2026-08-18T15:33:04.924194+00:00,$NVDA launch day pump again lol. Strong product though.,74,4
+S00003,social_file,X (synthetic),@bank_analyst,2026-08-18T15:34:37.047811+00:00,Every hyperscaler pre-ordering the new Nvidia platform. Bullish $NVDA 📈,60,11
+S00123,social_file,X (synthetic),@tech_tara,2026-08-18T16:57:25.290653+00:00,Bearish on $META into the next print,6,0
+S00118,social_file,X (synthetic),@fintwit_fiona,2026-08-18T17:14:46.117065+00:00,$JPM breaking out. Momentum is real,24,0
+S00121,social_file,X (synthetic),@momentum_mo,2026-08-18T17:51:13.095180+00:00,$GOOGL looking strong today 📈,2,4
+S00002,social_file,X (synthetic),@bondvigilante,2026-08-18T18:20:08.775000+00:00,Nvidia keeps executing. Raised my PT after the launch event. $NVDA,37,3
+S00116,social_file,X (synthetic),@gamma_gita,2026-08-18T22:12:18.412397+00:00,"$CVX looks weak, cutting my position",17,0
+S00131,social_file,X (synthetic),@energy_ed,2026-08-19T01:56:52.431000+00:00,Watching $CVX this week,2,3
+S00128,social_file,X (synthetic),@risk_ronan,2026-08-19T03:36:20.087039+00:00,Love the setup on $AMZN here,23,4
+S00125,social_file,X (synthetic),@energy_ed,2026-08-19T03:36:28.374816+00:00,"$CVX flat today, nothing to see",1,1
+S00132,social_file,X (synthetic),@em_emma,2026-08-19T09:00:09.487493+00:00,"$JNJ flat today, nothing to see",48,8
+S00127,social_file,X (synthetic),@risk_ronan,2026-08-19T09:11:20.872285+00:00,Boeing is executing really well this year $BA,202,11
+S00126,social_file,X (synthetic),@fintwit_fiona,2026-08-19T11:02:08.323534+00:00,$AAPL looking strong today 📈,1,0
+S00129,social_file,X (synthetic),@bearish_bob,2026-08-19T12:31:30.858315+00:00,Love the setup on $NVDA here,10,7
+S00007,social_file,X (synthetic),@yield_yuki,2026-08-19T18:33:24.124953+00:00,"Fed minutes way more hawkish than expected. Yields ripping, tech bleeding",62,7
+S00130,social_file,X (synthetic),@valuehunter,2026-08-19T18:51:45.085192+00:00,Pfizer is executing really well this year $PFE,9,0
+S00009,social_file,X (synthetic),@deeptech_dev,2026-08-19T20:35:51.991662+00:00,Higher for longer is back on the menu. Not great for multiples.,20,14
+S00008,social_file,X (synthetic),@divi_dan,2026-08-19T21:15:57.880018+00:00,Higher for longer is back on the menu. Not great for multiples.,27,3
+S00010,social_file,X (synthetic),@tech_tara,2026-08-19T22:12:54.800323+00:00,2y up 9bps on the minutes. Market not ready for more hikes,159,16
+S00124,social_file,X (synthetic),@bondvigilante,2026-08-19T22:44:09.175775+00:00,"$NVDA looks weak, cutting my position",11,2
+S00011,social_file,X (synthetic),@energy_ed,2026-08-19T23:16:51.804542+00:00,Fed sounds worried about inflation again. Trimming risk here.,4,0
+S00012,social_file,X (synthetic),@divi_dan,2026-08-20T00:08:36.187039+00:00,Fed sounds worried about inflation again. Trimming risk here.,20,19
+S00133,social_file,X (synthetic),@risk_ronan,2026-08-20T00:54:07.794242+00:00,Pfizer is executing really well this year $PFE,1,0
+S00140,social_file,X (synthetic),@deeptech_dev,2026-08-20T03:17:19.068528+00:00,"$META flat today, nothing to see",0,3
+S00138,social_file,X (synthetic),@risk_ronan,2026-08-20T03:31:17.878362+00:00,Love the setup on $PFE here,0,0
+S00135,social_file,X (synthetic),@optionsoracle,2026-08-20T07:23:46.617820+00:00,Bearish on $PFE into the next print,22,5
+S00143,social_file,X (synthetic),@gamma_gita,2026-08-20T08:25:56.292049+00:00,$NVDA looking strong today 📈,8,4
+S00139,social_file,X (synthetic),@valuehunter,2026-08-20T09:28:30.899189+00:00,Anyone holding $META through earnings?,5,0
+S00142,social_file,X (synthetic),@gamma_gita,2026-08-20T10:55:30.055575+00:00,Love the setup on $MSFT here,8,2
+S00017,social_file,X (synthetic),@em_emma,2026-08-20T11:14:42.491019+00:00,E-comm +22% at Walmart. Amazon should be paying attention $WMT $AMZN,9,0
+S00018,social_file,X (synthetic),@valuehunter,2026-08-20T11:33:54.224150+00:00,"Solid beat from Walmart, guidance raise is the cherry on top",3,2
+S00144,social_file,X (synthetic),@em_emma,2026-08-20T12:07:30.475014+00:00,Meta is executing really well this year $META,5,4
+S00014,social_file,X (synthetic),@macro_maya,2026-08-20T14:27:12.003109+00:00,Walmart is the defensive growth stock nobody talks about. Record high $WMT,2,5
+S00146,social_file,X (synthetic),@momentum_mo,2026-08-20T15:05:54.552341+00:00,Anyone holding $NVDA through earnings?,19,1
+S00137,social_file,X (synthetic),@valuehunter,2026-08-20T15:19:27.044275+00:00,$XOM breaking out. Momentum is real,36,5
+S00016,social_file,X (synthetic),@bearish_bob,2026-08-20T15:35:02.970952+00:00,E-comm +22% at Walmart. Amazon should be paying attention $WMT $AMZN,89,2
+S00013,social_file,X (synthetic),@fintwit_fiona,2026-08-20T17:09:47.451445+00:00,$WMT crushed it. Raised guidance in this environment is huge,9,5
+S00134,social_file,X (synthetic),@bondvigilante,2026-08-20T17:14:10.585131+00:00,Nvidia is executing really well this year $NVDA,1,4
+S00145,social_file,X (synthetic),@yield_yuki,2026-08-20T17:34:15.488173+00:00,"$JNJ looks weak, cutting my position",5,3
+S00015,social_file,X (synthetic),@em_emma,2026-08-20T17:45:14.774585+00:00,Walmart is the defensive growth stock nobody talks about. Record high $WMT,109,8
+S00136,social_file,X (synthetic),@fintwit_fiona,2026-08-20T18:35:49.792165+00:00,Anyone holding $XOM through earnings?,7,1
+S00141,social_file,X (synthetic),@quant_quinn,2026-08-20T21:38:59.978362+00:00,Bearish on $JNJ into the next print,10,4
+S00153,social_file,X (synthetic),@retail_ravi,2026-08-21T02:55:51.723781+00:00,Love the setup on $XOM here,24,7
+S00157,social_file,X (synthetic),@yield_yuki,2026-08-21T04:20:56.108269+00:00,Meta is executing really well this year $META,34,1
+S00148,social_file,X (synthetic),@em_emma,2026-08-21T07:01:15.662691+00:00,Not liking the price action in $TSLA 📉,2,1
+S00156,social_file,X (synthetic),@macro_maya,2026-08-21T07:23:31.373336+00:00,$BAC looking strong today 📈,9,1
+S00152,social_file,X (synthetic),@tech_tara,2026-08-21T07:30:49.723371+00:00,$XOM breaking out. Momentum is real,10,3
+S00147,social_file,X (synthetic),@momentum_mo,2026-08-21T08:46:46.529596+00:00,Anyone holding $META through earnings?,15,0
+S00151,social_file,X (synthetic),@bank_analyst,2026-08-21T09:09:00.792721+00:00,$NVDA breaking out. Momentum is real,10,0
+S00149,social_file,X (synthetic),@bank_analyst,2026-08-21T10:41:11.035918+00:00,Johnson & Johnson disappointed me again $JNJ,10,7
+S00155,social_file,X (synthetic),@bank_analyst,2026-08-21T12:09:33.344315+00:00,Watching $JNJ this week,3,0
+S00150,social_file,X (synthetic),@bank_analyst,2026-08-21T12:15:45.921115+00:00,Love the setup on $AAPL here,12,3
+S00154,social_file,X (synthetic),@bank_analyst,2026-08-21T16:57:28.863486+00:00,"$MSFT flat today, nothing to see",8,1
+S00164,social_file,X (synthetic),@em_emma,2026-08-24T00:11:43.584008+00:00,"$CVX overvalued imo, waiting for a pullback",3,1
+S00167,social_file,X (synthetic),@valuehunter,2026-08-24T00:55:48.157656+00:00,"$BAC looks weak, cutting my position",57,2
+S00158,social_file,X (synthetic),@yield_yuki,2026-08-24T00:59:04.357875+00:00,"$XOM flat today, nothing to see",4,3
+S00162,social_file,X (synthetic),@chartist_raj,2026-08-24T01:12:34.079306+00:00,Not liking the price action in $GOOGL 📉,3,8
+S00161,social_file,X (synthetic),@tech_tara,2026-08-24T03:07:31.119680+00:00,$JNJ breaking out. Momentum is real,4,1
+S00163,social_file,X (synthetic),@optionsoracle,2026-08-24T05:08:31.026114+00:00,Anyone holding $MSFT through earnings?,5,2
+S00029,social_file,X (synthetic),@gamma_gita,2026-08-24T06:09:51.395949+00:00,This conflict could get much worse. Hedging with puts,6,3
+S00024,social_file,X (synthetic),@em_emma,2026-08-24T06:30:12.724973+00:00,Brent going vertical. $XOM $CVX the only green on my screen,5,0
+S00022,social_file,X (synthetic),@tech_tara,2026-08-24T06:30:16.503335+00:00,Risk-off everywhere. Futures tanking on the Middle East news,3,1
+S00021,social_file,X (synthetic),@em_emma,2026-08-24T06:46:32.052809+00:00,Risk-off everywhere. Futures tanking on the Middle East news,5,1
+S00031,social_file,X (synthetic),@deeptech_dev,2026-08-24T06:48:53.088708+00:00,Emerging market FX getting hammered on the Gulf escalation,36,2
+S00020,social_file,X (synthetic),@bondvigilante,2026-08-24T07:04:02.128260+00:00,Strait of Hormuz tankers hit. This is a serious escalation. Oil +9%,10,18
+S00169,social_file,X (synthetic),@yield_yuki,2026-08-24T07:09:53.980190+00:00,Anyone holding $BAC through earnings?,18,4
+S00025,social_file,X (synthetic),@risk_ronan,2026-08-24T07:11:10.628962+00:00,If Hormuz stays closed we are looking at $100+ oil and an inflation scare,6,7
+S00168,social_file,X (synthetic),@gamma_gita,2026-08-24T07:36:46.323933+00:00,"$WMT overvalued imo, waiting for a pullback",4,9
+S00026,social_file,X (synthetic),@chartist_raj,2026-08-24T07:43:22.464752+00:00,If Hormuz stays closed we are looking at $100+ oil and an inflation scare,166,5
+S00028,social_file,X (synthetic),@tech_tara,2026-08-24T07:44:48.959063+00:00,Sold my airline names. War risk is not something I want to hold through,2,1
+S00027,social_file,X (synthetic),@yield_yuki,2026-08-24T08:59:33.546897+00:00,HY spreads blowing out on the Gulf conflict. Credit desks are busy today,24,1
+S00160,social_file,X (synthetic),@bondvigilante,2026-08-24T10:30:23.657213+00:00,$JPM looking strong today 📈,7,2
+S00030,social_file,X (synthetic),@gamma_gita,2026-08-24T10:57:15.931739+00:00,Emerging market FX getting hammered on the Gulf escalation,24,20
+S00170,social_file,X (synthetic),@gamma_gita,2026-08-24T11:20:33.742020+00:00,What's everyone's take on $JNJ?,25,5
+S00019,social_file,X (synthetic),@chartist_raj,2026-08-24T12:53:26.663850+00:00,Strait of Hormuz tankers hit. This is a serious escalation. Oil +9%,40,1
+S00023,social_file,X (synthetic),@em_emma,2026-08-24T12:58:06.299607+00:00,Brent going vertical. $XOM $CVX the only green on my screen,38,2
+S00165,social_file,X (synthetic),@bank_analyst,2026-08-24T13:13:19.300606+00:00,Not liking the price action in $AAPL 📉,1,4
+S00159,social_file,X (synthetic),@fintwit_fiona,2026-08-24T15:20:29.703171+00:00,Bearish on $AAPL into the next print,4,5
+S00166,social_file,X (synthetic),@deeptech_dev,2026-08-24T23:18:16.125438+00:00,"$XOM looks weak, cutting my position",2,3
+S00180,social_file,X (synthetic),@gamma_gita,2026-08-25T02:33:52.151434+00:00,Apple is executing really well this year $AAPL,6,6
+S00174,social_file,X (synthetic),@fintwit_fiona,2026-08-25T02:54:46.048057+00:00,"$BAC flat today, nothing to see",12,1
+S00171,social_file,X (synthetic),@risk_ronan,2026-08-25T04:57:19.680296+00:00,"Added more $JNJ, long-term winner",2,2
+S00173,social_file,X (synthetic),@optionsoracle,2026-08-25T06:40:05.710305+00:00,Not liking the price action in $GOOGL 📉,25,2
+S00183,social_file,X (synthetic),@deeptech_dev,2026-08-25T11:24:40.150634+00:00,Not liking the price action in $TSLA 📉,4,1
+S00172,social_file,X (synthetic),@energy_ed,2026-08-25T13:03:21.347784+00:00,Bearish on $NVDA into the next print,90,10
+S00182,social_file,X (synthetic),@bondvigilante,2026-08-25T14:36:06.525151+00:00,Not liking the price action in $GOOGL 📉,11,1
+S00178,social_file,X (synthetic),@fintwit_fiona,2026-08-25T15:26:13.056855+00:00,"$PFE flat today, nothing to see",9,5
+S00176,social_file,X (synthetic),@valuehunter,2026-08-25T16:00:32.514339+00:00,Not liking the price action in $JNJ 📉,8,0
+S00181,social_file,X (synthetic),@bondvigilante,2026-08-25T17:28:25.498877+00:00,"$AMZN flat today, nothing to see",19,0
+S00175,social_file,X (synthetic),@divi_dan,2026-08-25T17:51:41.004516+00:00,Love the setup on $JNJ here,2,1
+S00179,social_file,X (synthetic),@tech_tara,2026-08-25T18:49:56.132595+00:00,What's everyone's take on $WMT?,0,5
+S00177,social_file,X (synthetic),@quant_quinn,2026-08-25T23:03:07.194732+00:00,Not liking the price action in $JNJ 📉,82,1
+S00191,social_file,X (synthetic),@bank_analyst,2026-08-26T02:50:07.197713+00:00,Watching $CVX this week,34,23
+S00187,social_file,X (synthetic),@bearish_bob,2026-08-26T03:09:12.490998+00:00,"$WMT looks weak, cutting my position",5,3
+S00185,social_file,X (synthetic),@risk_ronan,2026-08-26T10:40:38.195984+00:00,What's everyone's take on $XOM?,11,2
+S00184,social_file,X (synthetic),@deeptech_dev,2026-08-26T11:25:42.770653+00:00,Not liking the price action in $META 📉,3,9
+S00192,social_file,X (synthetic),@longterm_lee,2026-08-26T12:42:47.567675+00:00,Bearish on $GOOGL into the next print,16,1
+S00186,social_file,X (synthetic),@yield_yuki,2026-08-26T12:49:34.240017+00:00,Watching $BAC this week,5,4
+S00036,social_file,X (synthetic),@energy_ed,2026-08-26T16:20:15.318879+00:00,Boeing quality problems never end. Shorting the bounce,53,15
+S00032,social_file,X (synthetic),@deeptech_dev,2026-08-26T17:24:05.544419+00:00,Boeing again?? Another 737 MAX probe. This company can't catch a break,29,12
+S00034,social_file,X (synthetic),@valuehunter,2026-08-26T18:03:55.901948+00:00,Regulators halting Boeing deliveries. Avoid until clarity,56,2
+S00033,social_file,X (synthetic),@chartist_raj,2026-08-26T18:58:12.926521+00:00,Delivery halt is a big hit to Boeing's free cash flow story,125,20
+S00193,social_file,X (synthetic),@valuehunter,2026-08-26T19:20:47.502912+00:00,What's everyone's take on $WMT?,3,1
+S00188,social_file,X (synthetic),@divi_dan,2026-08-26T19:30:47.635559+00:00,Anyone holding $GOOGL through earnings?,22,0
+S00035,social_file,X (synthetic),@longterm_lee,2026-08-26T21:12:01.905984+00:00,Boeing quality problems never end. Shorting the bounce,63,1
+S00189,social_file,X (synthetic),@macro_maya,2026-08-26T23:34:07.248825+00:00,"$MSFT looks weak, cutting my position",6,1
+S00190,social_file,X (synthetic),@bank_analyst,2026-08-26T23:43:45.381742+00:00,Anyone holding $CVX through earnings?,1,6
+S00205,social_file,X (synthetic),@risk_ronan,2026-08-27T00:48:30.196066+00:00,What's everyone's take on $WMT?,28,0
+S00202,social_file,X (synthetic),@longterm_lee,2026-08-27T01:05:33.357144+00:00,$WMT breaking out. Momentum is real,13,1
+S00196,social_file,X (synthetic),@longterm_lee,2026-08-27T03:33:58.682977+00:00,Love the setup on $BAC here,2,1
+S00204,social_file,X (synthetic),@bearish_bob,2026-08-27T04:01:14.822898+00:00,Johnson & Johnson disappointed me again $JNJ,14,4
+S00206,social_file,X (synthetic),@quant_quinn,2026-08-27T05:13:38.640618+00:00,"Added more $AMZN, long-term winner",6,1
+S00194,social_file,X (synthetic),@energy_ed,2026-08-27T05:39:43.223152+00:00,Exxon Mobil is executing really well this year $XOM,7,0
+S00201,social_file,X (synthetic),@fintwit_fiona,2026-08-27T06:15:04.762420+00:00,"$TSLA overvalued imo, waiting for a pullback",7,1
+S00203,social_file,X (synthetic),@momentum_mo,2026-08-27T13:09:37.283498+00:00,"Added more $AMZN, long-term winner",26,5
+S00195,social_file,X (synthetic),@longterm_lee,2026-08-27T13:17:05.391301+00:00,Watching $XOM this week,2,3
+S00040,social_file,X (synthetic),@risk_ronan,2026-08-27T16:16:58.227916+00:00,$MSFT keeps adding moats. Long and strong,15,28
+S00037,social_file,X (synthetic),@optionsoracle,2026-08-27T17:45:42.123703+00:00,$MSFT buying CyberNova for $28B. Pricey but strategic,3,3
+S00039,social_file,X (synthetic),@chartist_raj,2026-08-27T18:34:50.650566+00:00,Big acquisition from Microsoft. Antitrust review could drag,57,1
+S00038,social_file,X (synthetic),@divi_dan,2026-08-27T18:46:17.525345+00:00,Microsoft security cloud just got a lot stronger. Like the deal,10,39
+S00199,social_file,X (synthetic),@retail_ravi,2026-08-27T19:13:52.139160+00:00,$XOM looking strong today 📈,12,1
+S00197,social_file,X (synthetic),@bearish_bob,2026-08-27T21:51:44.330595+00:00,Watching $GOOGL this week,285,2
+S00198,social_file,X (synthetic),@macro_maya,2026-08-27T22:02:28.334032+00:00,$AMZN breaking out. Momentum is real,12,0
+S00200,social_file,X (synthetic),@retail_ravi,2026-08-27T22:23:53.226026+00:00,$WMT looking strong today 📈,2,3
+S00212,social_file,X (synthetic),@energy_ed,2026-08-28T00:42:28.991696+00:00,Anyone holding $XOM through earnings?,7,8
+S00219,social_file,X (synthetic),@gamma_gita,2026-08-28T03:15:12.149535+00:00,Meta disappointed me again $META,3,0
+S00217,social_file,X (synthetic),@longterm_lee,2026-08-28T06:35:43.759433+00:00,"Added more $JPM, long-term winner",1,4
+S00218,social_file,X (synthetic),@deeptech_dev,2026-08-28T07:16:52.773954+00:00,$XOM looking strong today 📈,26,6
+S00214,social_file,X (synthetic),@tech_tara,2026-08-28T07:34:06.994796+00:00,Watching $TSLA this week,4,1
+S00207,social_file,X (synthetic),@macro_maya,2026-08-28T09:41:10.144769+00:00,What's everyone's take on $BA?,4,4
+S00215,social_file,X (synthetic),@em_emma,2026-08-28T12:14:50.410597+00:00,Bearish on $NVDA into the next print,9,0
+S00209,social_file,X (synthetic),@em_emma,2026-08-28T13:28:04.388703+00:00,"$AAPL flat today, nothing to see",14,4
+S00208,social_file,X (synthetic),@energy_ed,2026-08-28T13:31:26.304269+00:00,Microsoft disappointed me again $MSFT,7,7
+S00210,social_file,X (synthetic),@optionsoracle,2026-08-28T13:32:38.516947+00:00,Microsoft is executing really well this year $MSFT,56,2
+S00216,social_file,X (synthetic),@optionsoracle,2026-08-28T13:40:11.475462+00:00,Pfizer is executing really well this year $PFE,2,0
+S00211,social_file,X (synthetic),@risk_ronan,2026-08-28T17:48:59.082530+00:00,$JNJ looking strong today 📈,5,1
+S00213,social_file,X (synthetic),@macro_maya,2026-08-28T18:27:17.283452+00:00,Chevron disappointed me again $CVX,4,0
+S00230,social_file,X (synthetic),@yield_yuki,2026-08-31T02:43:48.527590+00:00,Love the setup on $XOM here,4,0
+S00229,social_file,X (synthetic),@em_emma,2026-08-31T04:28:06.024258+00:00,What's everyone's take on $PFE?,4,2
+S00224,social_file,X (synthetic),@chartist_raj,2026-08-31T07:03:38.988253+00:00,Anyone holding $META through earnings?,74,1
+S00047,social_file,X (synthetic),@longterm_lee,2026-08-31T09:50:07.628447+00:00,"Contagion fears are overdone for the big banks imo, $JPM is a fortress",1,8
+S00223,social_file,X (synthetic),@optionsoracle,2026-08-31T10:39:14.786571+00:00,Bearish on $BAC into the next print,2,3
+S00048,social_file,X (synthetic),@chartist_raj,2026-08-31T10:49:10.085267+00:00,CRE loan losses were always going to hit someone. Harbor Point is the first domino,12,164
+S00225,social_file,X (synthetic),@bank_analyst,2026-08-31T11:22:49.024185+00:00,Love the setup on $PFE here,5,1
+S00220,social_file,X (synthetic),@gamma_gita,2026-08-31T11:27:13.353568+00:00,Love the setup on $PFE here,5,3
+S00050,social_file,X (synthetic),@optionsoracle,2026-08-31T12:12:19.732770+00:00,Downgrades rolling in for mid-size banks. Credit is cracking,52,12
+S00043,social_file,X (synthetic),@bearish_bob,2026-08-31T12:18:30.306646+00:00,Bank stocks plunging. $JPM $BAC getting dragged down by the Harbor Point collapse,42,16
+S00044,social_file,X (synthetic),@gamma_gita,2026-08-31T12:39:23.827926+00:00,CDS on regionals blowing out. Feels like 2023 all over again,3,19
+S00041,social_file,X (synthetic),@retail_ravi,2026-08-31T12:55:31.605945+00:00,Harbor Point just defaulted. Chapter 11. This could spread to other regionals,1,6
+S00046,social_file,X (synthetic),@tech_tara,2026-08-31T13:04:19.665141+00:00,"Contagion fears are overdone for the big banks imo, $JPM is a fortress",19,35
+S00228,social_file,X (synthetic),@bearish_bob,2026-08-31T14:09:13.159745+00:00,Not liking the price action in $JNJ 📉,3,0
+S00045,social_file,X (synthetic),@deeptech_dev,2026-08-31T14:39:55.022301+00:00,Deposit flight is the real risk here. Watching $BAC closely,14,1
+S00042,social_file,X (synthetic),@fintwit_fiona,2026-08-31T14:51:09.733206+00:00,Bank stocks plunging. $JPM $BAC getting dragged down by the Harbor Point collapse,9,6
+S00049,social_file,X (synthetic),@gamma_gita,2026-08-31T15:15:03.019997+00:00,CRE loan losses were always going to hit someone. Harbor Point is the first domino,3,3
+S00226,social_file,X (synthetic),@energy_ed,2026-08-31T15:29:11.331683+00:00,What's everyone's take on $PFE?,11,1
+S00221,social_file,X (synthetic),@chartist_raj,2026-08-31T18:22:40.806283+00:00,What's everyone's take on $META?,11,2
+S00227,social_file,X (synthetic),@optionsoracle,2026-08-31T19:03:58.908026+00:00,Bank of America disappointed me again $BAC,9,3
+S00222,social_file,X (synthetic),@energy_ed,2026-08-31T23:04:50.271554+00:00,Chevron disappointed me again $CVX,6,0
+S00231,social_file,X (synthetic),@gamma_gita,2026-09-01T01:16:52.713037+00:00,Love the setup on $NVDA here,43,2
+S00234,social_file,X (synthetic),@longterm_lee,2026-09-01T02:26:51.910401+00:00,Watching $PFE this week,90,1
+S00232,social_file,X (synthetic),@momentum_mo,2026-09-01T03:59:50.490058+00:00,Anyone holding $TSLA through earnings?,13,1
+S00235,social_file,X (synthetic),@optionsoracle,2026-09-01T05:00:57.917539+00:00,$BA looking strong today 📈,31,10
+S00238,social_file,X (synthetic),@deeptech_dev,2026-09-01T05:58:02.229896+00:00,Watching $GOOGL this week,75,8
+S00239,social_file,X (synthetic),@longterm_lee,2026-09-01T08:57:59.827088+00:00,$JPM breaking out. Momentum is real,17,9
+S00233,social_file,X (synthetic),@em_emma,2026-09-01T12:12:29.746538+00:00,Pfizer disappointed me again $PFE,8,2
+S00237,social_file,X (synthetic),@fintwit_fiona,2026-09-01T13:41:18.169287+00:00,$NVDA breaking out. Momentum is real,42,1
+S00240,social_file,X (synthetic),@energy_ed,2026-09-01T13:54:31.455063+00:00,Love the setup on $WMT here,17,6
+S00236,social_file,X (synthetic),@retail_ravi,2026-09-01T19:26:36.109627+00:00,"Added more $TSLA, long-term winner",28,2
+S00251,social_file,X (synthetic),@tech_tara,2026-09-02T01:58:12.088938+00:00,Anyone holding $BAC through earnings?,8,1
+S00246,social_file,X (synthetic),@retail_ravi,2026-09-02T02:04:18.638399+00:00,Tesla disappointed me again $TSLA,9,7
+S00254,social_file,X (synthetic),@quant_quinn,2026-09-02T03:54:56.159566+00:00,"Added more $NVDA, long-term winner",44,12
+S00253,social_file,X (synthetic),@valuehunter,2026-09-02T05:50:35.038010+00:00,Not liking the price action in $GOOGL 📉,9,5
+S00241,social_file,X (synthetic),@bank_analyst,2026-09-02T05:59:03.493526+00:00,What's everyone's take on $WMT?,0,0
+S00252,social_file,X (synthetic),@em_emma,2026-09-02T07:48:33.595492+00:00,Watching $BAC this week,14,4
+S00250,social_file,X (synthetic),@longterm_lee,2026-09-02T08:44:00.088303+00:00,Meta is executing really well this year $META,31,2
+S00244,social_file,X (synthetic),@energy_ed,2026-09-02T08:47:05.007775+00:00,What's everyone's take on $JNJ?,4,4
+S00249,social_file,X (synthetic),@momentum_mo,2026-09-02T09:13:21.594853+00:00,Watching $WMT this week,1,0
+S00248,social_file,X (synthetic),@retail_ravi,2026-09-02T12:22:27.134956+00:00,"$BA flat today, nothing to see",7,1
+S00247,social_file,X (synthetic),@optionsoracle,2026-09-02T13:13:34.246199+00:00,$NVDA looking strong today 📈,11,10
+S00245,social_file,X (synthetic),@gamma_gita,2026-09-02T15:32:07.739140+00:00,"$MSFT looks weak, cutting my position",4,2
+S00242,social_file,X (synthetic),@longterm_lee,2026-09-02T15:39:57.949050+00:00,Watching $GOOGL this week,7,0
+S00054,social_file,X (synthetic),@energy_ed,2026-09-02T17:18:00.976527+00:00,"$AAPL launch event, sell the news as usual?",112,63
+S00052,social_file,X (synthetic),@yield_yuki,2026-09-02T19:47:14.604027+00:00,Apple event was fine. Nothing revolutionary but steady $AAPL,127,2
+S00051,social_file,X (synthetic),@macro_maya,2026-09-02T21:58:27.451480+00:00,iPhone 18 looks solid. AI features might finally drive an upgrade cycle $AAPL,15,4
+S00053,social_file,X (synthetic),@longterm_lee,2026-09-02T22:17:56.322106+00:00,Pre-ordering the new iPhone day one. Apple ecosystem is too good,27,4
+S00243,social_file,X (synthetic),@chartist_raj,2026-09-02T23:37:00.848410+00:00,$AAPL breaking out. Momentum is real,6,0
+S00261,social_file,X (synthetic),@divi_dan,2026-09-03T02:13:24.011964+00:00,Watching $JPM this week,8,0
+S00256,social_file,X (synthetic),@energy_ed,2026-09-03T06:28:59.034707+00:00,Love the setup on $AMZN here,2,2
+S00262,social_file,X (synthetic),@optionsoracle,2026-09-03T06:58:15.805110+00:00,Not liking the price action in $TSLA 📉,2,1
+S00258,social_file,X (synthetic),@quant_quinn,2026-09-03T08:49:01.821661+00:00,Love the setup on $META here,1,3
+S00057,social_file,X (synthetic),@quant_quinn,2026-09-03T14:22:40.012137+00:00,Pfizer obesity drug approval is a game changer for sentiment $PFE,1,5
+S00055,social_file,X (synthetic),@tech_tara,2026-09-03T14:26:49.070296+00:00,$PFE finally gets its obesity pill approved. Huge for the turnaround,10,0
+S00255,social_file,X (synthetic),@yield_yuki,2026-09-03T16:06:41.321932+00:00,$META looking strong today 📈,0,6
+S00259,social_file,X (synthetic),@retail_ravi,2026-09-03T17:30:21.145493+00:00,Meta disappointed me again $META,11,4
+S00263,social_file,X (synthetic),@deeptech_dev,2026-09-03T18:38:25.777972+00:00,"Added more $AMZN, long-term winner",8,0
+S00058,social_file,X (synthetic),@bank_analyst,2026-09-03T18:55:34.709886+00:00,Pfizer obesity drug approval is a game changer for sentiment $PFE,3,7
+S00056,social_file,X (synthetic),@longterm_lee,2026-09-03T19:17:19.924017+00:00,FDA approval for Pfizer! This stock has been dead money for years,11,16
+S00260,social_file,X (synthetic),@tech_tara,2026-09-03T20:17:28.475188+00:00,What's everyone's take on $AAPL?,11,2
+S00257,social_file,X (synthetic),@valuehunter,2026-09-03T22:48:08.992218+00:00,Nvidia is executing really well this year $NVDA,1,0
+S00273,social_file,X (synthetic),@yield_yuki,2026-09-04T00:40:26.893259+00:00,"$PFE flat today, nothing to see",9,8
+S00266,social_file,X (synthetic),@chartist_raj,2026-09-04T01:01:13.591295+00:00,"$BA flat today, nothing to see",6,4
+S00274,social_file,X (synthetic),@macro_maya,2026-09-04T01:20:32.692724+00:00,$GOOGL looking strong today 📈,8,2
+S00268,social_file,X (synthetic),@valuehunter,2026-09-04T02:05:47.562253+00:00,Anyone holding $TSLA through earnings?,5,7
+S00267,social_file,X (synthetic),@longterm_lee,2026-09-04T04:07:48.332506+00:00,Tesla disappointed me again $TSLA,3,1
+S00277,social_file,X (synthetic),@deeptech_dev,2026-09-04T04:14:50.021142+00:00,"$GOOGL flat today, nothing to see",18,6
+S00271,social_file,X (synthetic),@chartist_raj,2026-09-04T05:55:25.620926+00:00,Watching $XOM this week,2,14
+S00270,social_file,X (synthetic),@tech_tara,2026-09-04T06:27:48.286318+00:00,"$WMT overvalued imo, waiting for a pullback",0,2
+S00275,social_file,X (synthetic),@energy_ed,2026-09-04T17:08:05.313917+00:00,"Added more $XOM, long-term winner",53,1
+S00276,social_file,X (synthetic),@longterm_lee,2026-09-04T18:55:30.130851+00:00,"Added more $GOOGL, long-term winner",14,2
+S00264,social_file,X (synthetic),@valuehunter,2026-09-04T19:50:45.235436+00:00,$PFE looking strong today 📈,19,4
+S00272,social_file,X (synthetic),@yield_yuki,2026-09-04T20:13:53.297984+00:00,Watching $PFE this week,17,0
+S00269,social_file,X (synthetic),@quant_quinn,2026-09-04T23:38:48.287100+00:00,Bearish on $AMZN into the next print,16,2
+S00265,social_file,X (synthetic),@quant_quinn,2026-09-04T23:49:55.769104+00:00,"$XOM looks weak, cutting my position",1,3
+S00280,social_file,X (synthetic),@bearish_bob,2026-09-07T01:45:41.955878+00:00,Not liking the price action in $PFE 📉,18,1
+S00285,social_file,X (synthetic),@bank_analyst,2026-09-07T04:27:33.596257+00:00,Love the setup on $TSLA here,1,0
+S00279,social_file,X (synthetic),@tech_tara,2026-09-07T08:23:39.929806+00:00,Anyone holding $NVDA through earnings?,1,7
+S00283,social_file,X (synthetic),@quant_quinn,2026-09-07T10:13:11.216579+00:00,$JPM breaking out. Momentum is real,2,2
+S00284,social_file,X (synthetic),@macro_maya,2026-09-07T11:19:06.018824+00:00,$AAPL breaking out. Momentum is real,4,0
+S00281,social_file,X (synthetic),@energy_ed,2026-09-07T14:11:50.388010+00:00,What's everyone's take on $BAC?,11,1
+S00065,social_file,X (synthetic),@divi_dan,2026-09-07T14:52:57.473836+00:00,Regulatory risk piling up for Tesla. Trimming,275,10
+S00064,social_file,X (synthetic),@quant_quinn,2026-09-07T15:42:54.094315+00:00,Regulatory risk piling up for Tesla. Trimming,19,4
+S00282,social_file,X (synthetic),@divi_dan,2026-09-07T15:47:17.842689+00:00,Bearish on $JNJ into the next print,4,1
+S00286,social_file,X (synthetic),@macro_maya,2026-09-07T15:58:06.866602+00:00,$XOM looking strong today 📈,19,3
+S00060,social_file,X (synthetic),@bank_analyst,2026-09-07T16:03:20.909849+00:00,Another Tesla recall. OTA fix but the headlines are ugly $TSLA,3,4
+S00061,social_file,X (synthetic),@bearish_bob,2026-09-07T17:29:07.934036+00:00,Tesla safety probe widening is not what bulls wanted,42,0
+S00062,social_file,X (synthetic),@bearish_bob,2026-09-07T18:26:42.093627+00:00,"$TSLA recall is a nothingburger, it's a software update",12,0
+S00278,social_file,X (synthetic),@divi_dan,2026-09-07T18:48:35.201324+00:00,"$AMZN overvalued imo, waiting for a pullback",11,1
+S00059,social_file,X (synthetic),@optionsoracle,2026-09-07T18:49:51.399383+00:00,Another Tesla recall. OTA fix but the headlines are ugly $TSLA,122,10
+S00063,social_file,X (synthetic),@macro_maya,2026-09-07T18:49:55.358509+00:00,"$TSLA recall is a nothingburger, it's a software update",8,13
+S00296,social_file,X (synthetic),@tech_tara,2026-09-08T03:14:31.310600+00:00,Nvidia is executing really well this year $NVDA,3,0
+S00287,social_file,X (synthetic),@gamma_gita,2026-09-08T03:31:26.396151+00:00,Bearish on $WMT into the next print,34,1
+S00295,social_file,X (synthetic),@bearish_bob,2026-09-08T05:03:08.038801+00:00,Not liking the price action in $XOM 📉,78,6
+S00297,social_file,X (synthetic),@quant_quinn,2026-09-08T05:46:56.353658+00:00,$BAC looking strong today 📈,7,10
+S00294,social_file,X (synthetic),@deeptech_dev,2026-09-08T07:10:53.337704+00:00,Watching $MSFT this week,56,0
+S00292,social_file,X (synthetic),@valuehunter,2026-09-08T09:27:34.007714+00:00,Exxon Mobil disappointed me again $XOM,74,0
+S00291,social_file,X (synthetic),@tech_tara,2026-09-08T15:38:57.931188+00:00,"$META flat today, nothing to see",9,0
+S00298,social_file,X (synthetic),@divi_dan,2026-09-08T17:54:00.616011+00:00,"Added more $BAC, long-term winner",12,1
+S00289,social_file,X (synthetic),@quant_quinn,2026-09-08T18:47:54.816965+00:00,Anyone holding $META through earnings?,12,1
+S00293,social_file,X (synthetic),@energy_ed,2026-09-08T19:32:07.885013+00:00,What's everyone's take on $GOOGL?,4,2
+S00290,social_file,X (synthetic),@chartist_raj,2026-09-08T22:06:20.819468+00:00,Bearish on $NVDA into the next print,8,1
+S00288,social_file,X (synthetic),@retail_ravi,2026-09-08T23:50:05.044272+00:00,Apple disappointed me again $AAPL,31,1
+S00309,social_file,X (synthetic),@quant_quinn,2026-09-09T00:54:05.886402+00:00,Anyone holding $TSLA through earnings?,2,0
+S00311,social_file,X (synthetic),@bondvigilante,2026-09-09T01:33:37.295413+00:00,"$TSLA overvalued imo, waiting for a pullback",6,2
+S00305,social_file,X (synthetic),@macro_maya,2026-09-09T05:18:42.692131+00:00,$WMT breaking out. Momentum is real,1,1
+S00301,social_file,X (synthetic),@divi_dan,2026-09-09T06:14:29.079958+00:00,"$META flat today, nothing to see",4,3
+S00304,social_file,X (synthetic),@bondvigilante,2026-09-09T07:01:17.179908+00:00,Boeing is executing really well this year $BA,5,5
+S00299,social_file,X (synthetic),@bank_analyst,2026-09-09T10:58:12.189545+00:00,Alphabet disappointed me again $GOOGL,3,2
+S00072,social_file,X (synthetic),@macro_maya,2026-09-09T12:53:13.924576+00:00,Market pricing a 50bp hike now after that CPI,16,5
+S00300,social_file,X (synthetic),@bank_analyst,2026-09-09T13:25:07.770369+00:00,Exxon Mobil is executing really well this year $XOM,9,4
+S00070,social_file,X (synthetic),@em_emma,2026-09-09T14:11:08.326905+00:00,Stagflation risk is real now. Energy shock feeding straight into CPI,5,7
+S00066,social_file,X (synthetic),@em_emma,2026-09-09T14:38:46.467994+00:00,CPI 0.6% m/m. That is a disaster. Fed has to hike,22,8
+S00310,social_file,X (synthetic),@quant_quinn,2026-09-09T14:58:40.143343+00:00,"$BA looks weak, cutting my position",1,1
+S00068,social_file,X (synthetic),@bondvigilante,2026-09-09T15:47:50.860900+00:00,10y yield +18bps on the inflation print. Duration getting crushed,1,1
+S00071,social_file,X (synthetic),@momentum_mo,2026-09-09T16:03:39.755216+00:00,Hot inflation = more hikes = recession. Going defensive,18,14
+S00067,social_file,X (synthetic),@divi_dan,2026-09-09T16:56:58.916764+00:00,CPI 0.6% m/m. That is a disaster. Fed has to hike,11,8
+S00069,social_file,X (synthetic),@gamma_gita,2026-09-09T17:20:43.564121+00:00,10y yield +18bps on the inflation print. Duration getting crushed,12,2
+S00303,social_file,X (synthetic),@energy_ed,2026-09-09T17:21:52.351381+00:00,Watching $JNJ this week,2,4
+S00308,social_file,X (synthetic),@momentum_mo,2026-09-09T18:45:59.546326+00:00,"Added more $PFE, long-term winner",13,1
+S00306,social_file,X (synthetic),@valuehunter,2026-09-09T20:42:24.485528+00:00,Anyone holding $JPM through earnings?,125,2
+S00307,social_file,X (synthetic),@valuehunter,2026-09-09T20:48:47.860552+00:00,Tesla disappointed me again $TSLA,5,2
+S00302,social_file,X (synthetic),@momentum_mo,2026-09-09T23:50:22.241328+00:00,$CVX looking strong today 📈,3,1
+S00317,social_file,X (synthetic),@valuehunter,2026-09-10T00:13:52.207078+00:00,What's everyone's take on $TSLA?,1,0
+S00315,social_file,X (synthetic),@longterm_lee,2026-09-10T07:03:32.017334+00:00,"$BAC flat today, nothing to see",1,12
+S00312,social_file,X (synthetic),@em_emma,2026-09-10T14:53:34.516240+00:00,"$TSLA flat today, nothing to see",8,1
+S00319,social_file,X (synthetic),@longterm_lee,2026-09-10T15:30:26.751472+00:00,Tesla disappointed me again $TSLA,13,3
+S00313,social_file,X (synthetic),@retail_ravi,2026-09-10T16:36:54.322194+00:00,Not liking the price action in $GOOGL 📉,10,5
+S00318,social_file,X (synthetic),@bank_analyst,2026-09-10T19:28:39.527472+00:00,$XOM looking strong today 📈,2,6
+S00314,social_file,X (synthetic),@longterm_lee,2026-09-10T19:51:09.360069+00:00,Not liking the price action in $GOOGL 📉,2,1
+S00316,social_file,X (synthetic),@chartist_raj,2026-09-10T21:37:27.218196+00:00,What's everyone's take on $NVDA?,12,1
+S00327,social_file,X (synthetic),@momentum_mo,2026-09-11T03:21:24.248077+00:00,"Added more $JNJ, long-term winner",32,0
+S00321,social_file,X (synthetic),@momentum_mo,2026-09-11T08:15:48.285901+00:00,Not liking the price action in $TSLA 📉,12,8
+S00332,social_file,X (synthetic),@divi_dan,2026-09-11T09:30:32.734495+00:00,Watching $XOM this week,4,4
+S00324,social_file,X (synthetic),@chartist_raj,2026-09-11T09:38:31.948258+00:00,What's everyone's take on $MSFT?,1,10
+S00328,social_file,X (synthetic),@retail_ravi,2026-09-11T10:55:24.238554+00:00,Love the setup on $AMZN here,48,0
+S00323,social_file,X (synthetic),@macro_maya,2026-09-11T10:58:20.498932+00:00,"Added more $CVX, long-term winner",20,6
+S00330,social_file,X (synthetic),@yield_yuki,2026-09-11T11:32:31.466143+00:00,Apple disappointed me again $AAPL,9,0
+S00075,social_file,X (synthetic),@fintwit_fiona,2026-09-11T12:05:16.525458+00:00,EU fines are a cost of doing business for Meta. Buying the dip,43,19
+S00074,social_file,X (synthetic),@divi_dan,2026-09-11T14:24:57.793355+00:00,$GOOGL another EU antitrust probe. These never end,29,5
+S00076,social_file,X (synthetic),@retail_ravi,2026-09-11T15:38:49.017098+00:00,Regulatory overhang on big tech growing again $META $GOOGL,14,93
+S00331,social_file,X (synthetic),@tech_tara,2026-09-11T15:42:53.176630+00:00,What's everyone's take on $JNJ?,9,6
+S00077,social_file,X (synthetic),@macro_maya,2026-09-11T15:48:13.518006+00:00,Regulatory overhang on big tech growing again $META $GOOGL,61,18
+S00073,social_file,X (synthetic),@longterm_lee,2026-09-11T16:02:06.539979+00:00,Record EU fine for Meta. Europe really hates US big tech $META,6,9
+S00320,social_file,X (synthetic),@yield_yuki,2026-09-11T17:17:53.475663+00:00,Meta is executing really well this year $META,31,5
+S00326,social_file,X (synthetic),@chartist_raj,2026-09-11T18:08:51.888591+00:00,What's everyone's take on $META?,3,1
+S00329,social_file,X (synthetic),@chartist_raj,2026-09-11T18:27:15.370740+00:00,Bearish on $WMT into the next print,5,2
+S00325,social_file,X (synthetic),@bank_analyst,2026-09-11T19:43:29.757633+00:00,"$CVX overvalued imo, waiting for a pullback",1,4
+S00322,social_file,X (synthetic),@risk_ronan,2026-09-11T20:17:14.673254+00:00,"Added more $XOM, long-term winner",1,0
+S00335,social_file,X (synthetic),@em_emma,2026-09-14T00:46:19.641214+00:00,Watching $JNJ this week,14,2
+S00342,social_file,X (synthetic),@bearish_bob,2026-09-14T05:44:39.531288+00:00,$CVX breaking out. Momentum is real,200,6
+S00340,social_file,X (synthetic),@bondvigilante,2026-09-14T09:56:26.724214+00:00,Bearish on $NVDA into the next print,7,1
+S00338,social_file,X (synthetic),@fintwit_fiona,2026-09-14T10:43:36.035924+00:00,"Added more $XOM, long-term winner",4,13
+S00344,social_file,X (synthetic),@energy_ed,2026-09-14T12:16:55.499999+00:00,"Added more $AAPL, long-term winner",47,8
+S00345,social_file,X (synthetic),@retail_ravi,2026-09-14T12:51:08.372575+00:00,"$BA looks weak, cutting my position",32,0
+S00343,social_file,X (synthetic),@divi_dan,2026-09-14T12:54:42.018406+00:00,Anyone holding $PFE through earnings?,19,5
+S00334,social_file,X (synthetic),@divi_dan,2026-09-14T17:55:45.919006+00:00,Not liking the price action in $AAPL 📉,3,0
+S00339,social_file,X (synthetic),@momentum_mo,2026-09-14T18:52:43.700015+00:00,"$PFE flat today, nothing to see",8,4
+S00333,social_file,X (synthetic),@fintwit_fiona,2026-09-14T20:58:18.141295+00:00,Bearish on $TSLA into the next print,6,0
+S00337,social_file,X (synthetic),@optionsoracle,2026-09-14T21:47:04.287883+00:00,Love the setup on $GOOGL here,22,5
+S00336,social_file,X (synthetic),@valuehunter,2026-09-14T22:08:34.753153+00:00,"$PFE flat today, nothing to see",27,2
+S00341,social_file,X (synthetic),@retail_ravi,2026-09-14T22:42:44.524098+00:00,$META breaking out. Momentum is real,11,3
+S00350,social_file,X (synthetic),@em_emma,2026-09-15T01:44:53.358989+00:00,Anyone holding $XOM through earnings?,11,0
+S00349,social_file,X (synthetic),@bondvigilante,2026-09-15T04:23:50.733868+00:00,Watching $CVX this week,9,0
+S00351,social_file,X (synthetic),@chartist_raj,2026-09-15T06:48:53.199859+00:00,"Added more $META, long-term winner",2,2
+S00347,social_file,X (synthetic),@deeptech_dev,2026-09-15T07:07:24.781537+00:00,"$PFE flat today, nothing to see",52,4
+S00348,social_file,X (synthetic),@tech_tara,2026-09-15T12:50:16.562258+00:00,Apple is executing really well this year $AAPL,24,1
+S00352,social_file,X (synthetic),@deeptech_dev,2026-09-15T13:31:00.094760+00:00,Chevron is executing really well this year $CVX,5,1
+S00346,social_file,X (synthetic),@fintwit_fiona,2026-09-15T14:29:48.924976+00:00,"$WMT overvalued imo, waiting for a pullback",2,0
+S00078,social_file,X (synthetic),@optionsoracle,2026-09-15T18:16:42.483927+00:00,Fed hikes 50. Powell sounds very hawkish. Ouch,466,11
+S00080,social_file,X (synthetic),@bank_analyst,2026-09-15T18:43:46.461372+00:00,Rate hike + more to come = recession 2027?,15,1
+S00353,social_file,X (synthetic),@divi_dan,2026-09-15T20:04:43.069457+00:00,Anyone holding $AMZN through earnings?,27,1
+S00354,social_file,X (synthetic),@macro_maya,2026-09-15T20:07:07.869319+00:00,Bank of America is executing really well this year $BAC,16,2
+S00355,social_file,X (synthetic),@quant_quinn,2026-09-15T20:18:18.488961+00:00,"$WMT looks weak, cutting my position",27,4
+S00079,social_file,X (synthetic),@divi_dan,2026-09-15T21:09:04.978406+00:00,Rate hike + more to come = recession 2027?,4,7
+S00083,social_file,X (synthetic),@valuehunter,2026-09-15T22:24:55.153155+00:00,Dollar ripping after the Fed. EM pain trade continues,5,18
+S00081,social_file,X (synthetic),@fintwit_fiona,2026-09-15T22:53:10.854062+00:00,Banks might actually like higher rates. $JPM net interest income up,35,1
+S00082,social_file,X (synthetic),@tech_tara,2026-09-16T00:47:39.388614+00:00,The Fed just broke something. Long-duration tech getting smoked,18,4
+S00357,social_file,X (synthetic),@bank_analyst,2026-09-16T00:57:57.721833+00:00,Anyone holding $NVDA through earnings?,14,1
+S00356,social_file,X (synthetic),@risk_ronan,2026-09-16T03:21:17.494396+00:00,Watching $BA this week,1,5
+S00363,social_file,X (synthetic),@quant_quinn,2026-09-16T05:49:25.393251+00:00,Love the setup on $XOM here,1,0
+S00364,social_file,X (synthetic),@bondvigilante,2026-09-16T06:10:20.659943+00:00,"$WMT looks weak, cutting my position",11,3
+S00362,social_file,X (synthetic),@optionsoracle,2026-09-16T09:54:33.361466+00:00,"$META looks weak, cutting my position",5,3
+S00358,social_file,X (synthetic),@tech_tara,2026-09-16T11:13:30.770664+00:00,$CVX breaking out. Momentum is real,6,7
+S00361,social_file,X (synthetic),@quant_quinn,2026-09-16T11:59:38.054144+00:00,Bearish on $PFE into the next print,3,1
+S00359,social_file,X (synthetic),@divi_dan,2026-09-16T13:49:45.448661+00:00,"$JNJ flat today, nothing to see",9,1
+S00087,social_file,X (synthetic),@longterm_lee,2026-09-16T17:00:21.985486+00:00,"Amazon outage resolved. Buying the dip, nothing changes long term",4,61
+S00084,social_file,X (synthetic),@optionsoracle,2026-09-16T17:54:54.488672+00:00,AWS down. Half the internet is broken right now,18,15
+S00086,social_file,X (synthetic),@tech_tara,2026-09-16T18:54:13.424510+00:00,This AWS outage is a reminder of how concentrated cloud risk is $AMZN,4,7
+S00085,social_file,X (synthetic),@risk_ronan,2026-09-16T20:02:40.426618+00:00,AWS down. Half the internet is broken right now,41,4
+S00360,social_file,X (synthetic),@tech_tara,2026-09-16T23:14:48.880282+00:00,"$WMT flat today, nothing to see",3,5
+S00376,social_file,X (synthetic),@fintwit_fiona,2026-09-17T04:39:15.988391+00:00,Apple is executing really well this year $AAPL,22,5
+S00368,social_file,X (synthetic),@tech_tara,2026-09-17T08:22:38.552698+00:00,Bank of America disappointed me again $BAC,33,1
+S00370,social_file,X (synthetic),@longterm_lee,2026-09-17T08:39:29.692712+00:00,"$AMZN overvalued imo, waiting for a pullback",1,1
+S00365,social_file,X (synthetic),@optionsoracle,2026-09-17T09:02:21.304736+00:00,What's everyone's take on $META?,11,13
+S00371,social_file,X (synthetic),@retail_ravi,2026-09-17T09:52:34.150740+00:00,Anyone holding $GOOGL through earnings?,20,1
+S00373,social_file,X (synthetic),@retail_ravi,2026-09-17T12:08:57.878450+00:00,What's everyone's take on $JNJ?,111,4
+S00369,social_file,X (synthetic),@fintwit_fiona,2026-09-17T14:17:57.073781+00:00,$PFE looking strong today 📈,8,2
+S00366,social_file,X (synthetic),@gamma_gita,2026-09-17T14:20:07.979083+00:00,Love the setup on $XOM here,33,3
+S00372,social_file,X (synthetic),@tech_tara,2026-09-17T17:35:06.720329+00:00,"$GOOGL flat today, nothing to see",52,4
+S00374,social_file,X (synthetic),@macro_maya,2026-09-17T19:40:32.900253+00:00,$AAPL looking strong today 📈,6,0
+S00367,social_file,X (synthetic),@em_emma,2026-09-17T19:46:39.973835+00:00,Chevron is executing really well this year $CVX,13,1
+S00375,social_file,X (synthetic),@tech_tara,2026-09-17T22:14:36.136631+00:00,$META looking strong today 📈,4,0
+S00377,social_file,X (synthetic),@quant_quinn,2026-09-17T23:19:04.573317+00:00,"Added more $CVX, long-term winner",2,1
+S00383,social_file,X (synthetic),@bank_analyst,2026-09-18T03:43:41.858712+00:00,Boeing is executing really well this year $BA,19,5
+S00387,social_file,X (synthetic),@divi_dan,2026-09-18T04:28:22.596106+00:00,Microsoft is executing really well this year $MSFT,4,7
+S00379,social_file,X (synthetic),@chartist_raj,2026-09-18T06:09:42.812565+00:00,Anyone holding $XOM through earnings?,2,0
+S00386,social_file,X (synthetic),@bondvigilante,2026-09-18T10:55:37.146793+00:00,Apple disappointed me again $AAPL,1,3
+S00380,social_file,X (synthetic),@risk_ronan,2026-09-18T12:48:07.490112+00:00,$PFE breaking out. Momentum is real,12,1
+S00089,social_file,X (synthetic),@momentum_mo,2026-09-18T13:17:43.499968+00:00,$JPM raising NII guidance and a bigger buyback. Fortress balance sheet,188,2
+S00088,social_file,X (synthetic),@energy_ed,2026-09-18T13:42:09.897747+00:00,$JPM raising NII guidance and a bigger buyback. Fortress balance sheet,8,14
+S00091,social_file,X (synthetic),@macro_maya,2026-09-18T13:50:33.485765+00:00,Dimon says credit is fine. Good enough for me $JPM,66,1
+S00384,social_file,X (synthetic),@bank_analyst,2026-09-18T14:50:02.229535+00:00,Anyone holding $BAC through earnings?,2,0
+S00388,social_file,X (synthetic),@longterm_lee,2026-09-18T16:44:49.314411+00:00,Not liking the price action in $NVDA 📉,1,1
+S00092,social_file,X (synthetic),@valuehunter,2026-09-18T17:07:09.994152+00:00,JPMorgan investor day was a strong reassurance for the sector,27,7
+S00389,social_file,X (synthetic),@chartist_raj,2026-09-18T17:13:38.962128+00:00,Watching $NVDA this week,26,4
+S00382,social_file,X (synthetic),@momentum_mo,2026-09-18T17:37:01.137813+00:00,Not liking the price action in $JNJ 📉,3,1
+S00090,social_file,X (synthetic),@momentum_mo,2026-09-18T17:52:03.522564+00:00,Dimon says credit is fine. Good enough for me $JPM,84,1
+S00385,social_file,X (synthetic),@optionsoracle,2026-09-18T17:55:44.573954+00:00,Walmart disappointed me again $WMT,1,0
+S00381,social_file,X (synthetic),@em_emma,2026-09-18T22:15:37.332475+00:00,What's everyone's take on $JNJ?,6,5
+S00378,social_file,X (synthetic),@bearish_bob,2026-09-18T23:05:19.411403+00:00,"$BA flat today, nothing to see",12,1
+S00396,social_file,X (synthetic),@em_emma,2026-09-21T01:17:11.140704+00:00,Anyone holding $MSFT through earnings?,21,2
+S00397,social_file,X (synthetic),@optionsoracle,2026-09-21T05:54:45.996522+00:00,"$WMT flat today, nothing to see",2,5
+S00390,social_file,X (synthetic),@bank_analyst,2026-09-21T08:36:40.778149+00:00,"$JPM flat today, nothing to see",13,1
+S00392,social_file,X (synthetic),@macro_maya,2026-09-21T09:06:27.348703+00:00,Chevron disappointed me again $CVX,2,1
+S00393,social_file,X (synthetic),@gamma_gita,2026-09-21T13:39:43.696856+00:00,Anyone holding $PFE through earnings?,3,1
+S00391,social_file,X (synthetic),@yield_yuki,2026-09-21T13:45:49.959121+00:00,Watching $META this week,10,4
+S00394,social_file,X (synthetic),@divi_dan,2026-09-21T21:12:57.003039+00:00,Alphabet disappointed me again $GOOGL,19,2
+S00395,social_file,X (synthetic),@divi_dan,2026-09-21T22:28:35.228505+00:00,"Added more $BA, long-term winner",11,1
+S00398,social_file,X (synthetic),@em_emma,2026-09-22T00:11:55.604196+00:00,Love the setup on $NVDA here,7,1
+S00400,social_file,X (synthetic),@divi_dan,2026-09-22T01:53:35.205442+00:00,Watching $TSLA this week,12,8
+S00404,social_file,X (synthetic),@energy_ed,2026-09-22T01:55:02.395286+00:00,"$META looks weak, cutting my position",12,1
+S00409,social_file,X (synthetic),@yield_yuki,2026-09-22T02:51:34.650897+00:00,$META breaking out. Momentum is real,6,1
+S00403,social_file,X (synthetic),@macro_maya,2026-09-22T03:36:04.825006+00:00,Watching $JPM this week,7,0
+S00407,social_file,X (synthetic),@energy_ed,2026-09-22T03:47:26.927988+00:00,"$TSLA overvalued imo, waiting for a pullback",39,2
+S00406,social_file,X (synthetic),@valuehunter,2026-09-22T04:45:37.436557+00:00,Watching $PFE this week,12,3
+S00097,social_file,X (synthetic),@fintwit_fiona,2026-09-22T09:34:36.545474+00:00,Relief rally on the Gulf ceasefire. Adding back equity exposure,6,17
+S00399,social_file,X (synthetic),@retail_ravi,2026-09-22T09:50:25.754174+00:00,"$AMZN flat today, nothing to see",8,0
+S00093,social_file,X (synthetic),@optionsoracle,2026-09-22T10:04:18.259810+00:00,Ceasefire!! Futures ripping. Risk-on is back,23,8
+S00094,social_file,X (synthetic),@tech_tara,2026-09-22T11:18:19.775986+00:00,Oil dumping on the ceasefire news. $XOM $CVX giving back gains,27,4
+S00095,social_file,X (synthetic),@bearish_bob,2026-09-22T11:42:04.323417+00:00,Strait of Hormuz reopening is great news for inflation,5,2
+S00096,social_file,X (synthetic),@divi_dan,2026-09-22T13:44:16.802169+00:00,Relief rally on the Gulf ceasefire. Adding back equity exposure,17,1
+S00402,social_file,X (synthetic),@divi_dan,2026-09-22T16:44:28.662327+00:00,Chevron disappointed me again $CVX,7,1
+S00411,social_file,X (synthetic),@bearish_bob,2026-09-22T17:31:23.567084+00:00,"$BAC flat today, nothing to see",1,3
+S00401,social_file,X (synthetic),@em_emma,2026-09-22T19:19:49.896168+00:00,"$JNJ overvalued imo, waiting for a pullback",2,1
+S00405,social_file,X (synthetic),@divi_dan,2026-09-22T19:31:56.252293+00:00,Not liking the price action in $BAC 📉,14,4
+S00408,social_file,X (synthetic),@bank_analyst,2026-09-22T21:12:42.184323+00:00,Not liking the price action in $JPM 📉,17,0
+S00410,social_file,X (synthetic),@energy_ed,2026-09-22T22:14:50.229420+00:00,Bearish on $NVDA into the next print,45,0
+S00422,social_file,X (synthetic),@tech_tara,2026-09-23T00:00:16.831821+00:00,Anyone holding $META through earnings?,2,0
+S00423,social_file,X (synthetic),@chartist_raj,2026-09-23T00:54:06.831259+00:00,Watching $JNJ this week,5,1
+S00413,social_file,X (synthetic),@tech_tara,2026-09-23T04:32:16.367689+00:00,Johnson & Johnson is executing really well this year $JNJ,32,0
+S00418,social_file,X (synthetic),@retail_ravi,2026-09-23T04:36:55.997295+00:00,Anyone holding $MSFT through earnings?,14,12
+S00421,social_file,X (synthetic),@gamma_gita,2026-09-23T05:45:11.768730+00:00,"$CVX overvalued imo, waiting for a pullback",8,3
+S00419,social_file,X (synthetic),@yield_yuki,2026-09-23T08:33:19.168000+00:00,"$BAC looks weak, cutting my position",5,4
+S00412,social_file,X (synthetic),@em_emma,2026-09-23T08:46:26.377311+00:00,"$NVDA overvalued imo, waiting for a pullback",5,4
+S00414,social_file,X (synthetic),@chartist_raj,2026-09-23T12:30:16.174392+00:00,"$TSLA looks weak, cutting my position",2,0
+S00415,social_file,X (synthetic),@risk_ronan,2026-09-23T14:54:46.420443+00:00,Love the setup on $BA here,8,0
+S00420,social_file,X (synthetic),@energy_ed,2026-09-23T15:42:54.043043+00:00,Bearish on $NVDA into the next print,8,6
+S00099,social_file,X (synthetic),@valuehunter,2026-09-23T17:26:05.682896+00:00,J&J settlement is expensive but certainty is worth it,9,7
+S00098,social_file,X (synthetic),@gamma_gita,2026-09-23T17:29:33.588090+00:00,$JNJ finally settling the talc mess. Overhang removed,2,21
+S00417,social_file,X (synthetic),@bank_analyst,2026-09-23T18:58:57.233617+00:00,Anyone holding $JNJ through earnings?,9,0
+S00100,social_file,X (synthetic),@energy_ed,2026-09-23T19:22:35.154858+00:00,"Litigation clarity for Johnson & Johnson, bullish",37,0
+S00416,social_file,X (synthetic),@momentum_mo,2026-09-23T22:11:19.856020+00:00,Watching $AAPL this week,24,3
+S00429,social_file,X (synthetic),@macro_maya,2026-09-24T06:21:48.760083+00:00,Not liking the price action in $JNJ 📉,4,2
+S00430,social_file,X (synthetic),@retail_ravi,2026-09-24T07:39:56.328740+00:00,"$TSLA overvalued imo, waiting for a pullback",8,1
+S00424,social_file,X (synthetic),@longterm_lee,2026-09-24T09:57:17.528154+00:00,"$WMT flat today, nothing to see",1,2
+S00104,social_file,X (synthetic),@em_emma,2026-09-24T12:16:21.612297+00:00,"All-stock deal from Exxon, slight dilution but strategic",8,9
+S00425,social_file,X (synthetic),@fintwit_fiona,2026-09-24T12:31:57.943564+00:00,"$PFE looks weak, cutting my position",3,0
+S00428,social_file,X (synthetic),@momentum_mo,2026-09-24T13:22:01.843096+00:00,Not liking the price action in $PFE 📉,6,0
+S00427,social_file,X (synthetic),@momentum_mo,2026-09-24T13:39:26.748408+00:00,$NVDA looking strong today 📈,1,0
+S00431,social_file,X (synthetic),@retail_ravi,2026-09-24T16:22:48.307931+00:00,Watching $AAPL this week,0,0
+S00103,social_file,X (synthetic),@yield_yuki,2026-09-24T16:44:20.945406+00:00,"Exxon acquisition makes sense, synergies look real",10,2
+S00101,social_file,X (synthetic),@energy_ed,2026-09-24T17:15:04.534272+00:00,$XOM buying Ridgeline. Shale consolidation continues,65,0
+S00426,social_file,X (synthetic),@bearish_bob,2026-09-24T17:59:34.371067+00:00,Love the setup on $NVDA here,8,1
+S00102,social_file,X (synthetic),@em_emma,2026-09-24T18:51:41.765311+00:00,"Exxon acquisition makes sense, synergies look real",5,3
+S00438,social_file,X (synthetic),@optionsoracle,2026-09-25T09:58:27.360270+00:00,Johnson & Johnson is executing really well this year $JNJ,9,0
+S00433,social_file,X (synthetic),@valuehunter,2026-09-25T11:06:45.228815+00:00,"$PFE overvalued imo, waiting for a pullback",18,6
+S00435,social_file,X (synthetic),@retail_ravi,2026-09-25T11:57:55.996800+00:00,Not liking the price action in $XOM 📉,2,2
+S00439,social_file,X (synthetic),@deeptech_dev,2026-09-25T13:53:11.881485+00:00,Not liking the price action in $JPM 📉,11,0
+S00432,social_file,X (synthetic),@tech_tara,2026-09-25T13:56:01.745324+00:00,"$JNJ looks weak, cutting my position",10,1
+S00436,social_file,X (synthetic),@bank_analyst,2026-09-25T16:21:18.149009+00:00,What's everyone's take on $TSLA?,4,1
+S00437,social_file,X (synthetic),@em_emma,2026-09-25T22:41:01.976636+00:00,What's everyone's take on $GOOGL?,3,1
+S00434,social_file,X (synthetic),@optionsoracle,2026-09-25T23:25:01.376906+00:00,Love the setup on $MSFT here,7,8
+S00440,social_file,X (synthetic),@longterm_lee,2026-09-25T23:47:48.806252+00:00,Not liking the price action in $WMT 📉,3,0

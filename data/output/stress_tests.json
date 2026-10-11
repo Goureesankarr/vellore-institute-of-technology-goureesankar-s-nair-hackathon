@@ -1,0 +1,2006 @@
+[
+ {
+  "triggered_at": "2026-08-24T06:10:16.726541+00:00",
+  "updated_at": "2026-08-24T07:20:11.129188+00:00",
+  "event_type": "Geopolitical",
+  "impact_score": 9.24,
+  "scale": 1.155,
+  "headline": "Global stocks tumble as Strait of Hormuz conflict threatens energy supplies",
+  "entity": "MARKET",
+  "signal_id": "N00012:MARKET",
+  "supporting_signals": 9,
+  "sectors_hit": [
+   "Energy",
+   "Shipping & Logistics"
+  ],
+  "regions_hit": [
+   "Middle East"
+  ],
+  "defaulted_counterparties": [],
+  "scenario": {
+   "description": "Risk-off shock: equities sell off, spreads widen, EM currencies weaken, flight to quality in rates",
+   "equity_pct": -11.55,
+   "rates_bp": -28.9,
+   "spread_bp": {
+    "AAA": 17.3,
+    "AA": 28.9,
+    "A": 57.8,
+    "BBB": 115.5,
+    "BB": 288.8,
+    "B": 462.0,
+    "CCC": 808.5
+   },
+   "pd_multiplier": 1.347
+  },
+  "value_before_usd": 5857934000.0,
+  "value_after_usd": 5618680619.0,
+  "pnl_usd": -239253381.0,
+  "pnl_pct_of_book": -4.08,
+  "cet1_capital_before": 700000000.0,
+  "cet1_capital_after": 460746619.0,
+  "rwa_before": 5165472500.0,
+  "rwa_after": 5762705199.0,
+  "cet1_ratio_before_pct": 13.55,
+  "cet1_ratio_after_pct": 8.0,
+  "by_asset_class": [
+   {
+    "asset_class": "Bond",
+    "value_before": 2243143000.0,
+    "pnl": -148075301.0,
+    "positions": 46,
+    "value_after": 2095067699.0
+   },
+   {
+    "asset_class": "Loan",
+    "value_before": 3527680000.0,
+    "pnl": -90655515.0,
+    "positions": 60,
+    "value_after": 3437024485.0
+   },
+   {
+    "asset_class": "Equity",
+    "value_before": 88960000.0,
+    "pnl": -11951287.0,
+    "positions": 4,
+    "value_after": 77008713.0
+   },
+   {
+    "asset_class": "Derivative",
+    "value_before": -1849000.0,
+    "pnl": 11428722.0,
+    "positions": 30,
+    "value_after": 9579722.0
+   }
+  ],
+  "by_sector": [
+   {
+    "sector": "Communication Services",
+    "value_before": 542341000.0,
+    "pnl": -92528453.0,
+    "positions": 10,
+    "value_after": 449812547.0
+   },
+   {
+    "sector": "Financials",
+    "value_before": 844149000.0,
+    "pnl": -34285870.0,
+    "positions": 18,
+    "value_after": 809863130.0
+   },
+   {
+    "sector": "Materials",
+    "value_before": 822440000.0,
+    "pnl": -34029475.0,
+    "positions": 12,
+    "value_after": 788410525.0
+   },
+   {
+    "sector": "Shipping & Logistics",
+    "value_before": 458150000.0,
+    "pnl": -31328492.0,
+    "positions": 18,
+    "value_after": 426821508.0
+   },
+   {
+    "sector": "Technology",
+    "value_before": 402602000.0,
+    "pnl": -20373185.0,
+    "positions": 13,
+    "value_after": 382228815.0
+   },
+   {
+    "sector": "Sovereign",
+    "value_before": 805355000.0,
+    "pnl": -15002536.0,
+    "positions": 18,
+    "value_after": 790352464.0
+   },
+   {
+    "sector": "Utilities",
+    "value_before": 488362000.0,
+    "pnl": -14311844.0,
+    "positions": 7,
+    "value_after": 474050156.0
+   },
+   {
+    "sector": "Real Estate",
+    "value_before": 321323000.0,
+    "pnl": -10507920.0,
+    "positions": 12,
+    "value_after": 310815080.0
+   },
+   {
+    "sector": "Industrials",
+    "value_before": 699698000.0,
+    "pnl": -3155829.0,
+    "positions": 16,
+    "value_after": 696542171.0
+   },
+   {
+    "sector": "Consumer",
+    "value_before": 115100000.0,
+    "pnl": -36404.0,
+    "positions": 4,
+    "value_after": 115063596.0
+   },
+   {
+    "sector": "Health Care",
+    "value_before": 172279000.0,
+    "pnl": 949860.0,
+    "positions": 5,
+    "value_after": 173228860.0
+   },
+   {
+    "sector": "Energy",
+    "value_before": 186135000.0,
+    "pnl": 15356766.0,
+    "positions": 7,
+    "value_after": 201491766.0
+   }
+  ],
+  "by_region": [
+   {
+    "region": "Europe",
+    "value_before": 2290162000.0,
+    "pnl": -142185860.0,
+    "positions": 44,
+    "value_after": 2147976140.0
+   },
+   {
+    "region": "Latin America",
+    "value_before": 922787000.0,
+    "pnl": -42157721.0,
+    "positions": 12,
+    "value_after": 880629279.0
+   },
+   {
+    "region": "India",
+    "value_before": 464656000.0,
+    "pnl": -22978913.0,
+    "positions": 11,
+    "value_after": 441677087.0
+   },
+   {
+    "region": "North America",
+    "value_before": 1334252000.0,
+    "pnl": -15389105.0,
+    "positions": 40,
+    "value_after": 1318862895.0
+   },
+   {
+    "region": "Asia-Pacific",
+    "value_before": 635826000.0,
+    "pnl": -11606123.0,
+    "positions": 22,
+    "value_after": 624219877.0
+   },
+   {
+    "region": "Middle East",
+    "value_before": 210251000.0,
+    "pnl": -4935659.0,
+    "positions": 11,
+    "value_after": 205315341.0
+   }
+  ],
+  "by_product": [
+   {
+    "product": "Corporate Bond",
+    "value_before": 1437591000.0,
+    "pnl": -132310951.0,
+    "positions": 33,
+    "value_after": 1305280049.0
+   },
+   {
+    "product": "Term Loan",
+    "value_before": 1812560000.0,
+    "pnl": -65079839.0,
+    "positions": 31,
+    "value_after": 1747480161.0
+   },
+   {
+    "product": "Revolving Credit Facility",
+    "value_before": 739070000.0,
+    "pnl": -23084104.0,
+    "positions": 16,
+    "value_after": 715985896.0
+   },
+   {
+    "product": "Sovereign Bond",
+    "value_before": 805552000.0,
+    "pnl": -15764350.0,
+    "positions": 13,
+    "value_after": 789787650.0
+   },
+   {
+    "product": "Listed Equity",
+    "value_before": 88960000.0,
+    "pnl": -11951287.0,
+    "positions": 4,
+    "value_after": 77008713.0
+   },
+   {
+    "product": "FX Forward",
+    "value_before": -368000.0,
+    "pnl": -9637955.0,
+    "positions": 9,
+    "value_after": -10005955.0
+   },
+   {
+    "product": "Trade Finance",
+    "value_before": 976050000.0,
+    "pnl": -2491571.0,
+    "positions": 13,
+    "value_after": 973558429.0
+   },
+   {
+    "product": "Interest Rate Swap",
+    "value_before": -620000.0,
+    "pnl": 1959037.0,
+    "positions": 10,
+    "value_after": 1339037.0
+   },
+   {
+    "product": "Credit Default Swap",
+    "value_before": -861000.0,
+    "pnl": 19107640.0,
+    "positions": 11,
+    "value_after": 18246640.0
+   }
+  ],
+  "top_losses": [
+   {
+    "trade_id": "T00043",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 125573000.0,
+    "stress_pnl_usd": -36601020.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00111",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 164840000.0,
+    "stress_pnl_usd": -19816560.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00102",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 154790000.0,
+    "stress_pnl_usd": -18485535.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00044",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 66109000.0,
+    "stress_pnl_usd": -12642386.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00064",
+    "counterparty": "Harbor Point Financial",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Financials",
+    "region": "North America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 75625000.0,
+    "stress_pnl_usd": -11169765.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00050",
+    "counterparty": "Republic of Synthetica (sovereign)",
+    "asset_class": "Bond",
+    "product": "Sovereign Bond",
+    "sector": "Sovereign",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 151450000.0,
+    "stress_pnl_usd": -10977076.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00041",
+    "counterparty": "Aurora Shipping Ltd",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Shipping & Logistics",
+    "region": "Middle East",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 42000000.0,
+    "stress_pnl_usd": -9366961.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00108",
+    "counterparty": "Banco Austral",
+    "asset_class": "Loan",
+    "product": "Revolving Credit Facility",
+    "sector": "Financials",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "BRL",
+    "market_value_usd": 125060000.0,
+    "stress_pnl_usd": -8812648.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00009",
+    "counterparty": "Summit Commercial Properties",
+    "asset_class": "Derivative",
+    "product": "FX Forward",
+    "sector": "Real Estate",
+    "region": "North America",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 190000.0,
+    "stress_pnl_usd": -7506345.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00054",
+    "counterparty": "Ganga Steel & Power",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Materials",
+    "region": "India",
+    "rating": "BB",
+    "currency": "INR",
+    "market_value_usd": 46354000.0,
+    "stress_pnl_usd": -7009436.0,
+    "jump_to_default": false
+   }
+  ]
+ },
+ {
+  "triggered_at": "2026-08-31T09:13:16.000709+00:00",
+  "updated_at": "2026-08-31T15:15:03.019997+00:00",
+  "event_type": "Credit Event",
+  "impact_score": 8.07,
+  "scale": 1.009,
+  "headline": "CRE loan losses were always going to hit someone. Harbor Point is the first domino",
+  "entity": "MARKET",
+  "signal_id": "S00049:MARKET",
+  "supporting_signals": 13,
+  "sectors_hit": [
+   "Real Estate"
+  ],
+  "regions_hit": [],
+  "defaulted_counterparties": [
+   "Harbor Point Financial"
+  ],
+  "scenario": {
+   "description": "Credit contagion: sharp spread widening, PDs double in affected sector, LGDs rise",
+   "equity_pct": -7.06,
+   "rates_bp": -15.1,
+   "spread_bp": {
+    "AAA": 20.2,
+    "AA": 35.3,
+    "A": 75.7,
+    "BBB": 176.5,
+    "BB": 403.5,
+    "B": 655.7,
+    "CCC": 1008.8
+   },
+   "pd_multiplier": 2.009
+  },
+  "value_before_usd": 5857934000.0,
+  "value_after_usd": 5477933664.0,
+  "pnl_usd": -380000336.0,
+  "pnl_pct_of_book": -6.48,
+  "cet1_capital_before": 700000000.0,
+  "cet1_capital_after": 319999664.0,
+  "rwa_before": 5165472500.0,
+  "rwa_after": 6876688865.0,
+  "cet1_ratio_before_pct": 13.55,
+  "cet1_ratio_after_pct": 4.65,
+  "by_asset_class": [
+   {
+    "asset_class": "Bond",
+    "value_before": 2243143000.0,
+    "pnl": -204381446.0,
+    "positions": 46,
+    "value_after": 2038761554.0
+   },
+   {
+    "asset_class": "Loan",
+    "value_before": 3527680000.0,
+    "pnl": -175534598.0,
+    "positions": 60,
+    "value_after": 3352145402.0
+   },
+   {
+    "asset_class": "Equity",
+    "value_before": 88960000.0,
+    "pnl": -7009742.0,
+    "positions": 4,
+    "value_after": 81950258.0
+   },
+   {
+    "asset_class": "Derivative",
+    "value_before": -1849000.0,
+    "pnl": 6925450.0,
+    "positions": 30,
+    "value_after": 5076450.0
+   }
+  ],
+  "by_sector": [
+   {
+    "sector": "Financials",
+    "value_before": 844149000.0,
+    "pnl": -185143439.0,
+    "positions": 18,
+    "value_after": 659005561.0
+   },
+   {
+    "sector": "Communication Services",
+    "value_before": 542341000.0,
+    "pnl": -74925550.0,
+    "positions": 10,
+    "value_after": 467415450.0
+   },
+   {
+    "sector": "Materials",
+    "value_before": 822440000.0,
+    "pnl": -38510169.0,
+    "positions": 12,
+    "value_after": 783929831.0
+   },
+   {
+    "sector": "Sovereign",
+    "value_before": 805355000.0,
+    "pnl": -22929979.0,
+    "positions": 18,
+    "value_after": 782425021.0
+   },
+   {
+    "sector": "Real Estate",
+    "value_before": 321323000.0,
+    "pnl": -21007581.0,
+    "positions": 12,
+    "value_after": 300315419.0
+   },
+   {
+    "sector": "Shipping & Logistics",
+    "value_before": 458150000.0,
+    "pnl": -21001800.0,
+    "positions": 18,
+    "value_after": 437148200.0
+   },
+   {
+    "sector": "Technology",
+    "value_before": 402602000.0,
+    "pnl": -12322014.0,
+    "positions": 13,
+    "value_after": 390279986.0
+   },
+   {
+    "sector": "Utilities",
+    "value_before": 488362000.0,
+    "pnl": -11883312.0,
+    "positions": 7,
+    "value_after": 476478688.0
+   },
+   {
+    "sector": "Industrials",
+    "value_before": 699698000.0,
+    "pnl": -1115530.0,
+    "positions": 16,
+    "value_after": 698582470.0
+   },
+   {
+    "sector": "Consumer",
+    "value_before": 115100000.0,
+    "pnl": -119436.0,
+    "positions": 4,
+    "value_after": 114980564.0
+   },
+   {
+    "sector": "Health Care",
+    "value_before": 172279000.0,
+    "pnl": -70474.0,
+    "positions": 5,
+    "value_after": 172208526.0
+   },
+   {
+    "sector": "Energy",
+    "value_before": 186135000.0,
+    "pnl": 9028947.0,
+    "positions": 7,
+    "value_after": 195163947.0
+   }
+  ],
+  "by_region": [
+   {
+    "region": "North America",
+    "value_before": 1334252000.0,
+    "pnl": -191908073.0,
+    "positions": 40,
+    "value_after": 1142343927.0
+   },
+   {
+    "region": "Europe",
+    "value_before": 2290162000.0,
+    "pnl": -112083851.0,
+    "positions": 44,
+    "value_after": 2178078149.0
+   },
+   {
+    "region": "Latin America",
+    "value_before": 922787000.0,
+    "pnl": -49290041.0,
+    "positions": 12,
+    "value_after": 873496959.0
+   },
+   {
+    "region": "India",
+    "value_before": 464656000.0,
+    "pnl": -13724679.0,
+    "positions": 11,
+    "value_after": 450931321.0
+   },
+   {
+    "region": "Asia-Pacific",
+    "value_before": 635826000.0,
+    "pnl": -9895478.0,
+    "positions": 22,
+    "value_after": 625930522.0
+   },
+   {
+    "region": "Middle East",
+    "value_before": 210251000.0,
+    "pnl": -3098214.0,
+    "positions": 11,
+    "value_after": 207152786.0
+   }
+  ],
+  "by_product": [
+   {
+    "product": "Corporate Bond",
+    "value_before": 1437591000.0,
+    "pnl": -180809894.0,
+    "positions": 33,
+    "value_after": 1256781106.0
+   },
+   {
+    "product": "Term Loan",
+    "value_before": 1812560000.0,
+    "pnl": -139857241.0,
+    "positions": 31,
+    "value_after": 1672702759.0
+   },
+   {
+    "product": "Sovereign Bond",
+    "value_before": 805552000.0,
+    "pnl": -23571552.0,
+    "positions": 13,
+    "value_after": 781980448.0
+   },
+   {
+    "product": "Trade Finance",
+    "value_before": 976050000.0,
+    "pnl": -21965325.0,
+    "positions": 13,
+    "value_after": 954084675.0
+   },
+   {
+    "product": "Revolving Credit Facility",
+    "value_before": 739070000.0,
+    "pnl": -13712032.0,
+    "positions": 16,
+    "value_after": 725357968.0
+   },
+   {
+    "product": "Listed Equity",
+    "value_before": 88960000.0,
+    "pnl": -7009742.0,
+    "positions": 4,
+    "value_after": 81950258.0
+   },
+   {
+    "product": "FX Forward",
+    "value_before": -368000.0,
+    "pnl": -4251175.0,
+    "positions": 9,
+    "value_after": -4619175.0
+   },
+   {
+    "product": "Interest Rate Swap",
+    "value_before": -620000.0,
+    "pnl": 1026586.0,
+    "positions": 10,
+    "value_after": 406586.0
+   },
+   {
+    "product": "Credit Default Swap",
+    "value_before": -861000.0,
+    "pnl": 10150038.0,
+    "positions": 11,
+    "value_after": 9289038.0
+   }
+  ],
+  "top_losses": [
+   {
+    "trade_id": "T00002",
+    "counterparty": "Harbor Point Financial",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Financials",
+    "region": "North America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 157020000.0,
+    "stress_pnl_usd": -92299435.0,
+    "jump_to_default": true
+   },
+   {
+    "trade_id": "T00064",
+    "counterparty": "Harbor Point Financial",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Financials",
+    "region": "North America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 75625000.0,
+    "stress_pnl_usd": -53003672.0,
+    "jump_to_default": true
+   },
+   {
+    "trade_id": "T00043",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 125573000.0,
+    "stress_pnl_usd": -39015762.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00050",
+    "counterparty": "Republic of Synthetica (sovereign)",
+    "asset_class": "Bond",
+    "product": "Sovereign Bond",
+    "sector": "Sovereign",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 151450000.0,
+    "stress_pnl_usd": -16052815.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00121",
+    "counterparty": "Harbor Point Financial",
+    "asset_class": "Loan",
+    "product": "Trade Finance",
+    "sector": "Financials",
+    "region": "North America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 21890000.0,
+    "stress_pnl_usd": -13075012.0,
+    "jump_to_default": true
+   },
+   {
+    "trade_id": "T00044",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 66109000.0,
+    "stress_pnl_usd": -11085173.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00111",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 164840000.0,
+    "stress_pnl_usd": -11044692.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00102",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 154790000.0,
+    "stress_pnl_usd": -9978710.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00058",
+    "counterparty": "Harbor Point Financial",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Financials",
+    "region": "North America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 16330000.0,
+    "stress_pnl_usd": -9729718.0,
+    "jump_to_default": true
+   },
+   {
+    "trade_id": "T00137",
+    "counterparty": "Atlas Mining Corp",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Materials",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 162047000.0,
+    "stress_pnl_usd": -9372872.0,
+    "jump_to_default": false
+   }
+  ]
+ },
+ {
+  "triggered_at": "2026-09-09T12:12:25.858087+00:00",
+  "updated_at": "2026-09-09T14:34:17.314643+00:00",
+  "event_type": "Macroeconomic",
+  "impact_score": 8.13,
+  "scale": 1.016,
+  "headline": "Inflation shock revives fears of more Fed rate hikes and recession",
+  "entity": "MARKET",
+  "signal_id": "N00035:MARKET",
+  "supporting_signals": 3,
+  "sectors_hit": [
+   "Energy",
+   "Consumer",
+   "Sovereign"
+  ],
+  "regions_hit": [
+   "Middle East",
+   "North America"
+  ],
+  "defaulted_counterparties": [],
+  "scenario": {
+   "description": "Rates shock: +200bp parallel shift, moderate equity drawdown, spreads widen",
+   "equity_pct": -5.08,
+   "rates_bp": 203.3,
+   "spread_bp": {
+    "AAA": 10.2,
+    "AA": 15.2,
+    "A": 30.5,
+    "BBB": 61.0,
+    "BB": 152.4,
+    "B": 254.1,
+    "CCC": 406.5
+   },
+   "pd_multiplier": 1.203
+  },
+  "value_before_usd": 5857934000.0,
+  "value_after_usd": 5418966210.0,
+  "pnl_usd": -438967790.0,
+  "pnl_pct_of_book": -7.486,
+  "cet1_capital_before": 700000000.0,
+  "cet1_capital_after": 261032210.0,
+  "rwa_before": 5165472500.0,
+  "rwa_after": 5513036175.0,
+  "cet1_ratio_before_pct": 13.55,
+  "cet1_ratio_after_pct": 4.73,
+  "by_asset_class": [
+   {
+    "asset_class": "Bond",
+    "value_before": 2243143000.0,
+    "pnl": -257755633.0,
+    "positions": 46,
+    "value_after": 1985387367.0
+   },
+   {
+    "asset_class": "Loan",
+    "value_before": 3527680000.0,
+    "pnl": -163365158.0,
+    "positions": 60,
+    "value_after": 3364314842.0
+   },
+   {
+    "asset_class": "Derivative",
+    "value_before": -1849000.0,
+    "pnl": -12544813.0,
+    "positions": 30,
+    "value_after": -14393813.0
+   },
+   {
+    "asset_class": "Equity",
+    "value_before": 88960000.0,
+    "pnl": -5302186.0,
+    "positions": 4,
+    "value_after": 83657814.0
+   }
+  ],
+  "by_sector": [
+   {
+    "sector": "Sovereign",
+    "value_before": 805355000.0,
+    "pnl": -83126850.0,
+    "positions": 18,
+    "value_after": 722228150.0
+   },
+   {
+    "sector": "Financials",
+    "value_before": 844149000.0,
+    "pnl": -77424200.0,
+    "positions": 18,
+    "value_after": 766724800.0
+   },
+   {
+    "sector": "Materials",
+    "value_before": 822440000.0,
+    "pnl": -68774517.0,
+    "positions": 12,
+    "value_after": 753665483.0
+   },
+   {
+    "sector": "Communication Services",
+    "value_before": 542341000.0,
+    "pnl": -64013764.0,
+    "positions": 10,
+    "value_after": 478327236.0
+   },
+   {
+    "sector": "Utilities",
+    "value_before": 488362000.0,
+    "pnl": -35530839.0,
+    "positions": 7,
+    "value_after": 452831161.0
+   },
+   {
+    "sector": "Shipping & Logistics",
+    "value_before": 458150000.0,
+    "pnl": -33834267.0,
+    "positions": 18,
+    "value_after": 424315733.0
+   },
+   {
+    "sector": "Industrials",
+    "value_before": 699698000.0,
+    "pnl": -29181084.0,
+    "positions": 16,
+    "value_after": 670516916.0
+   },
+   {
+    "sector": "Technology",
+    "value_before": 402602000.0,
+    "pnl": -17352391.0,
+    "positions": 13,
+    "value_after": 385249609.0
+   },
+   {
+    "sector": "Real Estate",
+    "value_before": 321323000.0,
+    "pnl": -14918308.0,
+    "positions": 12,
+    "value_after": 306404692.0
+   },
+   {
+    "sector": "Health Care",
+    "value_before": 172279000.0,
+    "pnl": -7738109.0,
+    "positions": 5,
+    "value_after": 164540891.0
+   },
+   {
+    "sector": "Energy",
+    "value_before": 186135000.0,
+    "pnl": -7040281.0,
+    "positions": 7,
+    "value_after": 179094719.0
+   },
+   {
+    "sector": "Consumer",
+    "value_before": 115100000.0,
+    "pnl": -33181.0,
+    "positions": 4,
+    "value_after": 115066819.0
+   }
+  ],
+  "by_region": [
+   {
+    "region": "Europe",
+    "value_before": 2290162000.0,
+    "pnl": -171225453.0,
+    "positions": 44,
+    "value_after": 2118936547.0
+   },
+   {
+    "region": "North America",
+    "value_before": 1334252000.0,
+    "pnl": -113695983.0,
+    "positions": 40,
+    "value_after": 1220556017.0
+   },
+   {
+    "region": "Latin America",
+    "value_before": 922787000.0,
+    "pnl": -67283539.0,
+    "positions": 12,
+    "value_after": 855503461.0
+   },
+   {
+    "region": "Asia-Pacific",
+    "value_before": 635826000.0,
+    "pnl": -42927837.0,
+    "positions": 22,
+    "value_after": 592898163.0
+   },
+   {
+    "region": "India",
+    "value_before": 464656000.0,
+    "pnl": -30284445.0,
+    "positions": 11,
+    "value_after": 434371555.0
+   },
+   {
+    "region": "Middle East",
+    "value_before": 210251000.0,
+    "pnl": -13550533.0,
+    "positions": 11,
+    "value_after": 196700467.0
+   }
+  ],
+  "by_product": [
+   {
+    "product": "Corporate Bond",
+    "value_before": 1437591000.0,
+    "pnl": -174706812.0,
+    "positions": 33,
+    "value_after": 1262884188.0
+   },
+   {
+    "product": "Term Loan",
+    "value_before": 1812560000.0,
+    "pnl": -93893986.0,
+    "positions": 31,
+    "value_after": 1718666014.0
+   },
+   {
+    "product": "Sovereign Bond",
+    "value_before": 805552000.0,
+    "pnl": -83048821.0,
+    "positions": 13,
+    "value_after": 722503179.0
+   },
+   {
+    "product": "Trade Finance",
+    "value_before": 976050000.0,
+    "pnl": -45410104.0,
+    "positions": 13,
+    "value_after": 930639896.0
+   },
+   {
+    "product": "Revolving Credit Facility",
+    "value_before": 739070000.0,
+    "pnl": -24061068.0,
+    "positions": 16,
+    "value_after": 715008932.0
+   },
+   {
+    "product": "Interest Rate Swap",
+    "value_before": -620000.0,
+    "pnl": -13789586.0,
+    "positions": 10,
+    "value_after": -14409586.0
+   },
+   {
+    "product": "Listed Equity",
+    "value_before": 88960000.0,
+    "pnl": -5302186.0,
+    "positions": 4,
+    "value_after": 83657814.0
+   },
+   {
+    "product": "FX Forward",
+    "value_before": -368000.0,
+    "pnl": -5046240.0,
+    "positions": 9,
+    "value_after": -5414240.0
+   },
+   {
+    "product": "Credit Default Swap",
+    "value_before": -861000.0,
+    "pnl": 6291013.0,
+    "positions": 11,
+    "value_after": 5430013.0
+   }
+  ],
+  "top_losses": [
+   {
+    "trade_id": "T00043",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 125573000.0,
+    "stress_pnl_usd": -32228688.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00077",
+    "counterparty": "Helios Utilities plc",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Utilities",
+    "region": "Europe",
+    "rating": "A",
+    "currency": "GBP",
+    "market_value_usd": 158648000.0,
+    "stress_pnl_usd": -21676688.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00059",
+    "counterparty": "Atlas Mining Corp",
+    "asset_class": "Loan",
+    "product": "Trade Finance",
+    "sector": "Materials",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 175820000.0,
+    "stress_pnl_usd": -19646112.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00020",
+    "counterparty": "Granite Bank AG",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Financials",
+    "region": "Europe",
+    "rating": "A",
+    "currency": "EUR",
+    "market_value_usd": 154340000.0,
+    "stress_pnl_usd": -17689653.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00002",
+    "counterparty": "Harbor Point Financial",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Financials",
+    "region": "North America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 157020000.0,
+    "stress_pnl_usd": -17165065.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00050",
+    "counterparty": "Republic of Synthetica (sovereign)",
+    "asset_class": "Bond",
+    "product": "Sovereign Bond",
+    "sector": "Sovereign",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 151450000.0,
+    "stress_pnl_usd": -16262111.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00064",
+    "counterparty": "Harbor Point Financial",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Financials",
+    "region": "North America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 75625000.0,
+    "stress_pnl_usd": -16071805.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00060",
+    "counterparty": "Ganga Steel & Power",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Materials",
+    "region": "India",
+    "rating": "BB",
+    "currency": "INR",
+    "market_value_usd": 120450000.0,
+    "stress_pnl_usd": -13795866.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00047",
+    "counterparty": "US Treasury",
+    "asset_class": "Bond",
+    "product": "Sovereign Bond",
+    "sector": "Sovereign",
+    "region": "North America",
+    "rating": "AAA",
+    "currency": "USD",
+    "market_value_usd": 106122000.0,
+    "stress_pnl_usd": -13793813.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00062",
+    "counterparty": "US Treasury",
+    "asset_class": "Bond",
+    "product": "Sovereign Bond",
+    "sector": "Sovereign",
+    "region": "North America",
+    "rating": "AAA",
+    "currency": "USD",
+    "market_value_usd": 83475000.0,
+    "stress_pnl_usd": -11784766.0,
+    "jump_to_default": false
+   }
+  ]
+ },
+ {
+  "triggered_at": "2026-09-11T12:31:21.948695+00:00",
+  "updated_at": "2026-09-11T14:10:19.294588+00:00",
+  "event_type": "Regulatory/Legal",
+  "impact_score": 7.99,
+  "scale": 0.999,
+  "headline": "Meta hit with record EU penalty; Alphabet faces fresh investigation",
+  "entity": "GOOGL",
+  "signal_id": "N00038:GOOGL",
+  "supporting_signals": 3,
+  "sectors_hit": [
+   "Technology"
+  ],
+  "regions_hit": [
+   "Europe"
+  ],
+  "defaulted_counterparties": [],
+  "scenario": {
+   "description": "Regulatory shock: sector-specific equity and spread repricing",
+   "equity_pct": -3.0,
+   "rates_bp": 0.0,
+   "spread_bp": {
+    "AAA": 5.0,
+    "AA": 10.0,
+    "A": 20.0,
+    "BBB": 40.0,
+    "BB": 79.9,
+    "B": 119.9,
+    "CCC": 199.8
+   },
+   "pd_multiplier": 1.1
+  },
+  "value_before_usd": 5857934000.0,
+  "value_after_usd": 5815120172.0,
+  "pnl_usd": -42813828.0,
+  "pnl_pct_of_book": -0.73,
+  "cet1_capital_before": 700000000.0,
+  "cet1_capital_after": 657186172.0,
+  "rwa_before": 5165472500.0,
+  "rwa_after": 5334211218.0,
+  "cet1_ratio_before_pct": 13.55,
+  "cet1_ratio_after_pct": 12.32,
+  "by_asset_class": [
+   {
+    "asset_class": "Bond",
+    "value_before": 2243143000.0,
+    "pnl": -37040975.0,
+    "positions": 46,
+    "value_after": 2206102025.0
+   },
+   {
+    "asset_class": "Equity",
+    "value_before": 88960000.0,
+    "pnl": -6970833.0,
+    "positions": 4,
+    "value_after": 81989167.0
+   },
+   {
+    "asset_class": "Loan",
+    "value_before": 3527680000.0,
+    "pnl": -1523131.0,
+    "positions": 60,
+    "value_after": 3526156869.0
+   },
+   {
+    "asset_class": "Derivative",
+    "value_before": -1849000.0,
+    "pnl": 2721111.0,
+    "positions": 30,
+    "value_after": 872111.0
+   }
+  ],
+  "by_sector": [
+   {
+    "sector": "Communication Services",
+    "value_before": 542341000.0,
+    "pnl": -10017622.0,
+    "positions": 10,
+    "value_after": 532323378.0
+   },
+   {
+    "sector": "Technology",
+    "value_before": 402602000.0,
+    "pnl": -9393275.0,
+    "positions": 13,
+    "value_after": 393208725.0
+   },
+   {
+    "sector": "Materials",
+    "value_before": 822440000.0,
+    "pnl": -7027805.0,
+    "positions": 12,
+    "value_after": 815412195.0
+   },
+   {
+    "sector": "Sovereign",
+    "value_before": 805355000.0,
+    "pnl": -5558806.0,
+    "positions": 18,
+    "value_after": 799796194.0
+   },
+   {
+    "sector": "Financials",
+    "value_before": 844149000.0,
+    "pnl": -4954132.0,
+    "positions": 18,
+    "value_after": 839194868.0
+   },
+   {
+    "sector": "Shipping & Logistics",
+    "value_before": 458150000.0,
+    "pnl": -3915666.0,
+    "positions": 18,
+    "value_after": 454234334.0
+   },
+   {
+    "sector": "Utilities",
+    "value_before": 488362000.0,
+    "pnl": -2389228.0,
+    "positions": 7,
+    "value_after": 485972772.0
+   },
+   {
+    "sector": "Real Estate",
+    "value_before": 321323000.0,
+    "pnl": -1339883.0,
+    "positions": 12,
+    "value_after": 319983117.0
+   },
+   {
+    "sector": "Health Care",
+    "value_before": 172279000.0,
+    "pnl": -221819.0,
+    "positions": 5,
+    "value_after": 172057181.0
+   },
+   {
+    "sector": "Consumer",
+    "value_before": 115100000.0,
+    "pnl": -9997.0,
+    "positions": 4,
+    "value_after": 115090003.0
+   },
+   {
+    "sector": "Industrials",
+    "value_before": 699698000.0,
+    "pnl": 165642.0,
+    "positions": 16,
+    "value_after": 699863642.0
+   },
+   {
+    "sector": "Energy",
+    "value_before": 186135000.0,
+    "pnl": 1848765.0,
+    "positions": 7,
+    "value_after": 187983765.0
+   }
+  ],
+  "by_region": [
+   {
+    "region": "Europe",
+    "value_before": 2290162000.0,
+    "pnl": -15757952.0,
+    "positions": 44,
+    "value_after": 2274404048.0
+   },
+   {
+    "region": "Asia-Pacific",
+    "value_before": 635826000.0,
+    "pnl": -10029619.0,
+    "positions": 22,
+    "value_after": 625796381.0
+   },
+   {
+    "region": "Latin America",
+    "value_before": 922787000.0,
+    "pnl": -9189548.0,
+    "positions": 12,
+    "value_after": 913597452.0
+   },
+   {
+    "region": "North America",
+    "value_before": 1334252000.0,
+    "pnl": -6134264.0,
+    "positions": 40,
+    "value_after": 1328117736.0
+   },
+   {
+    "region": "India",
+    "value_before": 464656000.0,
+    "pnl": -994034.0,
+    "positions": 11,
+    "value_after": 463661966.0
+   },
+   {
+    "region": "Middle East",
+    "value_before": 210251000.0,
+    "pnl": -708410.0,
+    "positions": 11,
+    "value_after": 209542590.0
+   }
+  ],
+  "by_product": [
+   {
+    "product": "Corporate Bond",
+    "value_before": 1437591000.0,
+    "pnl": -31362436.0,
+    "positions": 33,
+    "value_after": 1406228564.0
+   },
+   {
+    "product": "Listed Equity",
+    "value_before": 88960000.0,
+    "pnl": -6970833.0,
+    "positions": 4,
+    "value_after": 81989167.0
+   },
+   {
+    "product": "Sovereign Bond",
+    "value_before": 805552000.0,
+    "pnl": -5678539.0,
+    "positions": 13,
+    "value_after": 799873461.0
+   },
+   {
+    "product": "Term Loan",
+    "value_before": 1812560000.0,
+    "pnl": -995360.0,
+    "positions": 31,
+    "value_after": 1811564640.0
+   },
+   {
+    "product": "Revolving Credit Facility",
+    "value_before": 739070000.0,
+    "pnl": -264542.0,
+    "positions": 16,
+    "value_after": 738805458.0
+   },
+   {
+    "product": "Trade Finance",
+    "value_before": 976050000.0,
+    "pnl": -263229.0,
+    "positions": 13,
+    "value_after": 975786771.0
+   },
+   {
+    "product": "Interest Rate Swap",
+    "value_before": -620000.0,
+    "pnl": 0.0,
+    "positions": 10,
+    "value_after": -620000.0
+   },
+   {
+    "product": "FX Forward",
+    "value_before": -368000.0,
+    "pnl": 0.0,
+    "positions": 9,
+    "value_after": -368000.0
+   },
+   {
+    "product": "Credit Default Swap",
+    "value_before": -861000.0,
+    "pnl": 2721111.0,
+    "positions": 11,
+    "value_after": 1860111.0
+   }
+  ],
+  "top_losses": [
+   {
+    "trade_id": "T00043",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 125573000.0,
+    "stress_pnl_usd": -7627764.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00064",
+    "counterparty": "Harbor Point Financial",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Financials",
+    "region": "North America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 75625000.0,
+    "stress_pnl_usd": -3667091.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00050",
+    "counterparty": "Republic of Synthetica (sovereign)",
+    "asset_class": "Bond",
+    "product": "Sovereign Bond",
+    "sector": "Sovereign",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 151450000.0,
+    "stress_pnl_usd": -3476342.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00049",
+    "counterparty": "Orion Semiconductors",
+    "asset_class": "Equity",
+    "product": "Listed Equity",
+    "sector": "Technology",
+    "region": "Asia-Pacific",
+    "rating": "A",
+    "currency": "USD",
+    "market_value_usd": 32330000.0,
+    "stress_pnl_usd": -3196669.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00099",
+    "counterparty": "Lotus Electronics Co",
+    "asset_class": "Equity",
+    "product": "Listed Equity",
+    "sector": "Technology",
+    "region": "Asia-Pacific",
+    "rating": "BBB",
+    "currency": "CNY",
+    "market_value_usd": 30090000.0,
+    "stress_pnl_usd": -2231390.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00122",
+    "counterparty": "Orion Semiconductors",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Technology",
+    "region": "Asia-Pacific",
+    "rating": "A",
+    "currency": "USD",
+    "market_value_usd": 77777000.0,
+    "stress_pnl_usd": -2149112.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00137",
+    "counterparty": "Atlas Mining Corp",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Materials",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 162047000.0,
+    "stress_pnl_usd": -1980423.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00077",
+    "counterparty": "Helios Utilities plc",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Utilities",
+    "region": "Europe",
+    "rating": "A",
+    "currency": "GBP",
+    "market_value_usd": 158648000.0,
+    "stress_pnl_usd": -1791887.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00042",
+    "counterparty": "Atlas Mining Corp",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Materials",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 79036000.0,
+    "stress_pnl_usd": -1758749.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00054",
+    "counterparty": "Ganga Steel & Power",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Materials",
+    "region": "India",
+    "rating": "BB",
+    "currency": "INR",
+    "market_value_usd": 46354000.0,
+    "stress_pnl_usd": -1644374.0,
+    "jump_to_default": false
+   }
+  ]
+ },
+ {
+  "triggered_at": "2026-09-15T19:35:56.868496+00:00",
+  "updated_at": "2026-09-15T22:45:21.370723+00:00",
+  "event_type": "Macroeconomic",
+  "impact_score": 8.02,
+  "scale": 1.002,
+  "headline": "Stocks fall, dollar rallies after Fed's surprise 50bp hike",
+  "entity": "MARKET",
+  "signal_id": "N00041:MARKET",
+  "supporting_signals": 2,
+  "sectors_hit": [
+   "Sovereign"
+  ],
+  "regions_hit": [
+   "North America"
+  ],
+  "defaulted_counterparties": [],
+  "scenario": {
+   "description": "Rates shock: +200bp parallel shift, moderate equity drawdown, spreads widen",
+   "equity_pct": -5.01,
+   "rates_bp": 200.5,
+   "spread_bp": {
+    "AAA": 10.0,
+    "AA": 15.0,
+    "A": 30.1,
+    "BBB": 60.1,
+    "BB": 150.4,
+    "B": 250.6,
+    "CCC": 401.0
+   },
+   "pd_multiplier": 1.2
+  },
+  "value_before_usd": 5857934000.0,
+  "value_after_usd": 5423944414.0,
+  "pnl_usd": -433989586.0,
+  "pnl_pct_of_book": -7.401,
+  "cet1_capital_before": 700000000.0,
+  "cet1_capital_after": 266010414.0,
+  "rwa_before": 5165472500.0,
+  "rwa_after": 5499194246.0,
+  "cet1_ratio_before_pct": 13.55,
+  "cet1_ratio_after_pct": 4.84,
+  "by_asset_class": [
+   {
+    "asset_class": "Bond",
+    "value_before": 2243143000.0,
+    "pnl": -253199508.0,
+    "positions": 46,
+    "value_after": 1989943492.0
+   },
+   {
+    "asset_class": "Loan",
+    "value_before": 3527680000.0,
+    "pnl": -161128136.0,
+    "positions": 60,
+    "value_after": 3366551864.0
+   },
+   {
+    "asset_class": "Derivative",
+    "value_before": -1849000.0,
+    "pnl": -14431143.0,
+    "positions": 30,
+    "value_after": -16280143.0
+   },
+   {
+    "asset_class": "Equity",
+    "value_before": 88960000.0,
+    "pnl": -5230800.0,
+    "positions": 4,
+    "value_after": 83729200.0
+   }
+  ],
+  "by_sector": [
+   {
+    "sector": "Sovereign",
+    "value_before": 805355000.0,
+    "pnl": -82080625.0,
+    "positions": 18,
+    "value_after": 723274375.0
+   },
+   {
+    "sector": "Financials",
+    "value_before": 844149000.0,
+    "pnl": -76423988.0,
+    "positions": 18,
+    "value_after": 767725012.0
+   },
+   {
+    "sector": "Materials",
+    "value_before": 822440000.0,
+    "pnl": -67876231.0,
+    "positions": 12,
+    "value_after": 754563769.0
+   },
+   {
+    "sector": "Communication Services",
+    "value_before": 542341000.0,
+    "pnl": -63228164.0,
+    "positions": 10,
+    "value_after": 479112836.0
+   },
+   {
+    "sector": "Utilities",
+    "value_before": 488362000.0,
+    "pnl": -35083015.0,
+    "positions": 7,
+    "value_after": 453278985.0
+   },
+   {
+    "sector": "Shipping & Logistics",
+    "value_before": 458150000.0,
+    "pnl": -32463774.0,
+    "positions": 18,
+    "value_after": 425686226.0
+   },
+   {
+    "sector": "Industrials",
+    "value_before": 699698000.0,
+    "pnl": -28798914.0,
+    "positions": 16,
+    "value_after": 670899086.0
+   },
+   {
+    "sector": "Technology",
+    "value_before": 402602000.0,
+    "pnl": -17127925.0,
+    "positions": 13,
+    "value_after": 385474075.0
+   },
+   {
+    "sector": "Real Estate",
+    "value_before": 321323000.0,
+    "pnl": -14716714.0,
+    "positions": 12,
+    "value_after": 306606286.0
+   },
+   {
+    "sector": "Energy",
+    "value_before": 186135000.0,
+    "pnl": -8528994.0,
+    "positions": 7,
+    "value_after": 177606006.0
+   },
+   {
+    "sector": "Health Care",
+    "value_before": 172279000.0,
+    "pnl": -7635394.0,
+    "positions": 5,
+    "value_after": 164643606.0
+   },
+   {
+    "sector": "Consumer",
+    "value_before": 115100000.0,
+    "pnl": -25847.0,
+    "positions": 4,
+    "value_after": 115074153.0
+   }
+  ],
+  "by_region": [
+   {
+    "region": "Europe",
+    "value_before": 2290162000.0,
+    "pnl": -169059201.0,
+    "positions": 44,
+    "value_after": 2121102799.0
+   },
+   {
+    "region": "North America",
+    "value_before": 1334252000.0,
+    "pnl": -112325636.0,
+    "positions": 40,
+    "value_after": 1221926364.0
+   },
+   {
+    "region": "Latin America",
+    "value_before": 922787000.0,
+    "pnl": -66405731.0,
+    "positions": 12,
+    "value_after": 856381269.0
+   },
+   {
+    "region": "Asia-Pacific",
+    "value_before": 635826000.0,
+    "pnl": -42368298.0,
+    "positions": 22,
+    "value_after": 593457702.0
+   },
+   {
+    "region": "India",
+    "value_before": 464656000.0,
+    "pnl": -29892613.0,
+    "positions": 11,
+    "value_after": 434763387.0
+   },
+   {
+    "region": "Middle East",
+    "value_before": 210251000.0,
+    "pnl": -13938107.0,
+    "positions": 11,
+    "value_after": 196312893.0
+   }
+  ],
+  "by_product": [
+   {
+    "product": "Corporate Bond",
+    "value_before": 1437591000.0,
+    "pnl": -171195856.0,
+    "positions": 33,
+    "value_after": 1266395144.0
+   },
+   {
+    "product": "Term Loan",
+    "value_before": 1812560000.0,
+    "pnl": -92606630.0,
+    "positions": 31,
+    "value_after": 1719953370.0
+   },
+   {
+    "product": "Sovereign Bond",
+    "value_before": 805552000.0,
+    "pnl": -82003651.0,
+    "positions": 13,
+    "value_after": 723548349.0
+   },
+   {
+    "product": "Trade Finance",
+    "value_before": 976050000.0,
+    "pnl": -44798030.0,
+    "positions": 13,
+    "value_after": 931251970.0
+   },
+   {
+    "product": "Revolving Credit Facility",
+    "value_before": 739070000.0,
+    "pnl": -23723476.0,
+    "positions": 16,
+    "value_after": 715346524.0
+   },
+   {
+    "product": "Interest Rate Swap",
+    "value_before": -620000.0,
+    "pnl": -13603011.0,
+    "positions": 10,
+    "value_after": -14223011.0
+   },
+   {
+    "product": "Listed Equity",
+    "value_before": 88960000.0,
+    "pnl": -5230800.0,
+    "positions": 4,
+    "value_after": 83729200.0
+   },
+   {
+    "product": "FX Forward",
+    "value_before": -368000.0,
+    "pnl": -5001122.0,
+    "positions": 9,
+    "value_after": -5369122.0
+   },
+   {
+    "product": "Credit Default Swap",
+    "value_before": -861000.0,
+    "pnl": 4172990.0,
+    "positions": 11,
+    "value_after": 3311990.0
+   }
+  ],
+  "top_losses": [
+   {
+    "trade_id": "T00043",
+    "counterparty": "Anatolia Telecom",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Communication Services",
+    "region": "Europe",
+    "rating": "B",
+    "currency": "TRY",
+    "market_value_usd": 125573000.0,
+    "stress_pnl_usd": -31863868.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00077",
+    "counterparty": "Helios Utilities plc",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Utilities",
+    "region": "Europe",
+    "rating": "A",
+    "currency": "GBP",
+    "market_value_usd": 158648000.0,
+    "stress_pnl_usd": -21407667.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00059",
+    "counterparty": "Atlas Mining Corp",
+    "asset_class": "Loan",
+    "product": "Trade Finance",
+    "sector": "Materials",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 175820000.0,
+    "stress_pnl_usd": -19380186.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00020",
+    "counterparty": "Granite Bank AG",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Financials",
+    "region": "Europe",
+    "rating": "A",
+    "currency": "EUR",
+    "market_value_usd": 154340000.0,
+    "stress_pnl_usd": -17453469.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00002",
+    "counterparty": "Harbor Point Financial",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Financials",
+    "region": "North America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 157020000.0,
+    "stress_pnl_usd": -16932676.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00050",
+    "counterparty": "Republic of Synthetica (sovereign)",
+    "asset_class": "Bond",
+    "product": "Sovereign Bond",
+    "sector": "Sovereign",
+    "region": "Latin America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 151450000.0,
+    "stress_pnl_usd": -16056675.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00064",
+    "counterparty": "Harbor Point Financial",
+    "asset_class": "Bond",
+    "product": "Corporate Bond",
+    "sector": "Financials",
+    "region": "North America",
+    "rating": "BB",
+    "currency": "USD",
+    "market_value_usd": 75625000.0,
+    "stress_pnl_usd": -15887872.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00047",
+    "counterparty": "US Treasury",
+    "asset_class": "Bond",
+    "product": "Sovereign Bond",
+    "sector": "Sovereign",
+    "region": "North America",
+    "rating": "AAA",
+    "currency": "USD",
+    "market_value_usd": 106122000.0,
+    "stress_pnl_usd": -13622647.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00060",
+    "counterparty": "Ganga Steel & Power",
+    "asset_class": "Loan",
+    "product": "Term Loan",
+    "sector": "Materials",
+    "region": "India",
+    "rating": "BB",
+    "currency": "INR",
+    "market_value_usd": 120450000.0,
+    "stress_pnl_usd": -13612884.0,
+    "jump_to_default": false
+   },
+   {
+    "trade_id": "T00062",
+    "counterparty": "US Treasury",
+    "asset_class": "Bond",
+    "product": "Sovereign Bond",
+    "sector": "Sovereign",
+    "region": "North America",
+    "rating": "AAA",
+    "currency": "USD",
+    "market_value_usd": 83475000.0,
+    "stress_pnl_usd": -11639900.0,
+    "jump_to_default": false
+   }
+  ]
+ }
+]

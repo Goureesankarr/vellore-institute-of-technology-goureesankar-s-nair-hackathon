@@ -1,0 +1,19 @@
+date,hour_utc,event_type,tickers,true_sentiment,true_impact,headline
+2026-08-18,13,Product Launch,NVDA,0.7,5.5,"Nvidia unveils next-generation Rubin Ultra AI accelerator, claims 3x inference gains"
+2026-08-19,18,Macroeconomic,MARKET,-0.5,6.0,Fed minutes show officials open to further rate hikes as inflation stays sticky
+2026-08-20,11,Earnings,WMT,0.6,5.0,Walmart beats estimates and raises full-year outlook as shoppers trade down
+2026-08-24,6,Geopolitical,XOM CVX,-0.8,8.6,Tankers attacked near the Strait of Hormuz; oil prices surge as shipping halts
+2026-08-26,15,Regulatory/Legal,BA,-0.7,6.8,FAA opens investigation into Boeing 737 MAX production after new quality lapses
+2026-08-27,12,Merger/Acquisition,MSFT,0.35,6.2,Microsoft agrees to acquire cybersecurity firm CyberNova in $28 billion all-cash deal
+2026-08-31,9,Credit Event,JPM BAC,-0.85,9.0,"Regional lender Harbor Point Financial defaults on bonds, files for Chapter 11 bankruptcy"
+2026-09-02,17,Product Launch,AAPL,0.55,5.0,Apple unveils iPhone 18 lineup with on-device AI features at annual event
+2026-09-03,14,Product Launch,PFE,0.65,5.2,"Pfizer wins FDA approval for new obesity drug, shares jump"
+2026-09-07,13,Regulatory/Legal,TSLA,-0.55,5.8,"Tesla recalls 400,000 vehicles over steering software defect"
+2026-09-09,12,Macroeconomic,MARKET,-0.7,7.8,US inflation unexpectedly accelerates; CPI rises 0.6% as energy prices surge
+2026-09-11,10,Regulatory/Legal,META GOOGL,-0.6,7.3,European Commission fines Meta EUR 4 billion under Digital Markets Act
+2026-09-15,18,Macroeconomic,MARKET,-0.6,8.2,Federal Reserve raises interest rates by 50 basis points to fight inflation
+2026-09-16,15,Other,AMZN,-0.45,5.0,"Amazon Web Services suffers major outage, disrupting thousands of websites"
+2026-09-18,11,Earnings,JPM,0.55,5.2,JPMorgan raises net interest income outlook at investor day; shares rise
+2026-09-22,7,Geopolitical,XOM CVX,0.6,6.4,Ceasefire agreed in Gulf; shipping through the Strait of Hormuz to resume
+2026-09-23,13,Regulatory/Legal,JNJ,0.3,5.0,Johnson & Johnson reaches $6.5 billion settlement to resolve talc lawsuits
+2026-09-24,12,Merger/Acquisition,XOM,0.25,6.0,Exxon Mobil to acquire shale producer Ridgeline Energy in $19 billion all-stock deal

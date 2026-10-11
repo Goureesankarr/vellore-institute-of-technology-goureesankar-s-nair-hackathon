@@ -1,0 +1,86 @@
+# Event taxonomy used by the rule-based event classifier.
+# Each category has weighted keyword/phrase patterns (regular expressions, case-insensitive).
+# Score(category) = sum(weight * matches), with title matches counted double.
+# base_severity is the starting point of the Impact Score (1-10) for that event type.
+categories:
+  Geopolitical:
+    base_severity: 6.0
+    patterns:
+      war: 3.0
+      invasion|invade[sd]?: 3.0
+      military|missile|airstrike|drone strike|troops: 2.5
+      sanction(s|ed)?: 2.5
+      conflict|hostilities|ceasefire: 2.0
+      tariff(s)?|trade war|export (ban|control)s?: 2.0
+      embargo|blockade: 2.5
+      geopolitic(al|s): 2.5
+      election|coup|unrest|protest(s)?: 1.5
+      strait of hormuz|red sea|taiwan strait|south china sea|middle east|ukraine|russia: 1.5
+      opec\+?: 1.0
+  Macroeconomic:
+    base_severity: 4.0
+    patterns:
+      federal reserve|\bthe fed\b|\bfed\b|fomc|central bank|ecb|bank of england|rbi: 2.5
+      interest rate(s)?|rate (hike|cut|decision)|basis points|\bbps\b: 2.5
+      inflation|cpi|consumer prices|pce: 2.5
+      recession|gdp|economic growth|slowdown|stagflation: 2.5
+      unemployment|jobs report|payrolls|jobless claims|labor market: 2.0
+      treasury yield(s)?|bond yield(s)?|yield curve: 2.0
+      monetary policy|fiscal|stimulus|quantitative: 2.0
+      oil price(s)?|crude|brent|wti: 1.0
+  Credit Event:
+    base_severity: 7.0
+    patterns:
+      default(s|ed)?|missed (a )?(coupon|payment): 3.0
+      bankrupt(cy)?|chapter 11|insolven(t|cy)|administration: 3.0
+      (moody's|s&p|fitch|ratings? agenc(y|ies)).{0,40}downgrade[sd]?|downgrade[sd]? .{0,30}(credit|junk|bonds?|debt|banks)|cut to junk|junk status|credit rating|outlook (to )?negative|review for downgrade: 2.5
+      debt restructuring|distressed|covenant breach|liquidity crisis|bailout: 2.5
+      credit spread(s)?|cds|credit default swap: 2.0
+      writedown|write-down|impairment|loan loss(es)?|non-performing: 2.0
+      bank run|deposit outflows|margin call: 2.5
+  Merger/Acquisition:
+    base_severity: 5.0
+    patterns:
+      acqui(re|res|red|sition|ring)|takeover|buyout: 3.0
+      merger|merge[sd]?|combine with|tie-up: 3.0
+      deal (to buy|worth|valued)|all-stock|all-cash|per share in cash: 2.5
+      divest(s|ed|iture)?|spin[- ]?off|stake in|bid for: 2.0
+      antitrust review of (the )?(deal|merger|acquisition): 1.0
+  Product Launch:
+    base_severity: 3.5
+    patterns:
+      launch(es|ed|ing)?|unveil(s|ed)?|introduc(es|ed|ing)|debut(s|ed)?: 3.0
+      new (model|product|chip|phone|device|drug|service|feature|vehicle)s?: 2.5
+      release(s|d)?|rollout|rolls out|available (now|today)|pre-?order(s)?: 1.5
+      fda approv(al|es|ed)|approval for: 2.0
+      keynote|event showcases|next-generation|next-gen: 1.5
+  Earnings:
+    base_severity: 4.5
+    patterns:
+      earnings|quarterly results|q[1-4] results|fiscal (first|second|third|fourth) quarter: 3.0
+      revenue|profit|net income|eps|per share: 1.5
+      guidance|outlook|forecast(s)?: 1.5
+      beat(s)? (estimates|expectations)|miss(es|ed)? (estimates|expectations)|consensus: 2.5
+      dividend|buyback|share repurchase: 1.5
+      upgrade[sd]?|downgrade[sd]? to (hold|sell|neutral|underweight)|price target|analysts? (raise|cut|lift)s?: 1.5
+  Regulatory/Legal:
+    base_severity: 4.5
+    patterns:
+      lawsuit|sued|sues|class action|litigation|settle(s|d|ment)?: 2.5
+      antitrust|competition authority|ftc|doj|department of justice|sec\b|securities and exchange: 2.5
+      regulator(s|y)?|probe|investigation|subpoena|fine[ds]\b|penalt(y|ies): 2.0
+      recall(s|ed)?|ban(s|ned)?|halt(s|ed)? (sales|production): 2.0
+      eu commission|european commission|digital markets act: 2.0
+default_category: Other
+other_base_severity: 2.5
+# Words that amplify the impact score regardless of category (weight = points added, capped).
+intensity_terms:
+  war|invasion|collapse|crash|crisis|panic|emergency: 1.0
+  bankrupt(cy)?|default(ed)?|insolven(t|cy): 1.0
+  record|historic|unprecedented|biggest|largest|worst|best ever: 0.6
+  plunge[sd]?|plummet(s|ed)?|tumble[sd]?|soar(s|ed)?|surge[sd]?|skyrocket(s|ed)?: 0.6
+  billion|trillion: 0.4
+  sanction(s|ed)?|embargo|blockade: 0.6
+  layoffs?|job cuts|slash(es|ed)?: 0.4
+  surprise|unexpected(ly)?|shock|jumbo|emergency: 0.8
+  half(-| a )point|50 ?(bp|bps|basis points)|75 ?(bp|bps|basis points): 0.6

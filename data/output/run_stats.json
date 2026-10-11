@@ -1,0 +1,22 @@
+{
+ "documents": 625,
+ "signals": 638,
+ "seconds": 3.3,
+ "docs_per_second": 189.5,
+ "sentiment_model": "lexicon / events:rules",
+ "mode": "replay",
+ "processed_at": "2026-10-11T06:06:58.230117+00:00",
+ "module_a": {
+  "index_return_pct": -5.63,
+  "benchmark_return_pct": -5.81,
+  "active_return_pct": 0.18,
+  "tracking_error_ann_pct": 0.9,
+  "max_drawdown_pct": -9.24,
+  "benchmark_max_drawdown_pct": -9.43,
+  "avg_turnover_pct": 3.8,
+  "rebalances": 30
+ },
+ "module_b": {
+  "stress_tests_triggered": 5
+ }
+}

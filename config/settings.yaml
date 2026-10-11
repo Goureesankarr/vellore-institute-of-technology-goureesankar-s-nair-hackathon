@@ -1,0 +1,60 @@
+# Central configuration for the AI/NLP Risk Engine and downstream modules.
+paths:
+  universe: config/universe.yaml
+  taxonomy: config/taxonomy.yaml
+  shocks: config/shocks.yaml
+  lexicons: data/lexicons
+  sample_news: data/sample/news_articles.csv
+  sample_social: data/sample/social_posts.csv
+  sample_prices: data/sample/prices_daily.csv
+  portfolio_trades: data/sample/wholesale_trades.csv
+  signals_db: data/output/signals.db
+  signals_jsonl: data/output/signals.jsonl
+  output_dir: data/output
+
+engine:
+  # "auto" = use FinBERT when transformers + model weights are available, else lexicon ensemble.
+  # Options: auto | finbert | lexicon
+  sentiment_backend: auto
+  finbert_model: ProsusAI/finbert
+  # Event classifier: rules (default, fast, explainable) or zero_shot (needs transformers).
+  event_backend: rules
+  zero_shot_model: facebook/bart-large-mnli
+  # Source credibility (0-1) used to weight signals and the impact score.
+  source_credibility:
+    newsapi: 1.0
+    news_file: 1.0
+    rss: 0.95
+    gdelt: 0.9
+    reddit: 0.55
+    social_file: 0.6
+  # Burst detection window for "novelty / volume" impact driver.
+  burst_window_hours: 6
+
+live:
+  poll_interval_seconds: 300
+  # API keys are read from environment variables (never commit keys).
+  newsapi_key_env: NEWSAPI_KEY
+  gdelt_query: '(sanctions OR "interest rate" OR default OR bankruptcy OR acquisition OR tariff OR inflation) sourcelang:english'
+  rss_feeds:
+    - https://news.google.com/rss/search?q=stock+market+when:1d&hl=en-US&gl=US&ceid=US:en
+    - https://feeds.a.dj.com/rss/RSSMarketsMain.xml
+  reddit_subreddits: [stocks, investing, wallstreetbets]
+
+module_a:
+  rebalance_frequency: 1D       # pandas offset alias; use 1h for intraday/high-frequency
+  sentiment_half_life_hours: 48 # exponential decay of older signals
+  tilt_strength: 2.0            # beta in w_i = base_i * exp(beta * S_i)
+  min_multiple_of_base: 0.4     # floor relative to benchmark weight
+  max_multiple_of_base: 2.0     # cap relative to benchmark weight
+  max_weight: 0.18              # absolute cap per stock
+  smoothing: 0.6                # move this fraction of the way to target each rebalance (turnover control)
+  min_signals: 1                # need at least this many fresh signals to tilt a stock
+
+module_b:
+  impact_threshold: 7.0         # stress test triggers when Impact Score > threshold
+  require_adverse: true         # only adverse news (sentiment < 0) triggers a stress test
+  trigger_event_types: [Geopolitical, Macroeconomic, Credit Event, Regulatory/Legal]
+  reference_impact: 8.0         # shock sizes in shocks.yaml are calibrated at this impact level
+  max_scale: 1.25
+  cet1_capital_usd: 700000000   # synthetic bank's CET1 capital allocated to this book

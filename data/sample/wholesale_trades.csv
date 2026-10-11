@@ -1,0 +1,141 @@
+trade_id,trade_date,counterparty,sector,region,currency,rating,asset_class,product,notional_usd,maturity_years,direction,rate_type,coupon,mod_duration,convexity,pd,lgd,beta,market_value_usd
+T00001,2025-10-13,US Treasury,Sovereign,North America,USD,AAA,Bond,Sovereign Bond,46070000.0,7.58,1,Fixed,0.0385,6.12,41.2,0.0002,0.45,0.0,44833000.0
+T00002,2025-08-30,Harbor Point Financial,Financials,North America,USD,BB,Loan,Term Loan,157020000.0,6.25,1,Fixed,0.0716,5.31,0.0,0.01063,0.39,0.0,157020000.0
+T00003,2026-01-23,Cascade Health Systems,Health Care,North America,USD,A,Bond,Corporate Bond,15010000.0,6.24,1,Fixed,0.0458,5.02,27.72,0.0008,0.6,0.0,14817000.0
+T00004,2025-01-21,Kestrel Airlines,Industrials,Europe,EUR,BB,Loan,Trade Finance,17810000.0,4.38,1,Floating,0.0767,0.25,0.0,0.0077,0.251,0.0,17810000.0
+T00005,2026-03-31,Helios Utilities plc,Utilities,Europe,GBP,A,Loan,Term Loan,8710000.0,9.57,1,Fixed,0.0554,5.95,0.0,0.00074,0.414,0.0,8710000.0
+T00006,2025-11-22,Deccan Infrastructure Ltd,Industrials,India,INR,BBB,Loan,Term Loan,5220000.0,8.33,1,Floating,0.0613,0.25,0.0,0.00244,0.448,0.0,5220000.0
+T00007,2025-02-18,Atlas Mining Corp,Materials,Latin America,USD,BB,Bond,Corporate Bond,5040000.0,4.79,1,Fixed,0.0708,3.74,15.39,0.009,0.6,0.0,4925000.0
+T00008,2025-02-25,Blue Harbor Logistics,Shipping & Logistics,Asia-Pacific,USD,BBB,Bond,Corporate Bond,5120000.0,5.4,1,Fixed,0.0509,4.34,20.72,0.002,0.6,0.0,5073000.0
+T00009,2025-03-02,Summit Commercial Properties,Real Estate,North America,TRY,B,Derivative,FX Forward,64990000.0,0.75,1,,0.0,0.0,0.0,0.0,0.0,0.0,190000.0
+T00010,2026-07-19,Evergreen Retail Group,Consumer,North America,USD,BBB,Loan,Term Loan,8720000.0,6.06,1,Floating,0.0598,0.25,0.0,0.00185,0.306,0.0,8720000.0
+T00011,2025-12-03,Atlas Mining Corp,Materials,Latin America,USD,BB,Loan,Trade Finance,23060000.0,1.36,1,Fixed,0.0745,1.16,0.0,0.01078,0.175,0.0,23060000.0
+T00012,2026-02-03,Republic of Synthetica (sovereign),Sovereign,Latin America,USD,BB,Bond,Sovereign Bond,79020000.0,1.31,1,Fixed,0.0693,1.14,1.43,0.009,0.45,0.0,81253000.0
+T00013,2025-06-29,Kestrel Airlines,Industrials,Europe,EUR,BB,Bond,Corporate Bond,51010000.0,0.92,1,Fixed,0.0711,0.81,0.72,0.009,0.6,0.0,50989000.0
+T00014,2025-02-27,Meridian Tankers SA,Shipping & Logistics,Europe,EUR,BB,Bond,Corporate Bond,17210000.0,2.2,1,Fixed,0.0662,1.86,3.81,0.009,0.6,0.0,16894000.0
+T00015,2025-05-20,Anatolia Telecom,Communication Services,Europe,TRY,B,Derivative,Interest Rate Swap,26260000.0,1.62,1,,0.0,1.46,0.0,0.0,0.0,0.0,-261000.0
+T00016,2025-01-11,Harbor Point Financial,Financials,North America,USD,BB,Derivative,Interest Rate Swap,74930000.0,5.24,-1,,0.0,4.72,0.0,0.0,0.0,0.0,-393000.0
+T00017,2025-01-12,Cascade Health Systems,Health Care,North America,USD,A,Bond,Corporate Bond,72300000.0,1.25,1,Fixed,0.0464,1.13,1.4,0.0008,0.6,0.0,72178000.0
+T00018,2025-12-29,Sakura Auto Parts,Industrials,Asia-Pacific,JPY,A,Bond,Corporate Bond,16390000.0,1.91,1,Fixed,0.0444,1.7,3.18,0.0008,0.6,0.0,16714000.0
+T00019,2026-03-08,Summit Commercial Properties,Real Estate,North America,USD,B,Bond,Corporate Bond,46730000.0,0.97,1,Fixed,0.0919,0.82,0.74,0.03,0.6,0.0,45389000.0
+T00020,2026-04-17,Granite Bank AG,Financials,Europe,EUR,A,Loan,Term Loan,154340000.0,5.84,1,Fixed,0.0561,4.96,0.0,0.00108,0.323,0.0,154340000.0
+T00021,2025-03-13,Lotus Electronics Co,Technology,Asia-Pacific,CNY,BBB,Loan,Term Loan,56410000.0,7.71,1,Floating,0.0603,0.25,0.0,0.00157,0.515,0.0,56410000.0
+T00022,2025-03-06,Ganga Steel & Power,Materials,India,INR,BB,Loan,Revolving Credit Facility,38460000.0,2.49,1,Floating,0.074,0.25,0.0,0.01247,0.432,0.0,38460000.0
+T00023,2025-09-28,Federal Republic of Germany,Sovereign,Europe,EUR,AAA,Bond,Sovereign Bond,24270000.0,8.55,1,Fixed,0.0423,6.78,50.57,0.0002,0.45,0.0,24990000.0
+T00024,2026-05-30,Meridian Tankers SA,Shipping & Logistics,Europe,EUR,BB,Loan,Revolving Credit Facility,79370000.0,5.44,1,Floating,0.0757,0.25,0.0,0.01187,0.358,0.0,79370000.0
+T00025,2025-08-06,Aurora Shipping Ltd,Shipping & Logistics,Middle East,USD,BB,Loan,Term Loan,4930000.0,8.07,1,Fixed,0.077,5.95,0.0,0.00891,0.383,0.0,4930000.0
+T00026,2025-09-23,Helios Utilities plc,Utilities,Europe,GBP,A,Bond,Corporate Bond,5280000.0,7.06,1,Fixed,0.0519,5.58,34.25,0.0008,0.6,0.0,5183000.0
+T00027,2026-02-15,Orion Semiconductors,Technology,Asia-Pacific,USD,A,Bond,Corporate Bond,4230000.0,3.67,1,Fixed,0.0512,3.13,10.78,0.0008,0.6,0.0,4243000.0
+T00028,2026-05-11,Kestrel Airlines,Industrials,Europe,EUR,BB,Loan,Term Loan,18640000.0,3.71,1,Floating,0.0756,0.25,0.0,0.01037,0.42,0.0,18640000.0
+T00029,2025-03-04,Sakura Auto Parts,Industrials,Asia-Pacific,JPY,A,Bond,Corporate Bond,39400000.0,8.23,1,Fixed,0.0524,6.33,44.08,0.0008,0.6,0.0,38650000.0
+T00030,2025-12-11,Federal Republic of Germany,Sovereign,Europe,EUR,AAA,Bond,Sovereign Bond,80750000.0,5.99,1,Fixed,0.045,4.99,27.39,0.0002,0.45,0.0,82540000.0
+T00031,2026-01-25,Meridian Tankers SA,Shipping & Logistics,Europe,EUR,BB,Loan,Revolving Credit Facility,13490000.0,3.72,1,Fixed,0.0737,3.16,0.0,0.00735,0.451,0.0,13490000.0
+T00032,2025-04-04,Summit Commercial Properties,Real Estate,North America,USD,B,Loan,Term Loan,43360000.0,3.08,1,Floating,0.0961,0.25,0.0,0.0288,0.507,0.0,43360000.0
+T00033,2025-02-13,Evergreen Retail Group,Consumer,North America,USD,BBB,Loan,Revolving Credit Facility,12900000.0,4.06,1,Floating,0.0634,0.25,0.0,0.00202,0.306,0.0,12900000.0
+T00034,2026-06-26,Helios Utilities plc,Utilities,Europe,GBP,A,Bond,Corporate Bond,46780000.0,7.46,1,Fixed,0.0471,5.84,37.52,0.0008,0.6,0.0,45981000.0
+T00035,2025-02-12,Aurora Shipping Ltd,Shipping & Logistics,Middle East,USD,BB,Derivative,Interest Rate Swap,107070000.0,1.76,-1,,0.0,1.58,0.0,0.0,0.0,0.0,-241000.0
+T00036,2025-04-05,Aurora Shipping Ltd,Shipping & Logistics,Middle East,JPY,BB,Derivative,FX Forward,4620000.0,1.34,-1,,0.0,0.0,0.0,0.0,0.0,0.0,-37000.0
+T00037,2025-08-08,Blue Harbor Logistics,Shipping & Logistics,Asia-Pacific,USD,BBB,Derivative,Interest Rate Swap,20220000.0,7.71,-1,,0.0,6.94,0.0,0.0,0.0,0.0,-121000.0
+T00038,2025-10-12,Sakura Auto Parts,Industrials,Asia-Pacific,JPY,A,Loan,Term Loan,44360000.0,6.88,1,Floating,0.0531,0.25,0.0,0.00062,0.54,0.0,44360000.0
+T00039,2025-10-10,Aurora Shipping Ltd,Shipping & Logistics,Middle East,USD,BB,Bond,Corporate Bond,20340000.0,5.72,1,Fixed,0.0634,4.34,20.72,0.009,0.6,0.0,20529000.0
+T00040,2025-12-18,Banco Austral,Financials,Latin America,BRL,BB,Loan,Term Loan,12430000.0,6.33,1,Fixed,0.0731,5.38,0.0,0.00712,0.418,0.0,12430000.0
+T00041,2025-07-08,Aurora Shipping Ltd,Shipping & Logistics,Middle East,USD,BB,Bond,Corporate Bond,41080000.0,4.55,1,Fixed,0.069,3.57,14.02,0.009,0.6,0.0,42000000.0
+T00042,2025-07-27,Atlas Mining Corp,Materials,Latin America,USD,BB,Bond,Corporate Bond,78490000.0,3.47,1,Fixed,0.0691,2.82,8.75,0.009,0.6,0.0,79036000.0
+T00043,2026-04-30,Anatolia Telecom,Communication Services,Europe,TRY,B,Bond,Corporate Bond,127910000.0,8.22,1,Fixed,0.083,5.25,30.32,0.03,0.6,0.0,125573000.0
+T00044,2025-09-27,Anatolia Telecom,Communication Services,Europe,TRY,B,Bond,Corporate Bond,66950000.0,2.63,1,Fixed,0.0911,2.08,4.76,0.03,0.6,0.0,66109000.0
+T00045,2026-04-15,Granite Bank AG,Financials,Europe,EUR,A,Bond,Corporate Bond,44620000.0,8.88,1,Fixed,0.0489,6.73,49.82,0.0008,0.6,0.0,43039000.0
+T00046,2025-12-28,Cascade Health Systems,Health Care,North America,USD,A,Loan,Term Loan,85370000.0,3.18,1,Fixed,0.056,2.7,0.0,0.00084,0.401,0.0,85370000.0
+T00047,2026-07-05,US Treasury,Sovereign,North America,USD,AAA,Bond,Sovereign Bond,105980000.0,8.03,1,Fixed,0.0416,6.43,45.48,0.0002,0.45,0.0,106122000.0
+T00048,2025-03-14,Banco Austral,Financials,Latin America,BRL,BB,Loan,Term Loan,86360000.0,5.08,1,Floating,0.0715,0.25,0.0,0.01067,0.408,0.0,86360000.0
+T00049,2025-03-26,Orion Semiconductors,Technology,Asia-Pacific,USD,A,Equity,Listed Equity,32330000.0,0.0,1,,0.0,0.0,0.0,0.0,0.0,1.32,32330000.0
+T00050,2025-04-15,Republic of Synthetica (sovereign),Sovereign,Latin America,USD,BB,Bond,Sovereign Bond,155760000.0,3.59,1,Fixed,0.0702,2.91,9.31,0.009,0.45,0.0,151450000.0
+T00051,2026-01-29,Gulfstar Petrochemicals,Energy,Middle East,USD,BBB,Derivative,Credit Default Swap,126520000.0,8.23,1,,0.0,4.5,0.0,0.0,0.0,0.0,-7000.0
+T00052,2025-01-06,Gulfstar Petrochemicals,Energy,Middle East,USD,BBB,Bond,Corporate Bond,22540000.0,8.93,1,Fixed,0.0566,6.58,47.63,0.002,0.6,0.0,22681000.0
+T00053,2025-08-04,Summit Commercial Properties,Real Estate,North America,USD,B,Loan,Trade Finance,52310000.0,4.75,1,Fixed,0.0961,4.04,0.0,0.02729,0.269,0.0,52310000.0
+T00054,2026-06-12,Ganga Steel & Power,Materials,India,INR,BB,Bond,Corporate Bond,47840000.0,6.04,1,Fixed,0.066,4.53,22.57,0.009,0.6,0.0,46354000.0
+T00055,2026-01-08,Lotus Electronics Co,Technology,Asia-Pacific,CNY,BBB,Loan,Term Loan,118720000.0,0.51,1,Floating,0.063,0.25,0.0,0.00261,0.359,0.0,118720000.0
+T00056,2026-03-27,Federal Republic of Germany,Sovereign,Europe,EUR,AAA,Bond,Sovereign Bond,43390000.0,4.36,1,Fixed,0.0425,3.75,15.47,0.0002,0.45,0.0,43667000.0
+T00057,2026-03-09,Helios Utilities plc,Utilities,Europe,GBP,A,Loan,Trade Finance,95380000.0,9.28,1,Floating,0.054,0.25,0.0,0.00105,0.169,0.0,95380000.0
+T00058,2026-03-29,Harbor Point Financial,Financials,North America,USD,BB,Loan,Term Loan,16330000.0,5.12,1,Floating,0.0706,0.25,0.0,0.01035,0.404,0.0,16330000.0
+T00059,2026-04-16,Atlas Mining Corp,Materials,Latin America,USD,BB,Loan,Trade Finance,175820000.0,6.42,1,Fixed,0.073,5.46,0.0,0.01147,0.208,0.0,175820000.0
+T00060,2025-09-05,Ganga Steel & Power,Materials,India,INR,BB,Loan,Term Loan,120450000.0,5.23,1,Fixed,0.0735,4.45,0.0,0.00889,0.437,0.0,120450000.0
+T00061,2026-05-14,Northwind Energy Corp,Energy,North America,USD,BBB,Loan,Revolving Credit Facility,110820000.0,4.0,1,Fixed,0.0576,3.4,0.0,0.00242,0.432,0.0,110820000.0
+T00062,2025-04-06,US Treasury,Sovereign,North America,USD,AAA,Bond,Sovereign Bond,83130000.0,8.95,1,Fixed,0.0395,7.04,54.52,0.0002,0.45,0.0,83475000.0
+T00063,2025-11-21,Granite Bank AG,Financials,Europe,EUR,A,Bond,Corporate Bond,10740000.0,5.62,1,Fixed,0.0501,4.59,23.17,0.0008,0.6,0.0,10990000.0
+T00064,2025-12-11,Harbor Point Financial,Financials,North America,USD,BB,Bond,Corporate Bond,73620000.0,9.11,1,Fixed,0.0662,6.24,42.83,0.009,0.6,0.0,75625000.0
+T00065,2025-11-13,Summit Commercial Properties,Real Estate,North America,USD,B,Derivative,Interest Rate Swap,12210000.0,9.27,-1,,0.0,8.34,0.0,0.0,0.0,0.0,-107000.0
+T00066,2025-02-02,Kestrel Airlines,Industrials,Europe,EUR,BB,Loan,Trade Finance,123100000.0,9.91,1,Floating,0.0734,0.25,0.0,0.0071,0.162,0.0,123100000.0
+T00067,2025-09-26,Pinecrest Real Estate Trust,Real Estate,North America,USD,BBB,Derivative,Interest Rate Swap,15690000.0,3.11,1,,0.0,2.8,0.0,0.0,0.0,0.0,76000.0
+T00068,2025-09-04,Meridian Tankers SA,Shipping & Logistics,Europe,EUR,BB,Bond,Corporate Bond,71090000.0,2.17,1,Fixed,0.0668,1.84,3.72,0.009,0.6,0.0,72224000.0
+T00069,2025-06-12,Orion Semiconductors,Technology,Asia-Pacific,CNY,A,Derivative,FX Forward,11870000.0,1.15,-1,,0.0,0.0,0.0,0.0,0.0,0.0,-21000.0
+T00070,2025-12-25,Granite Bank AG,Financials,Europe,EUR,A,Loan,Revolving Credit Facility,38190000.0,2.09,1,Floating,0.0565,0.25,0.0,0.00098,0.329,0.0,38190000.0
+T00071,2026-07-05,Summit Commercial Properties,Real Estate,North America,USD,B,Loan,Revolving Credit Facility,37730000.0,7.65,1,Floating,0.0927,0.25,0.0,0.03582,0.419,0.0,37730000.0
+T00072,2025-11-25,Harbor Point Financial,Financials,North America,BRL,BB,Derivative,FX Forward,29270000.0,0.24,1,,0.0,0.0,0.0,0.0,0.0,0.0,18000.0
+T00073,2025-12-15,Ganga Steel & Power,Materials,India,INR,BB,Loan,Revolving Credit Facility,97430000.0,8.65,1,Floating,0.0719,0.25,0.0,0.00692,0.464,0.0,97430000.0
+T00074,2025-07-24,Blue Harbor Logistics,Shipping & Logistics,Asia-Pacific,USD,BBB,Derivative,Interest Rate Swap,21870000.0,6.09,-1,,0.0,5.48,0.0,0.0,0.0,0.0,78000.0
+T00075,2025-03-16,Orion Semiconductors,Technology,Asia-Pacific,USD,A,Equity,Listed Equity,24130000.0,0.0,1,,0.0,0.0,0.0,0.0,0.0,0.81,24130000.0
+T00076,2025-09-20,Aurora Shipping Ltd,Shipping & Logistics,Middle East,USD,BB,Loan,Term Loan,70550000.0,7.39,1,Floating,0.0702,0.25,0.0,0.0102,0.314,0.0,70550000.0
+T00077,2025-05-08,Helios Utilities plc,Utilities,Europe,GBP,A,Bond,Corporate Bond,158280000.0,7.23,1,Fixed,0.0449,5.69,35.61,0.0008,0.6,0.0,158648000.0
+T00078,2025-09-22,Granite Bank AG,Financials,Europe,EUR,A,Loan,Revolving Credit Facility,13370000.0,7.11,1,Floating,0.0553,0.25,0.0,0.00108,0.46,0.0,13370000.0
+T00079,2025-10-16,Ganga Steel & Power,Materials,India,INR,BB,Loan,Term Loan,36120000.0,7.92,1,Floating,0.0727,0.25,0.0,0.0084,0.315,0.0,36120000.0
+T00080,2025-07-30,Pinecrest Real Estate Trust,Real Estate,North America,USD,BBB,Derivative,Credit Default Swap,14640000.0,5.17,-1,,0.0,4.5,0.0,0.0,0.0,0.0,-16000.0
+T00081,2025-04-24,Aurora Shipping Ltd,Shipping & Logistics,Middle East,USD,BB,Bond,Corporate Bond,15240000.0,4.6,1,Fixed,0.0711,3.61,14.34,0.009,0.6,0.0,15394000.0
+T00082,2026-04-07,Gulfstar Petrochemicals,Energy,Middle East,USD,BBB,Loan,Term Loan,10290000.0,2.88,1,Floating,0.0633,0.25,0.0,0.00161,0.46,0.0,10290000.0
+T00083,2026-02-10,Granite Bank AG,Financials,Europe,EUR,A,Derivative,Credit Default Swap,45330000.0,7.15,-1,,0.0,4.5,0.0,0.0,0.0,0.0,-225000.0
+T00084,2025-03-18,US Treasury,Sovereign,North America,USD,AAA,Bond,Sovereign Bond,48080000.0,7.41,1,Fixed,0.0424,6.0,39.6,0.0002,0.45,0.0,46168000.0
+T00085,2026-01-08,Cascade Health Systems,Health Care,North America,USD,A,Derivative,Credit Default Swap,10270000.0,9.38,1,,0.0,4.5,0.0,0.0,0.0,0.0,19000.0
+T00086,2025-12-20,Blue Harbor Logistics,Shipping & Logistics,Asia-Pacific,USD,BBB,Loan,Revolving Credit Facility,4550000.0,8.61,1,Floating,0.0629,0.25,0.0,0.00246,0.372,0.0,4550000.0
+T00087,2025-04-25,Deccan Infrastructure Ltd,Industrials,India,INR,BBB,Bond,Corporate Bond,18390000.0,4.21,1,Fixed,0.0553,3.49,13.4,0.002,0.6,0.0,18117000.0
+T00088,2025-09-07,Anatolia Telecom,Communication Services,Europe,TRY,B,Loan,Term Loan,17120000.0,2.33,1,Floating,0.0927,0.25,0.0,0.03765,0.461,0.0,17120000.0
+T00089,2025-02-18,Anatolia Telecom,Communication Services,Europe,TRY,B,Loan,Trade Finance,4070000.0,1.03,1,Floating,0.0908,0.25,0.0,0.03795,0.25,0.0,4070000.0
+T00090,2025-03-20,Granite Bank AG,Financials,Europe,EUR,A,Loan,Trade Finance,85960000.0,6.0,1,Floating,0.0571,0.25,0.0,0.00083,0.153,0.0,85960000.0
+T00091,2025-01-20,US Treasury,Sovereign,North America,GBP,AAA,Derivative,FX Forward,4490000.0,1.37,1,,0.0,0.0,0.0,0.0,0.0,0.0,29000.0
+T00092,2025-05-02,Kestrel Airlines,Industrials,Europe,EUR,BB,Loan,Term Loan,123840000.0,8.27,1,Floating,0.0742,0.25,0.0,0.01018,0.316,0.0,123840000.0
+T00093,2026-07-18,Orion Semiconductors,Technology,Asia-Pacific,USD,A,Loan,Term Loan,46480000.0,9.77,1,Floating,0.0543,0.25,0.0,0.0011,0.353,0.0,46480000.0
+T00094,2026-03-07,Kestrel Airlines,Industrials,Europe,EUR,BB,Loan,Term Loan,33010000.0,3.1,1,Floating,0.0749,0.25,0.0,0.00979,0.41,0.0,33010000.0
+T00095,2026-01-26,Northwind Energy Corp,Energy,North America,USD,BBB,Derivative,Credit Default Swap,12600000.0,8.55,1,,0.0,4.5,0.0,0.0,0.0,0.0,-61000.0
+T00096,2025-10-23,Harbor Point Financial,Financials,North America,USD,BB,Loan,Trade Finance,4360000.0,1.35,1,Floating,0.0749,0.25,0.0,0.01129,0.221,0.0,4360000.0
+T00097,2025-07-03,Meridian Tankers SA,Shipping & Logistics,Europe,EUR,BB,Loan,Term Loan,25230000.0,4.41,1,Fixed,0.0748,3.75,0.0,0.01006,0.479,0.0,25230000.0
+T00098,2025-09-04,Gulfstar Petrochemicals,Energy,Middle East,USD,BBB,Bond,Corporate Bond,23480000.0,0.54,1,Fixed,0.0509,0.49,0.26,0.002,0.6,0.0,24162000.0
+T00099,2025-08-07,Lotus Electronics Co,Technology,Asia-Pacific,CNY,BBB,Equity,Listed Equity,30090000.0,0.0,1,,0.0,0.0,0.0,0.0,0.0,0.99,30090000.0
+T00100,2025-02-19,Meridian Tankers SA,Shipping & Logistics,Europe,EUR,BB,Loan,Term Loan,74930000.0,2.02,1,Floating,0.0745,0.25,0.0,0.0081,0.409,0.0,74930000.0
+T00101,2026-07-10,Anatolia Telecom,Communication Services,Europe,TRY,B,Loan,Revolving Credit Facility,1800000.0,1.0,1,Floating,0.0911,0.25,0.0,0.02161,0.429,0.0,1800000.0
+T00102,2025-12-05,Anatolia Telecom,Communication Services,Europe,TRY,B,Loan,Term Loan,154790000.0,4.48,1,Floating,0.0955,0.25,0.0,0.02785,0.325,0.0,154790000.0
+T00103,2025-03-02,US Treasury,Sovereign,North America,USD,AAA,Bond,Sovereign Bond,16590000.0,6.06,1,Fixed,0.0459,5.04,27.94,0.0002,0.45,0.0,16095000.0
+T00104,2025-07-23,Anatolia Telecom,Communication Services,Europe,TRY,B,Derivative,Credit Default Swap,14320000.0,1.8,-1,,0.0,1.62,0.0,0.0,0.0,0.0,-20000.0
+T00105,2025-10-20,Orion Semiconductors,Technology,Asia-Pacific,USD,A,Loan,Term Loan,12190000.0,5.9,1,Floating,0.0528,0.25,0.0,0.00082,0.405,0.0,12190000.0
+T00106,2025-06-29,Banco Austral,Financials,Latin America,BRL,BB,Derivative,Interest Rate Swap,26040000.0,8.0,1,,0.0,7.2,0.0,0.0,0.0,0.0,-215000.0
+T00107,2025-10-18,Cascade Health Systems,Health Care,North America,EUR,A,Derivative,FX Forward,20730000.0,1.13,-1,,0.0,0.0,0.0,0.0,0.0,0.0,-105000.0
+T00108,2025-01-11,Banco Austral,Financials,Latin America,BRL,BB,Loan,Revolving Credit Facility,125060000.0,9.18,1,Floating,0.0769,0.25,0.0,0.00655,0.418,0.0,125060000.0
+T00109,2025-04-16,Evergreen Retail Group,Consumer,North America,USD,BBB,Loan,Term Loan,49590000.0,8.08,1,Floating,0.0605,0.25,0.0,0.00152,0.488,0.0,49590000.0
+T00110,2025-04-08,Ganga Steel & Power,Materials,India,INR,BB,Bond,Corporate Bond,17060000.0,3.31,1,Fixed,0.0622,2.7,8.02,0.009,0.6,0.0,17177000.0
+T00111,2026-04-16,Anatolia Telecom,Communication Services,Europe,TRY,B,Loan,Term Loan,164840000.0,0.73,1,Floating,0.0954,0.25,0.0,0.03936,0.401,0.0,164840000.0
+T00112,2025-03-19,Lotus Electronics Co,Technology,Asia-Pacific,CNY,BBB,Derivative,Interest Rate Swap,81120000.0,0.51,-1,,0.0,0.46,0.0,0.0,0.0,0.0,638000.0
+T00113,2026-07-15,Northwind Energy Corp,Energy,North America,USD,BBB,Loan,Revolving Credit Facility,18250000.0,3.06,1,Fixed,0.0626,2.6,0.0,0.0025,0.32,0.0,18250000.0
+T00114,2026-01-15,Federal Republic of Germany,Sovereign,Europe,EUR,AAA,Bond,Sovereign Bond,46210000.0,1.55,1,Fixed,0.0417,1.41,2.19,0.0002,0.45,0.0,44494000.0
+T00115,2025-05-27,Sakura Auto Parts,Industrials,Asia-Pacific,JPY,A,Loan,Revolving Credit Facility,7940000.0,7.85,1,Floating,0.0537,0.25,0.0,0.00062,0.42,0.0,7940000.0
+T00116,2025-11-30,Atlas Mining Corp,Materials,Latin America,USD,BB,Bond,Corporate Bond,22030000.0,7.73,1,Fixed,0.0655,5.51,33.4,0.009,0.6,0.0,21561000.0
+T00117,2026-05-18,Pinecrest Real Estate Trust,Real Estate,North America,USD,BBB,Bond,Corporate Bond,4130000.0,3.78,1,Fixed,0.054,3.17,11.05,0.002,0.6,0.0,4205000.0
+T00118,2026-01-17,Sakura Auto Parts,Industrials,Asia-Pacific,JPY,A,Loan,Trade Finance,115980000.0,4.79,1,Fixed,0.0586,4.07,0.0,0.00101,0.291,0.0,115980000.0
+T00119,2025-10-28,Anatolia Telecom,Communication Services,Europe,TRY,B,Loan,Term Loan,8320000.0,9.03,1,Floating,0.0908,0.25,0.0,0.02679,0.474,0.0,8320000.0
+T00120,2026-03-08,Helios Utilities plc,Utilities,Europe,GBP,A,Loan,Trade Finance,118080000.0,0.72,1,Fixed,0.0558,0.61,0.0,0.00063,0.202,0.0,118080000.0
+T00121,2025-08-31,Harbor Point Financial,Financials,North America,USD,BB,Loan,Trade Finance,21890000.0,0.71,1,Fixed,0.0745,0.6,0.0,0.00889,0.201,0.0,21890000.0
+T00122,2026-04-06,Orion Semiconductors,Technology,Asia-Pacific,USD,A,Bond,Corporate Bond,77800000.0,7.12,1,Fixed,0.0486,5.62,34.74,0.0008,0.6,0.0,77777000.0
+T00123,2026-01-21,Summit Commercial Properties,Real Estate,North America,JPY,B,Derivative,FX Forward,16740000.0,0.31,1,,0.0,0.0,0.0,0.0,0.0,0.0,-72000.0
+T00124,2025-07-04,US Treasury,Sovereign,North America,USD,AAA,Derivative,Credit Default Swap,16270000.0,3.21,-1,,0.0,2.89,0.0,0.0,0.0,0.0,31000.0
+T00125,2025-11-26,Meridian Tankers SA,Shipping & Logistics,Europe,EUR,BB,Bond,Corporate Bond,13430000.0,0.89,1,Fixed,0.0677,0.78,0.67,0.009,0.6,0.0,13307000.0
+T00126,2025-12-24,Helios Utilities plc,Utilities,Europe,GBP,A,Loan,Revolving Credit Facility,56380000.0,6.82,1,Floating,0.0546,0.25,0.0,0.00086,0.341,0.0,56380000.0
+T00127,2025-11-29,Deccan Infrastructure Ltd,Industrials,India,INR,BBB,Derivative,Credit Default Swap,83060000.0,9.5,1,,0.0,4.5,0.0,0.0,0.0,0.0,-412000.0
+T00128,2025-06-05,US Treasury,Sovereign,North America,USD,AAA,Bond,Sovereign Bond,24740000.0,3.25,1,Fixed,0.045,2.86,9.0,0.0002,0.45,0.0,25012000.0
+T00129,2025-05-28,Orion Semiconductors,Technology,Asia-Pacific,USD,A,Derivative,Credit Default Swap,10930000.0,9.05,-1,,0.0,4.5,0.0,0.0,0.0,0.0,6000.0
+T00130,2025-04-10,Deccan Infrastructure Ltd,Industrials,India,INR,BBB,Loan,Revolving Credit Facility,83330000.0,4.74,1,Floating,0.0574,0.25,0.0,0.0023,0.446,0.0,83330000.0
+T00131,2026-04-07,Pinecrest Real Estate Trust,Real Estate,North America,USD,BBB,Derivative,Credit Default Swap,16180000.0,5.61,-1,,0.0,4.5,0.0,0.0,0.0,0.0,28000.0
+T00132,2026-06-13,Evergreen Retail Group,Consumer,North America,USD,BBB,Loan,Term Loan,43890000.0,3.52,1,Floating,0.0634,0.25,0.0,0.00191,0.337,0.0,43890000.0
+T00133,2025-12-31,Lotus Electronics Co,Technology,Asia-Pacific,JPY,BBB,Derivative,FX Forward,47460000.0,1.32,-1,,0.0,0.0,0.0,0.0,0.0,0.0,-391000.0
+T00134,2026-03-16,Federal Republic of Germany,Sovereign,Europe,EUR,AAA,Bond,Sovereign Bond,56070000.0,3.24,1,Fixed,0.0443,2.85,8.93,0.0002,0.45,0.0,55453000.0
+T00135,2026-06-27,US Treasury,Sovereign,North America,USD,A,Derivative,Interest Rate Swap,8570000.0,3.38,-1,,0.0,3.04,0.0,0.0,0.0,0.0,-74000.0
+T00136,2025-10-12,Deccan Infrastructure Ltd,Industrials,India,INR,BBB,Equity,Listed Equity,2410000.0,0.0,1,,0.0,0.0,0.0,0.0,0.0,1.09,2410000.0
+T00137,2025-07-15,Atlas Mining Corp,Materials,Latin America,USD,BB,Bond,Corporate Bond,165310000.0,1.8,1,Fixed,0.0703,1.54,2.61,0.009,0.6,0.0,162047000.0
+T00138,2026-04-25,Summit Commercial Properties,Real Estate,North America,USD,B,Loan,Trade Finance,138230000.0,5.81,1,Floating,0.0902,0.25,0.0,0.02105,0.189,0.0,138230000.0
+T00139,2025-10-27,Federal Republic of Germany,Sovereign,Europe,EUR,AAA,Derivative,Credit Default Swap,63730000.0,6.83,1,,0.0,4.5,0.0,0.0,0.0,0.0,-204000.0
+T00140,2026-05-25,Federal Republic of Germany,Sovereign,Europe,EUR,AAA,Derivative,FX Forward,16230000.0,0.91,-1,,0.0,0.0,0.0,0.0,0.0,0.0,21000.0
