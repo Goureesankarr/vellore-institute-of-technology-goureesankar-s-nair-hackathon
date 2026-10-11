@@ -5,7 +5,7 @@ Backends (selected by settings.engine.sentiment_backend):
 * ``finbert``  - ProsusAI/finbert transformer (score = P(positive) - P(negative)), blended 75/25 with
                  the lexicon model so social-media slang and emojis still count.
 * ``lexicon``  - fully offline, explainable ensemble:
-                 (1) Loughran-McDonald financial word lists,
+                 (1) Loughran-McDonald financial word lists (+ Hu & Liu opinion lexicon at half weight),
                  (2) a curated finance phrase lexicon (e.g. "beats estimates", "cuts guidance",
                      "inflation surges"), with negation handling,
                  (3) VADER for social posts (emojis, slang, intensity), when installed.
@@ -23,6 +23,7 @@ from pathlib import Path
 from typing import Optional, Protocol
 
 from ... import config
+from .supervised import sentiment_proba
 from .text import clean, tokens
 
 log = logging.getLogger(__name__)
@@ -36,6 +37,15 @@ PHRASES: dict[str, float] = {
     # ---- dismissals of risk (must precede the risk words they contain)
     r"(contagion |recession |crash |sell-?off )?(fears|worries|concerns) (are|look|seem) (overdone|overblown|exaggerated)": 2.0,
     r"(is|remains) a fortress|fortress balance sheet": 1.5,
+    r"(not|n't|no longer) (worried|concerned)|no concerns?": 1.0,
+    # ---- removal of a negative (must precede the negative word itself)
+    r"(lift(s|ed)?|eas(es|ed|ing)|remov(es|ed)|relief( deal)?|scrap(s|ped)?) .{0,20}(sanctions|embargo|tariffs?|ban|restrictions)|(sanctions|embargo|tariffs?|ban) (relief|lifted|removed|eased)": 1.8,
+    r"lower(s|ing|ed)? tariffs|tariff cuts?|trade (pact|deal|agreement|truce)": 1.5,
+    r"avoids?|averts?|avoided|averted": 1.2,
+    r"dismiss(es|ed)? .{0,25}(lawsuit|case|charges|suit)|drops? (the )?(case|charges)|cleared of|rul(es|ed|ing) in (favou?r)|wins? (the )?(case|appeal|lawsuit)": 1.8,
+    r"(ending|ends?|ended) .{0,20}strike|reach(es|ed)? (an )?agreement": 1.2,
+    r"unemployment (falls?|fell|drops?|declines?)|jobless claims (fall|fell|drop)": 1.5,
+    r"(jobless claims|unemployment|layoffs) (rises?|rose|jumps?|climbs?|surges?)": -1.5,
     # ---- earnings / guidance / analysts
     r"beat(s|ing)? (analyst )?(estimates|expectations|forecasts|consensus)": 2.0,
     r"(top|tops|topped|above|ahead of) (analyst )?(estimates|expectations|consensus|forecasts)": 2.0,
@@ -45,10 +55,17 @@ PHRASES: dict[str, float] = {
     r"(cut(s|ting)?|lower(s|ed)?|slash(es|ed)?|trim(s|med)?) (its |their |full-year |annual )*(guidance|outlook|forecast|price targets?|estimates|dividend)": -2.0,
     r"upgrade[sd]?( to buy)?": 1.5, r"downgrade[sd]?": -1.5, r"price target raised": 1.5,
     r"record (high|revenue|profit|sales|earnings)": 1.5, r"all-time high": 1.5,
-    r"strong (demand|results|quarter|growth|reception|execution)": 1.5,
+    r"strong(ly)? (demand|results|quarter|growth|reception|execution|jobs|payrolls|rebound)|rebound(s|ed)? strongly": 1.5,
     r"weak(er)? (demand|results|quarter|guidance|growth)": -1.5, r"slowing demand": -1.5,
     r"(share )?buyback|share repurchase": 1.0, r"cost synergies": 0.8,
-    r"bolster(s|ed)?|strengthen(s|ed)?|accretive|add to earnings|fills a gap": 0.8,
+    r"bolster(s|ed)?|strengthen(s|ed)?|accretive|add to earnings|fills a gap|synergies": 0.8,
+    r"(faster|stronger|better) than (expected|forecast)|beats? forecasts": 1.5,
+    r"(slower|weaker|worse) than (expected|forecast)": -1.5,
+    # ---- corporate actions: deals and launches read as growth unless they fail
+    r"walks? away|(talks|deal|bid) (collapse[sd]?|fail(s|ed)?|falls? through)|block(s|ed)? .{0,30}(takeover|merger|deal|acquisition)": -1.5,
+    r"acquir(e|es|ed|ing)|acquisition|merger|takeover|buyout( offer)?|combine with|all-stock deal|at .{0,6}% premium": 0.6,
+    r"delay(s|ed|ing)? .{0,15}(launch|release|rollout)|delays?": -1.2,
+    r"launch(es|ed)?|unveil(s|ed)?|introduc(es|ed)|debut(s|ed)?|rolls? out|pre-?order(s|ed)?": 0.8,
     r"margin (pressure|squeeze)": -1.2, r"higher costs": -1.0,
     # ---- macro: rising prices/yields/rates are bad news for markets
     r"(inflation|prices|costs|yields?|rates) (surge[sd]?|soar(s|ed|ing)?|jump(s|ed)?|climb(s|ed)?|spike[sd]?|accelerat(es|ed|ing))": -1.8,
@@ -66,6 +83,9 @@ PHRASES: dict[str, float] = {
     r"credit quality (remains|remained) strong": 1.5,
     r"loan losses|write-?downs?|impairments?": -1.5,
     # ---- geopolitics / operations / legal
+    r"tensions? (rise|rises|rising|escalate|mount)|troops mass|coup( attempt)?|export controls? .{0,15}tighten(ed)?": -1.5,
+    r"calm(s|ing|ed)? (the )?markets|uncertainty fades|rescue[sd]?": 1.2,
+    r"fire at|halts? (output|production|operations)|strike (at|enters|continues)": -1.2,
     r"\bwar\b|invasion|airstrikes?|drone strikes?|attack(s|ed)?|military escalation|escalat(es|ed|ion)": -2.0,
     r"ceasefire|peace deal|truce|de-?escalat(es|ed|ion)": 1.8,
     r"sanctions?|embargo|blockade|tariffs?": -1.2,
@@ -73,14 +93,14 @@ PHRASES: dict[str, float] = {
     r"fine[ds]\b|record (fine|penalty)|penalt(y|ies)": -1.2,
     r"outage|disrupt(s|ed|ion|ing)": -1.2, r"halt(s|ed)? (deliveries|production|transits|sales)|shipping halts": -1.5,
     r"layoffs?|job cuts": -1.0, r"quality (lapses|problems)": -1.5,
-    r"(fda )?approv(al|es|ed)": 1.2, r"settle(s|d|ment)? .{0,40}(lawsuits?|litigation)|overhang removed|removes? .{0,25}overhang": 1.2,
+    r"fda approv(al|es|ed)|wins? .{0,25}approval|approv(al|ed) for": 1.2, r"settle(s|d|ment)? .{0,40}(lawsuits?|litigation)|overhang removed|removes? .{0,25}overhang": 1.2,
     # ---- market moves
     r"shares? (rise|rose|jump(s|ed)?|gain(s|ed)?|climb(s|ed)?|rall(y|ies|ied)|surge[sd]?|soar(s|ed)?)": 1.5,
     r"shares? (fall|fell|slip(s|ped)?|slide|slid|drop(s|ped)?|sink(s)?|sank|tumble[sd]?|plunge[sd]?)": -1.5,
     r"stocks? (rall(y|ies|ied)|rebound(s|ed)?|rise|rose|climb(s|ed)?)": 1.2,
     r"stocks? (fall|fell|slip(s|ped)?|slide|tumble[sd]?|plunge[sd]?|sink|sank)": -1.2,
     r"rall(y|ies|ied)|rebound(s|ed)?|soar(s|ed)?|surge[sd]?|jump(s|ed)?": 1.0,
-    r"tumble[sd]?|plunge[sd]?|plummet(s|ed)?|slump(s|ed)?|tank(s|ed|ing)|crash(es|ed)?|slide|slid|bleeding|getting (smoked|crushed|hammered|dragged)|hammered": -1.4,
+    r"tumbl(e|es|ed|ing)|plung(e|es|ed|ing)|plummet(s|ed|ing)?|sinking|sliding|slump(s|ed)?|tank(s|ed|ing)|crash(es|ed)?|slide|slid|bleeding|getting (smoked|crushed|hammered|dragged)|hammered": -1.4,
     # ---- social / retail slang
     r"to the moon|\U0001F680": 1.5, r"\U0001F4C8": 1.0, r"\U0001F4C9": -1.0,
     r"bullish|long and strong|breaking out|crushed it|buying the dip|buy the dip|adding (more|back)|added more": 1.5,
@@ -111,8 +131,8 @@ class SentimentModel(Protocol):
     def score_many(self, texts: list[str], source_type: str = "news") -> list[SentimentResult]: ...
 
 
-def _load_words(folder: Path, name: str) -> set[str]:
-    p = folder / f"lm_{name}.txt"
+def _load_words(folder: Path, name: str, prefix: str = "lm") -> set[str]:
+    p = folder / f"{prefix}_{name}.txt"
     if not p.exists():
         return set()
     return {w.strip() for w in p.read_text(encoding="utf-8").splitlines() if w.strip() and not w.startswith("#")}
@@ -123,12 +143,17 @@ class LexiconSentiment:
 
     name = "lexicon"
 
-    def __init__(self, lexicon_dir: Optional[Path] = None) -> None:
+    def __init__(self, lexicon_dir: Optional[Path] = None, use_supervised: bool = True) -> None:
         folder = lexicon_dir or config.path("lexicons")
+        self.use_supervised = use_supervised
         self.pos = _load_words(folder, "positive")
         self.neg = _load_words(folder, "negative")
         # LM lists flag some words that are neutral in news flow; drop the noisiest.
-        self.neg -= {"question", "questions", "against", "closed", "closing", "critical", "force"}
+        self.neg -= {"question", "questions", "against", "closed", "closing", "critical", "force", "claims"}
+        self.pos -= {"stable", "effective", "highest"}
+        # broad general-purpose opinion lexicon (Hu & Liu) at lower weight, for words LM does not cover
+        self.gpos = _load_words(folder, "positive", "huliu") - self.neg
+        self.gneg = _load_words(folder, "negative", "huliu") - self.pos - {"fall", "falls", "fell", "issue", "issues"}
         try:
             from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
             self.vader = SentimentIntensityAnalyzer()
@@ -157,7 +182,8 @@ class LexiconSentiment:
             pos_iter = idx + len(t) if idx >= 0 else pos_iter
             if idx >= 0 and any(a <= idx < b for a, b in covered):
                 continue
-            w = 0.8 if t in self.pos else -0.8 if t in self.neg else 0.0
+            w = (0.8 if t in self.pos else -0.8 if t in self.neg else
+                 0.5 if t in self.gpos else -0.5 if t in self.gneg else 0.0)
             if not w:
                 continue
             if any(x in NEGATORS for x in toks[max(0, i - 3):i]):
@@ -173,6 +199,12 @@ class LexiconSentiment:
     def score(self, text: str, source_type: str = "news") -> SentimentResult:
         s, ev = self._finance_score(text)
         model = "lexicon:LM+phrases"
+        sup = sentiment_proba(text) if self.use_supervised else None
+        if sup is not None:
+            # the trained model fills gaps; it defers to strong explicit lexicon evidence
+            w_sup = 0.5 * (1 - min(1.0, abs(s)))
+            s = (1 - w_sup) * s + w_sup * sup
+            model += "+tfidf-lr"
         if source_type == "social" and self.vader is not None:
             v = self.vader.polarity_scores(text)["compound"]
             s = 0.65 * s + 0.35 * v if ev else 0.5 * v

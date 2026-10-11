@@ -20,7 +20,7 @@ CET1 ratio = CET1 capital / RWA (standardised risk weights; stressed RWA uses a 
 from __future__ import annotations
 
 import re
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -180,7 +180,7 @@ class StressTester:
              "market_value_usd", "stress_pnl_usd", "jump_to_default"]]
         total0 = float(mv.sum())
         res = {
-            "triggered_at": cluster_start or (trigger.timestamp.isoformat() if trigger else datetime.utcnow().isoformat()),
+            "triggered_at": cluster_start or (trigger.timestamp.isoformat() if trigger else datetime.now(timezone.utc).isoformat()),
             "updated_at": trigger.timestamp.isoformat() if trigger else None,
             "event_type": event_type, "impact_score": round(float(impact), 2), "scale": round(scale, 3),
             "headline": trigger.headline if trigger else "What-if scenario", "entity": trigger.entity if trigger else "",

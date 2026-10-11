@@ -1,0 +1,119 @@
+text,sentiment,event_type
+"Brightline Foods posts record quarterly profit, lifts annual forecast",positive,Earnings
+"Orbitel shares sink after it misses revenue estimates and cuts guidance",negative,Earnings
+"Quanta Retail reports third-quarter results in line with consensus",neutral,Earnings
+"Helix Pharma beats earnings expectations on strong vaccine sales",positive,Earnings
+"Northgate Bank net income falls 30% as loan losses mount",negative,Earnings
+"Vantage Motors announces $5 billion share buyback and higher dividend",positive,Earnings
+"Corvid Software warns of weaker demand, shares tumble 12%",negative,Earnings
+"Sable Energy to report fourth-quarter earnings on Thursday",neutral,Earnings
+"Pioneer Chemicals second-quarter revenue tops forecasts; margins expand",positive,Earnings
+"Lumen Devices slashes outlook as chip shortage drags on production",negative,Earnings
+"Redwood Capital agrees to acquire Bayline Insurance for $12 billion in cash",positive,Merger/Acquisition
+"Talon Aerospace and Kite Systems announce merger of equals",positive,Merger/Acquisition
+"Antitrust regulators sue to block Granite Telecom's takeover of Spire Mobile",negative,Merger/Acquisition
+"Meridian Health explores sale of its diagnostics unit",neutral,Merger/Acquisition
+"Atlas Mining walks away from $8 billion bid for Copperhill after shareholder revolt",negative,Merger/Acquisition
+"Nova Media completes acquisition of streaming startup Flicker",positive,Merger/Acquisition
+"Private equity firm makes buyout offer for Sterling Hotels at 35% premium",positive,Merger/Acquisition
+"Cobalt Industries to spin off its specialty materials division",neutral,Merger/Acquisition
+"Harbor Logistics agrees all-stock deal to combine with FreightOne",positive,Merger/Acquisition
+"Ironclad Steel takeover talks collapse, shares slide",negative,Merger/Acquisition
+"Fed raises interest rates by 75 basis points, signals more hikes",negative,Macroeconomic
+"US inflation cools more than expected in June, boosting hopes of rate cuts",positive,Macroeconomic
+"Eurozone economy slips into recession as manufacturing contracts",negative,Macroeconomic
+"Jobless claims rise to highest level in a year as labor market softens",negative,Macroeconomic
+"Central bank holds rates steady as expected",neutral,Macroeconomic
+"US GDP growth beats forecasts at 3.1% annualized pace",positive,Macroeconomic
+"Treasury yields surge to 16-year high on hot jobs report",negative,Macroeconomic
+"ECB cuts rates for the first time in five years to support growth",positive,Macroeconomic
+"Consumer prices jump 0.8%, fastest rise in decades",negative,Macroeconomic
+"Bank of England publishes minutes of its policy meeting",neutral,Macroeconomic
+"Payrolls rebound strongly in May, unemployment falls to 3.6%",positive,Macroeconomic
+"Oil prices spike as OPEC announces surprise production cut, fueling inflation fears",negative,Macroeconomic
+"Retail sales unexpectedly fall, raising slowdown concerns",negative,Macroeconomic
+"RBI keeps repo rate unchanged, maintains neutral stance",neutral,Macroeconomic
+"China's economy grows faster than expected on stimulus",positive,Macroeconomic
+"Missile strikes on capital escalate conflict; global markets slide",negative,Geopolitical
+"US imposes sweeping sanctions on major oil exporter",negative,Geopolitical
+"Ceasefire agreed after weeks of fighting; stocks rally",positive,Geopolitical
+"Trade war fears grow as new tariffs on $200 billion of imports announced",negative,Geopolitical
+"Troops mass near border as tensions rise between neighbours",negative,Geopolitical
+"Leaders sign trade pact lowering tariffs on industrial goods",positive,Geopolitical
+"Shipping through the Red Sea disrupted after drone attacks on vessels",negative,Geopolitical
+"Peace talks resume in Geneva",neutral,Geopolitical
+"Coup attempt in commodity-rich nation sends bond prices tumbling",negative,Geopolitical
+"Export controls on advanced chips tightened, hitting semiconductor stocks",negative,Geopolitical
+"Election results calm markets as uncertainty fades",positive,Geopolitical
+"Military blockade of strait threatens global energy supply",negative,Geopolitical
+"Embargo lifted on agricultural exports, easing food price pressure",positive,Geopolitical
+"Sanctions relief deal reached, opening path for oil exports",positive,Geopolitical
+"Protests spread across major cities ahead of disputed vote",negative,Geopolitical
+"Crestline Homes files for Chapter 11 bankruptcy protection",negative,Credit Event
+"Moody's downgrades Delta Utilities to junk status",negative,Credit Event
+"Property developer misses coupon payment, sparking default fears",negative,Credit Event
+"S&P upgrades Pinnacle Rail credit rating to A on lower leverage",positive,Credit Event
+"Regional lender hit by deposit outflows, shares plunge 40%",negative,Credit Event
+"Fitch places Vortex Airlines on review for downgrade",negative,Credit Event
+"Distressed retailer reaches debt restructuring deal with creditors",neutral,Credit Event
+"Credit default swap spreads on European banks widen sharply",negative,Credit Event
+"Emerging market sovereign avoids default with last-minute payment",positive,Credit Event
+"Bank takes $2 billion writedown on commercial real estate loans",negative,Credit Event
+"Insolvent crypto lender halts withdrawals",negative,Credit Event
+"Ratings agency affirms Summit Power at BBB, outlook stable",neutral,Credit Event
+"Government bailout rescues troubled lender, calming markets",positive,Credit Event
+"Corporate defaults climb to highest since 2009",negative,Credit Event
+"Covenant breach forces chemical maker into talks with banks",negative,Credit Event
+"Zenith unveils new flagship smartphone with longer battery life",positive,Product Launch
+"Aster Biotech wins FDA approval for breakthrough cancer therapy",positive,Product Launch
+"Kestrel Motors launches affordable electric SUV, pre-orders top 100000",positive,Product Launch
+"Pixelcraft delays launch of new console to next year",negative,Product Launch
+"Nimbus rolls out AI assistant to all enterprise customers",positive,Product Launch
+"Vertex Chips introduces next-generation data-center processor",positive,Product Launch
+"Reviewers pan Orion's new laptop, citing overheating problems",negative,Product Launch
+"Solace Pharma's new drug available in pharmacies from Monday",neutral,Product Launch
+"Glide Airlines debuts new long-haul routes to Asia",positive,Product Launch
+"Halo Foods launches plant-based range in 2000 stores",positive,Product Launch
+"Regulators fine Opal Bank $1.2 billion over money-laundering failures",negative,Regulatory/Legal
+"Class action lawsuit filed against Brightwave over data breach",negative,Regulatory/Legal
+"Court rules in favour of Marlow Pharma in patent dispute",positive,Regulatory/Legal
+"SEC opens investigation into Lattice Corp accounting practices",negative,Regulatory/Legal
+"Automaker recalls 1.2 million vehicles over airbag defect",negative,Regulatory/Legal
+"Tobacco firm settles litigation for $3 billion, removing overhang",positive,Regulatory/Legal
+"European Commission launches antitrust probe into cloud provider",negative,Regulatory/Legal
+"Regulator approves new capital rules for banks",neutral,Regulatory/Legal
+"Drugmaker cleared of wrongdoing as DOJ drops case",positive,Regulatory/Legal
+"Food company halts production after contamination found, recall widens",negative,Regulatory/Legal
+"Social media firm faces record penalty under privacy law",negative,Regulatory/Legal
+"Judge dismisses shareholder lawsuit against Pacific Mining",positive,Regulatory/Legal
+"FTC sues to stop exclusive dealing contracts at chipmaker",negative,Regulatory/Legal
+"Company announces new CFO appointment effective next month",neutral,Other
+"Shares little changed ahead of annual shareholder meeting",neutral,Other
+"Cloud outage disrupts services for millions of users",negative,Other
+"Fire at factory halts output for two weeks",negative,Other
+"CEO steps down unexpectedly, shares drop",negative,Other
+"Company opens new headquarters in Austin",neutral,Other
+"Firm named to list of best places to work",positive,Other
+"Union reaches agreement ending month-long strike",positive,Other
+"Strike at port enters second week, delaying shipments",negative,Other
+"Cyberattack forces pipeline operator to shut down network",negative,Other
+$ACME to the moon 🚀🚀 best earnings call ever,positive,Earnings
+"Dumped all my $ZETA, guidance was a disaster",negative,Earnings
+"Anyone know when $KITE reports?",neutral,Earnings
+"$NOVA merger with Flicker is a huge win, bullish",positive,Merger/Acquisition
+"Fed hiking again?? My portfolio is bleeding",negative,Macroeconomic
+"CPI came in cool, rate cuts incoming 📈",positive,Macroeconomic
+"War headlines everywhere, going to cash",negative,Geopolitical
+"Ceasefire news = relief rally, adding back equity exposure",positive,Geopolitical
+"$CRST bankruptcy filing... equity is going to zero",negative,Credit Event
+"New $ZEN phone looks amazing, preordered",positive,Product Launch
+"$OPAL fined again lol, compliance is a joke",negative,Regulatory/Legal
+"Watching $HALO today, nothing exciting",neutral,Other
+"$PIXL delay is ugly, selling",negative,Product Launch
+"Not worried about the $REDW deal, synergies look real",positive,Merger/Acquisition
+"Yields up again, duration getting crushed",negative,Macroeconomic
+"Downgrade to junk for $DLTA. Credit desk is busy",negative,Credit Event
+"Lawsuit against $BRWV looks frivolous, buying the dip",positive,Regulatory/Legal
+"Strong jobs number, soft landing looking likely",positive,Macroeconomic
+"Tariffs back on the table, not great for exporters",negative,Geopolitical
+"FDA approval for $ASTR! Huge for the pipeline",positive,Product Launch

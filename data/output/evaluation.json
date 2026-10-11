@@ -1,0 +1,842 @@
+{
+ "datasets": {
+  "dev": "data/eval/labeled_headlines.csv - 118 author-labelled items; USED while tuning the lexicon/taxonomy",
+  "heldout": "data/eval/heldout_headlines.csv - 60 author-labelled items written after tuning; never tuned on"
+ },
+ "sentiment": {
+  "baseline: VADER (general-purpose)": {
+   "n": 60,
+   "accuracy": 0.5,
+   "macro_f1": 0.4743,
+   "per_class_f1": {
+    "negative": 0.604,
+    "neutral": 0.357,
+    "positive": 0.462
+   },
+   "confusion": {
+    "negative": {
+     "negative": 16,
+     "neutral": 1,
+     "positive": 7
+    },
+    "neutral": {
+     "negative": 8,
+     "neutral": 5,
+     "positive": 8
+    },
+    "positive": {
+     "negative": 5,
+     "neutral": 1,
+     "positive": 9
+    }
+   }
+  },
+  "baseline: Loughran-McDonald words only": {
+   "n": 60,
+   "accuracy": 0.3,
+   "macro_f1": 0.2783,
+   "per_class_f1": {
+    "negative": 0.426,
+    "neutral": 0.255,
+    "positive": 0.154
+   },
+   "confusion": {
+    "negative": {
+     "negative": 10,
+     "neutral": 1,
+     "positive": 7
+    },
+    "neutral": {
+     "negative": 19,
+     "neutral": 6,
+     "positive": 15
+    },
+    "positive": {
+     "negative": 0,
+     "neutral": 0,
+     "positive": 2
+    }
+   }
+  },
+  "engine: lexicon ensemble (LM + phrases + VADER)": {
+   "n": 60,
+   "accuracy": 0.55,
+   "macro_f1": 0.5187,
+   "per_class_f1": {
+    "negative": 0.643,
+    "neutral": 0.357,
+    "positive": 0.556
+   },
+   "confusion": {
+    "negative": {
+     "negative": 18,
+     "neutral": 2,
+     "positive": 7
+    },
+    "neutral": {
+     "negative": 9,
+     "neutral": 5,
+     "positive": 7
+    },
+    "positive": {
+     "negative": 2,
+     "neutral": 0,
+     "positive": 10
+    }
+   }
+  },
+  "engine: lexicon ensemble + TF-IDF/LR (default offline)": {
+   "n": 60,
+   "accuracy": 0.5833,
+   "macro_f1": 0.5567,
+   "per_class_f1": {
+    "negative": 0.667,
+    "neutral": 0.462,
+    "positive": 0.541
+   },
+   "confusion": {
+    "negative": {
+     "negative": 19,
+     "neutral": 1,
+     "positive": 8
+    },
+    "neutral": {
+     "negative": 7,
+     "neutral": 6,
+     "positive": 6
+    },
+    "positive": {
+     "negative": 3,
+     "neutral": 0,
+     "positive": 10
+    }
+   }
+  }
+ },
+ "events": {
+  "baseline: majority class": {
+   "n": 60,
+   "accuracy": 0.1667,
+   "macro_f1": 0.0357,
+   "per_class_f1": {
+    "Credit Event": 0.0,
+    "Earnings": 0.0,
+    "Geopolitical": 0.0,
+    "Macroeconomic": 0.286,
+    "Merger/Acquisition": 0.0,
+    "Other": 0.0,
+    "Product Launch": 0.0,
+    "Regulatory/Legal": 0.0
+   },
+   "confusion": {
+    "Credit Event": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Earnings": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Geopolitical": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Macroeconomic": {
+     "Credit Event": 8,
+     "Earnings": 8,
+     "Geopolitical": 8,
+     "Macroeconomic": 10,
+     "Merger/Acquisition": 7,
+     "Other": 4,
+     "Product Launch": 7,
+     "Regulatory/Legal": 8
+    },
+    "Merger/Acquisition": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Other": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Product Launch": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Regulatory/Legal": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    }
+   }
+  },
+  "engine: taxonomy rules only": {
+   "n": 60,
+   "accuracy": 0.5333,
+   "macro_f1": 0.5731,
+   "per_class_f1": {
+    "Credit Event": 0.545,
+    "Earnings": 0.667,
+    "Geopolitical": 0.615,
+    "Macroeconomic": 0.75,
+    "Merger/Acquisition": 0.444,
+    "Other": 0.25,
+    "Product Launch": 0.6,
+    "Regulatory/Legal": 0.714
+   },
+   "confusion": {
+    "Credit Event": {
+     "Credit Event": 3,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Earnings": {
+     "Credit Event": 1,
+     "Earnings": 5,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 1
+    },
+    "Geopolitical": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 4,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 1,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Macroeconomic": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 6,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Merger/Acquisition": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 2,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Other": {
+     "Credit Event": 4,
+     "Earnings": 3,
+     "Geopolitical": 4,
+     "Macroeconomic": 4,
+     "Merger/Acquisition": 3,
+     "Other": 4,
+     "Product Launch": 4,
+     "Regulatory/Legal": 2
+    },
+    "Product Launch": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 3,
+     "Regulatory/Legal": 0
+    },
+    "Regulatory/Legal": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 1,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 5
+    }
+   }
+  },
+  "engine: rules + TF-IDF/LR fallback (default)": {
+   "n": 60,
+   "accuracy": 0.6,
+   "macro_f1": 0.6255,
+   "per_class_f1": {
+    "Credit Event": 0.545,
+    "Earnings": 0.75,
+    "Geopolitical": 0.714,
+    "Macroeconomic": 0.824,
+    "Merger/Acquisition": 0.444,
+    "Other": 0.286,
+    "Product Launch": 0.727,
+    "Regulatory/Legal": 0.714
+   },
+   "confusion": {
+    "Credit Event": {
+     "Credit Event": 3,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Earnings": {
+     "Credit Event": 1,
+     "Earnings": 6,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 1
+    },
+    "Geopolitical": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 5,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 1,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Macroeconomic": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 7,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Merger/Acquisition": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 2,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Other": {
+     "Credit Event": 4,
+     "Earnings": 2,
+     "Geopolitical": 3,
+     "Macroeconomic": 3,
+     "Merger/Acquisition": 3,
+     "Other": 4,
+     "Product Launch": 3,
+     "Regulatory/Legal": 2
+    },
+    "Product Launch": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 4,
+     "Regulatory/Legal": 0
+    },
+    "Regulatory/Legal": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 1,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 5
+    }
+   }
+  }
+ },
+ "sentiment_dev": {
+  "baseline: VADER (general-purpose)": {
+   "n": 118,
+   "accuracy": 0.5424,
+   "macro_f1": 0.5157,
+   "per_class_f1": {
+    "negative": 0.604,
+    "neutral": 0.316,
+    "positive": 0.627
+   },
+   "confusion": {
+    "negative": {
+     "negative": 29,
+     "neutral": 2,
+     "positive": 8
+    },
+    "neutral": {
+     "negative": 21,
+     "neutral": 9,
+     "positive": 10
+    },
+    "positive": {
+     "negative": 7,
+     "neutral": 6,
+     "positive": 26
+    }
+   }
+  },
+  "baseline: Loughran-McDonald words only": {
+   "n": 118,
+   "accuracy": 0.5254,
+   "macro_f1": 0.4623,
+   "per_class_f1": {
+    "negative": 0.766,
+    "neutral": 0.39,
+    "positive": 0.231
+   },
+   "confusion": {
+    "negative": {
+     "negative": 41,
+     "neutral": 1,
+     "positive": 8
+    },
+    "neutral": {
+     "negative": 15,
+     "neutral": 15,
+     "positive": 30
+    },
+    "positive": {
+     "negative": 1,
+     "neutral": 1,
+     "positive": 6
+    }
+   }
+  },
+  "engine: lexicon ensemble (LM + phrases + VADER)": {
+   "n": 118,
+   "accuracy": 0.8983,
+   "macro_f1": 0.8483,
+   "per_class_f1": {
+    "negative": 0.956,
+    "neutral": 0.688,
+    "positive": 0.901
+   },
+   "confusion": {
+    "negative": {
+     "negative": 54,
+     "neutral": 1,
+     "positive": 1
+    },
+    "neutral": {
+     "negative": 2,
+     "neutral": 11,
+     "positive": 2
+    },
+    "positive": {
+     "negative": 1,
+     "neutral": 5,
+     "positive": 41
+    }
+   }
+  },
+  "engine: lexicon ensemble + TF-IDF/LR (default offline)": {
+   "n": 118,
+   "accuracy": 0.9237,
+   "macro_f1": 0.8717,
+   "per_class_f1": {
+    "negative": 0.982,
+    "neutral": 0.71,
+    "positive": 0.923
+   },
+   "confusion": {
+    "negative": {
+     "negative": 56,
+     "neutral": 1,
+     "positive": 0
+    },
+    "neutral": {
+     "negative": 1,
+     "neutral": 11,
+     "positive": 2
+    },
+    "positive": {
+     "negative": 0,
+     "neutral": 5,
+     "positive": 42
+    }
+   }
+  }
+ },
+ "events_dev": {
+  "baseline: majority class": {
+   "n": 118,
+   "accuracy": 0.161,
+   "macro_f1": 0.0346,
+   "per_class_f1": {
+    "Credit Event": 0.0,
+    "Earnings": 0.0,
+    "Geopolitical": 0.0,
+    "Macroeconomic": 0.277,
+    "Merger/Acquisition": 0.0,
+    "Other": 0.0,
+    "Product Launch": 0.0,
+    "Regulatory/Legal": 0.0
+   },
+   "confusion": {
+    "Credit Event": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Earnings": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Geopolitical": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Macroeconomic": {
+     "Credit Event": 17,
+     "Earnings": 13,
+     "Geopolitical": 18,
+     "Macroeconomic": 19,
+     "Merger/Acquisition": 12,
+     "Other": 11,
+     "Product Launch": 13,
+     "Regulatory/Legal": 15
+    },
+    "Merger/Acquisition": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Other": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Product Launch": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Regulatory/Legal": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    }
+   }
+  },
+  "engine: taxonomy rules only": {
+   "n": 118,
+   "accuracy": 0.9661,
+   "macro_f1": 0.9612,
+   "per_class_f1": {
+    "Credit Event": 0.971,
+    "Earnings": 0.917,
+    "Geopolitical": 1.0,
+    "Macroeconomic": 1.0,
+    "Merger/Acquisition": 0.957,
+    "Other": 0.917,
+    "Product Launch": 0.96,
+    "Regulatory/Legal": 0.968
+   },
+   "confusion": {
+    "Credit Event": {
+     "Credit Event": 17,
+     "Earnings": 1,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Earnings": {
+     "Credit Event": 0,
+     "Earnings": 11,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Geopolitical": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 18,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Macroeconomic": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 19,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Merger/Acquisition": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 11,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Other": {
+     "Credit Event": 0,
+     "Earnings": 1,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 11,
+     "Product Launch": 1,
+     "Regulatory/Legal": 0
+    },
+    "Product Launch": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 12,
+     "Regulatory/Legal": 0
+    },
+    "Regulatory/Legal": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 1,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 15
+    }
+   }
+  },
+  "engine: rules + TF-IDF/LR fallback (default)": {
+   "n": 118,
+   "accuracy": 0.9831,
+   "macro_f1": 0.982,
+   "per_class_f1": {
+    "Credit Event": 0.971,
+    "Earnings": 0.96,
+    "Geopolitical": 1.0,
+    "Macroeconomic": 1.0,
+    "Merger/Acquisition": 0.957,
+    "Other": 1.0,
+    "Product Launch": 1.0,
+    "Regulatory/Legal": 0.968
+   },
+   "confusion": {
+    "Credit Event": {
+     "Credit Event": 17,
+     "Earnings": 1,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Earnings": {
+     "Credit Event": 0,
+     "Earnings": 12,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Geopolitical": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 18,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Macroeconomic": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 19,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Merger/Acquisition": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 11,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Other": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 11,
+     "Product Launch": 0,
+     "Regulatory/Legal": 0
+    },
+    "Product Launch": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 0,
+     "Other": 0,
+     "Product Launch": 13,
+     "Regulatory/Legal": 0
+    },
+    "Regulatory/Legal": {
+     "Credit Event": 0,
+     "Earnings": 0,
+     "Geopolitical": 0,
+     "Macroeconomic": 0,
+     "Merger/Acquisition": 1,
+     "Other": 0,
+     "Product Launch": 0,
+     "Regulatory/Legal": 15
+    }
+   }
+  }
+ },
+ "module_a_ablation": [
+  {
+   "variant": "Engine settings (decay 48h, smoothing 60%, credibility-weighted)",
+   "active_return_pct": 0.29,
+   "tracking_error_ann_pct": 0.93,
+   "avg_turnover_pct": 4.01,
+   "max_drawdown_pct": -9.2
+  },
+  {
+   "variant": "Naive: no decay, no smoothing",
+   "active_return_pct": -0.37,
+   "tracking_error_ann_pct": 1.31,
+   "avg_turnover_pct": 2.58,
+   "max_drawdown_pct": -9.55
+  },
+  {
+   "variant": "No turnover control (smoothing off)",
+   "active_return_pct": 0.62,
+   "tracking_error_ann_pct": 1.02,
+   "avg_turnover_pct": 6.29,
+   "max_drawdown_pct": -8.96
+  },
+  {
+   "variant": "Fast decay (12h half-life)",
+   "active_return_pct": 0.35,
+   "tracking_error_ann_pct": 0.61,
+   "avg_turnover_pct": 4.47,
+   "max_drawdown_pct": -9.19
+  }
+ ]
+}

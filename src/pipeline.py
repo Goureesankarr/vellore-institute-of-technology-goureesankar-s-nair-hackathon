@@ -119,7 +119,7 @@ class Pipeline:
         od = out_dir()
         hist = self.rebalancer.history_df()
         hist.to_csv(od / "weights_history.csv", index=False)
-        prices = load_prices()
+        prices = load_prices(stats.get("mode", "replay"))
         if prices is not None and not hist.empty:
             perf = SentimentRebalancer.performance(hist, prices)
             perf.to_csv(od / "index_performance.csv", index=False)
@@ -131,10 +131,8 @@ class Pipeline:
             json.dump(stats, f, indent=1, default=str)
 
 
-def load_prices() -> Optional[pd.DataFrame]:
-    """Real prices (data/output/prices_live.csv from `cli fetch-prices`) if present, else bundled sample."""
-    live = config.path("output_dir") / "prices_live.csv"
-    for p in (live, config.path("sample_prices")):
-        if p.exists():
-            return pd.read_csv(p)
-    return None
+def load_prices(mode: str = "replay") -> Optional[pd.DataFrame]:
+    """Replay uses the bundled sample prices (same dates as the sample stream); live mode uses real
+    closes from data/output/prices_live.csv (created by `python -m src.cli fetch-prices`)."""
+    p = config.path("output_dir") / "prices_live.csv" if mode == "live" else config.path("sample_prices")
+    return pd.read_csv(p) if p.exists() else None

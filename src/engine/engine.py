@@ -38,7 +38,9 @@ class RiskEngine:
 
     @property
     def model_name(self) -> str:
-        return f"{getattr(self.sentiment, 'name', '?')} / events:{getattr(self.events, 'name', '?')}"
+        from .nlp.supervised import load_models
+        sup = "+tfidf-lr" if load_models() else ""
+        return f"sentiment:{getattr(self.sentiment, 'name', '?')}{sup} / events:{getattr(self.events, 'name', '?')}{sup}"
 
     def _credibility(self, doc: Document) -> float:
         base = float(self.credibility.get(doc.source, 0.9 if doc.source_type == "news" else 0.6))

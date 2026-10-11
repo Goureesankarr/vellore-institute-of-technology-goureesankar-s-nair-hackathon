@@ -12,6 +12,7 @@ import re
 from dataclasses import dataclass, field
 
 from ... import config
+from .supervised import event_proba
 
 log = logging.getLogger(__name__)
 
@@ -27,7 +28,8 @@ class EventResult:
 class RuleEventClassifier:
     name = "rules"
 
-    def __init__(self, min_score: float = 2.0) -> None:
+    def __init__(self, min_score: float = 2.0, use_supervised: bool = True) -> None:
+        self.use_supervised = use_supervised
         tax = config.taxonomy()
         self.default = tax.get("default_category", "Other")
         self.min_score = min_score
@@ -52,12 +54,18 @@ class RuleEventClassifier:
             if s:
                 scores[cat], evidence[cat] = round(s, 2), ev
         if not scores or max(scores.values()) < self.min_score:
-            return EventResult(self.default, 0.5, scores, [])
-        best = max(scores, key=scores.get)
-        total = sum(scores.values())
-        # confidence: share of evidence for the winner, boosted by absolute evidence strength
-        conf = 0.5 * scores[best] / total + 0.5 * min(1.0, scores[best] / 12.0)
-        return EventResult(best, round(min(0.99, 0.35 + 0.65 * conf), 3), scores, evidence[best][:6])
+            res = EventResult(self.default, 0.5, scores, [])
+        else:
+            best = max(scores, key=scores.get)
+            total = sum(scores.values())
+            # confidence: share of evidence for the winner, boosted by absolute evidence strength
+            conf = 0.5 * scores[best] / total + 0.5 * min(1.0, scores[best] / 12.0)
+            res = EventResult(best, round(min(0.99, 0.35 + 0.65 * conf), 3), scores, evidence[best][:6])
+        if self.use_supervised and res.confidence < 0.6:
+            sup = event_proba(f"{title}. {body}" if body else title)
+            if sup and sup[1] > 0.35 and sup[0] != res.event_type:
+                res = EventResult(sup[0], round(min(0.6, sup[1]), 3), scores, res.keywords + ["(tfidf-lr)"])
+        return res
 
 
 class ZeroShotEventClassifier:

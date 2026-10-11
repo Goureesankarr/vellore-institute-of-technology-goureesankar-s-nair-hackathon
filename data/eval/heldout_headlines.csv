@@ -1,0 +1,61 @@
+text,sentiment,event_type
+"Crescent Airlines swings to a loss as fuel bill balloons",negative,Earnings
+"Oakridge Insurance lifts dividend after bumper year for premiums",positive,Earnings
+"Tidewater Semis forecasts revenue below Wall Street targets",negative,Earnings
+"Mapleton Brewing reports flat second-quarter sales",neutral,Earnings
+"Summit Retail profit doubles on cost cuts, shares at record",positive,Earnings
+"Ferro Motors quarterly deliveries fall short of analyst views",negative,Earnings
+"Ashby Foods to buy snack maker CrunchCo for $3.4 billion",positive,Merger/Acquisition
+"Regulators approve Lakeside Bank's purchase of Pine State Financial",positive,Merger/Acquisition
+"Bidding war erupts for logistics group Northstar",positive,Merger/Acquisition
+"Glenmore Energy's merger plan scrapped after shareholders vote no",negative,Merger/Acquisition
+"Quill Media weighs strategic options including possible sale",neutral,Merger/Acquisition
+"Euro area inflation eases to 2.1%, near central bank target",positive,Macroeconomic
+"Federal Reserve leaves benchmark rate unchanged",neutral,Macroeconomic
+"Manufacturing activity shrinks for sixth straight month",negative,Macroeconomic
+"US economy adds 350,000 jobs, smashing expectations",positive,Macroeconomic
+"Mortgage rates climb to highest since 2000, cooling housing demand",negative,Macroeconomic
+"Japan's central bank ends negative interest rates",neutral,Macroeconomic
+"Consumer confidence plunges to two-year low",negative,Macroeconomic
+"Bond yields fall sharply as investors bet on rate cuts",positive,Macroeconomic
+"Artillery fire along disputed frontier raises fears of wider war",negative,Geopolitical
+"Washington and Beijing agree to roll back some tariffs",positive,Geopolitical
+"New sanctions target shipping firms carrying crude",negative,Geopolitical
+"Diplomats hail breakthrough in nuclear negotiations",positive,Geopolitical
+"Rebel forces seize key oil port, output halted",negative,Geopolitical
+"Summit between leaders ends without agreement",negative,Geopolitical
+"Navy escorts resume for tankers in contested waters",positive,Geopolitical
+"Stonebridge Properties defaults on $600 million loan",negative,Credit Event
+"S&P cuts Lyra Telecom to BB-, citing high leverage",negative,Credit Event
+"Bondholders agree to extend maturities for struggling cinema chain",neutral,Credit Event
+"Moody's lifts outlook on Sunrise Utilities to positive",positive,Credit Event
+"Lender's shares crater as depositors pull $10 billion",negative,Credit Event
+"Developer secures emergency financing, staving off insolvency",positive,Credit Event
+"High-yield spreads blow out to widest since 2020",negative,Credit Event
+"Arcadia Robotics showcases humanoid robot for warehouses",positive,Product Launch
+"Beacon Health gets FDA nod for diabetes device",positive,Product Launch
+"Cinder Games pushes back release of flagship title again",negative,Product Launch
+"Wavelength launches 5G service in 40 new cities",positive,Product Launch
+"Critics say new Orbit tablet is overpriced and underpowered",negative,Product Launch
+"Juno Motors to begin selling its new sedan in Europe next spring",neutral,Product Launch
+"Watchdog slaps Kingfisher Bank with $400 million penalty",negative,Regulatory/Legal
+"Appeals court overturns $2 billion verdict against Redstone Chemical",positive,Regulatory/Legal
+"Prosecutors charge former executives of Vesta Corp with fraud",negative,Regulatory/Legal
+"Airline grounded by aviation regulator after safety audit",negative,Regulatory/Legal
+"Pharma group settles opioid claims, ending years of uncertainty",positive,Regulatory/Legal
+"Competition authority clears Fable Telecom of abuse allegations",positive,Regulatory/Legal
+"Lawmakers propose stricter rules for online lenders",negative,Regulatory/Legal
+"Company relocates research centre to Singapore",neutral,Other
+"Ransomware attack cripples hospital operator's systems",negative,Other
+"Founder returns as chief executive, shares jump",positive,Other
+"Flooding forces closure of three plants",negative,Other
+"$CRUX earnings were a bloodbath, guidance cut again",negative,Earnings
+"$LYRA downgraded to junk, bondholders sweating",negative,Credit Event
+"Rate cut odds rising, small caps flying 🚀",positive,Macroeconomic
+"$ASHB buying CrunchCo is a smart move, long",positive,Merger/Acquisition
+"Sanctions headlines again, oil spiking, stocks red",negative,Geopolitical
+"$BCN FDA approval came through!! 📈",positive,Product Launch
+"$KFB penalty is tiny relative to earnings, no big deal",positive,Regulatory/Legal
+"$TIDE guidance miss, selling everything",negative,Earnings
+"Inflation print hotter than expected, ugh",negative,Macroeconomic
+"$GLEN deal dead, what a waste of time",negative,Merger/Acquisition

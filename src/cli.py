@@ -66,7 +66,7 @@ def main(argv: list[str] | None = None) -> None:
                                                      title="" if args.social else args.text)
         print(json.dumps([s.model_dump(mode="json") for s in sigs], indent=2))
     elif args.cmd == "evaluate":
-        from scripts_evaluate import run_evaluation  # type: ignore  # resolved below
+        from .evaluation import run_evaluation
         run_evaluation(args.backend, args.phrasebank)
     elif args.cmd == "fetch-prices":
         from .market_data import fetch_prices
