@@ -1454,18 +1454,18 @@
     "value_after": 975790168.0
    },
    {
-    "product": "Interest Rate Swap",
-    "value_before": -620000.0,
-    "pnl": 0.0,
-    "positions": 10,
-    "value_after": -620000.0
-   },
-   {
     "product": "FX Forward",
     "value_before": -368000.0,
     "pnl": 0.0,
     "positions": 9,
     "value_after": -368000.0
+   },
+   {
+    "product": "Interest Rate Swap",
+    "value_before": -620000.0,
+    "pnl": 0.0,
+    "positions": 10,
+    "value_after": -620000.0
    },
    {
     "product": "Credit Default Swap",

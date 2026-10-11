@@ -6,7 +6,7 @@
 
 **College / Campus:** Vellore Institute of Technology (VIT)
 
-**Demo Video Link:** _[YouTube (unlisted) link here]_
+**Demo Video Link:** [https://youtu.be/LbYbk2UM2AU](https://youtu.be/LbYbk2UM2AU)
 
 **Slide Deck Link (if hosted externally):** Not hosted externally. The deck is in this repo at [`docs/presentation.pdf`](docs/presentation.pdf) (editable version: [`docs/presentation.pptx`](docs/presentation.pptx)).
 

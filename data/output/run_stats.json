@@ -1,11 +1,11 @@
 {
  "documents": 625,
  "signals": 641,
- "seconds": 6.84,
- "docs_per_second": 91.4,
+ "seconds": 26.13,
+ "docs_per_second": 23.9,
  "sentiment_model": "sentiment:lexicon+tfidf-lr / events:rules+tfidf-lr",
  "mode": "replay",
- "processed_at": "2026-10-11T06:25:29.587993+00:00",
+ "processed_at": "2026-10-11T16:06:53.691929+00:00",
  "module_a": {
   "index_return_pct": -5.52,
   "benchmark_return_pct": -5.81,
