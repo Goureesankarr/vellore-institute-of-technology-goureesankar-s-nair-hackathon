@@ -103,8 +103,8 @@ GDELT DOC 2.0 API, Google News RSS, Reddit public JSON, and yfinance for real pr
 Runtime: Python 3.10+ (tested on Python 3.10 and 3.13) on Ubuntu 24.04 Linux. All dependencies ship prebuilt wheels for macOS and Windows too.
 
 ```bash
-git clone https://github.com/Goureesankarr/S-P-Global-Crisil-Hackathon-Goureesankar.git
-cd S-P-Global-Crisil-Hackathon-Goureesankar
+git clone https://github.com/Goureesankarr/vellore-institute-of-technology-goureesankar-s-nair-hackathon.git
+cd vellore-institute-of-technology-goureesankar-s-nair-hackathon
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
