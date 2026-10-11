@@ -109,12 +109,12 @@ if ticks:
         "As of", options=list(range(len(ticks))), value=min(st.session_state.cursor, len(ticks) - 1),
         format_func=lambda i: pd.Timestamp(ticks[i]).strftime("%a %d %b %H:%M UTC"))
 c1, c2 = st.sidebar.columns(2)
-if c1.button("▶ Play" if not st.session_state.playing else "⏸ Pause", use_container_width=True):
+if c1.button("▶ Play" if not st.session_state.playing else "⏸ Pause", width="stretch"):
     st.session_state.playing = not st.session_state.playing
     if st.session_state.playing and st.session_state.cursor >= len(ticks) - 1:
         st.session_state.cursor = 0
     st.rerun()
-if c2.button("⟲ Re-run", use_container_width=True, help="Re-process all data through the engine"):
+if c2.button("⟲ Re-run", width="stretch", help="Re-process all data through the engine"):
     with st.spinner("Re-running pipeline…"):
         run_demo()
     st.cache_data.clear()
@@ -131,7 +131,7 @@ st.sidebar.subheader("Try the engine")
 txt = st.sidebar.text_area("Paste a headline or post", "Fed unexpectedly raises rates by 75 basis points as "
                            "inflation surges; bank stocks tumble", height=90)
 is_social = st.sidebar.toggle("Social post", value=False)
-if st.sidebar.button("Analyze", use_container_width=True):
+if st.sidebar.button("Analyze", width="stretch"):
     from src.engine.engine import RiskEngine
 
     @st.cache_resource(show_spinner="Loading models…")
@@ -183,7 +183,7 @@ with tab1:
                           "Impact %{y:.1f} · sentiment %{customdata[3]:+.2f} · %{customdata[4]}<extra></extra>"))
         fig.add_hline(y=config.settings()["module_b"]["impact_threshold"], line_dash="dot", line_color=CRITICAL,
                       annotation_text="stress-test threshold", annotation_font_color=MUTED)
-        st.plotly_chart(style(fig, 360, legend=False, ytitle="Impact score (1–10)"), use_container_width=True)
+        st.plotly_chart(style(fig, 360, legend=False, ytitle="Impact score (1–10)"), width="stretch")
     with right:
         st.subheader("Event mix")
         st.caption("Signals by event classification (excl. Other)")
@@ -195,7 +195,7 @@ with tab1:
         fig.update_traces(marker_line_width=0, cliponaxis=False)
         fig = style(fig, 360, legend=False)
         fig.update_layout(margin=dict(r=40))
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
     st.subheader("Sentiment heatmap · per stock per day")
     st.caption("Daily mean entity sentiment from news + social (credibility-weighted). Blank = no signals that day.")
@@ -213,7 +213,7 @@ with tab1:
                                    hovertemplate="%{y} · %{x}<br>sentiment %{z:+.2f} (%{customdata} signals)<extra></extra>",
                                    colorbar=dict(thickness=10, title="Sentiment")))
         fig.update_xaxes(type="category", categoryorder="array", categoryarray=sorted(z.columns, key=lambda d: pd.to_datetime(d + " 2026")))
-        st.plotly_chart(style(fig, 420, legend=False), use_container_width=True)
+        st.plotly_chart(style(fig, 420, legend=False), width="stretch")
 
     st.subheader("Latest signals")
     f1, f2, f3 = st.columns([2, 2, 1])
@@ -228,7 +228,7 @@ with tab1:
     show = t.sort_values("timestamp", ascending=False).head(300)[
         ["timestamp", "source_type", "entity", "headline", "sentiment_score", "event_type", "event_confidence",
          "impact_score", "regions", "sectors"]]
-    st.dataframe(show, use_container_width=True, hide_index=True, height=360, column_config={
+    st.dataframe(show, width="stretch", hide_index=True, height=360, column_config={
         "timestamp": st.column_config.DatetimeColumn("Time (UTC)", format="DD MMM HH:mm"),
         "sentiment_score": st.column_config.NumberColumn("Sentiment", format="%+.2f"),
         "impact_score": st.column_config.ProgressColumn("Impact", min_value=1, max_value=10, format="%.1f"),
@@ -280,7 +280,7 @@ with tab2:
                 fig.add_trace(go.Scatter(x=d["timestamp"], y=d["base_weight"] * 100, mode="lines", showlegend=False,
                                          line=dict(color=CAT[i], width=1, dash="dot"), hoverinfo="skip"))
             fig.update_layout(hovermode="x unified")
-            st.plotly_chart(style(fig, 380, ytitle="Index weight (%) · dotted = benchmark"), use_container_width=True)
+            st.plotly_chart(style(fig, 380, ytitle="Index weight (%) · dotted = benchmark"), width="stretch")
         with b:
             st.subheader("Current tilt vs benchmark")
             l2 = latest.sort_values("active")
@@ -292,7 +292,7 @@ with tab2:
                                                  "<extra></extra>"))
             fig.add_vline(x=0, line_color=AXIS)
             st.plotly_chart(style(fig, 430, legend=False, xtitle="Active weight (pp): over / under-weight"),
-                            use_container_width=True)
+                            width="stretch")
 
         st.subheader("Active weight map")
         st.caption("Over-weight (blue) / under-weight (red) vs benchmark at every rebalance, all 15 stocks.")
@@ -304,7 +304,7 @@ with tab2:
                                    xgap=2, ygap=2, colorbar=dict(thickness=10, title="pp"),
                                    hovertemplate="%{y} · %{x}<br>active weight %{z:+.2f} pp<extra></extra>"))
         fig.update_xaxes(type="category")
-        st.plotly_chart(style(fig, 420, legend=False), use_container_width=True)
+        st.plotly_chart(style(fig, 420, legend=False), width="stretch")
 
         if not p_now.empty:
             st.subheader("Index level vs benchmark")
@@ -317,7 +317,7 @@ with tab2:
             fig.add_trace(go.Scatter(x=p_now["date"], y=p_now["benchmark_value"], name="Static benchmark",
                                      line=dict(color=CAT[1], width=2)))
             fig.update_layout(hovermode="x unified")
-            st.plotly_chart(style(fig, 320, ytitle="Index level"), use_container_width=True)
+            st.plotly_chart(style(fig, 320, ytitle="Index level"), width="stretch")
 
 # =============================================================================================
 # TAB 3: Module B
@@ -386,7 +386,7 @@ with tab3:
             fig.add_trace(go.Bar(x=g["asset_class"], y=g["value_after"] / 1e6, name="After stress", marker_color=CAT[1]))
             fig.update_layout(barmode="group", bargap=0.3, bargroupgap=0.08)
             fig.update_traces(hovertemplate="%{x}: $%{y:,.0f}m<extra>%{fullData.name}</extra>")
-            st.plotly_chart(style(fig, 340, ytitle="USD m"), use_container_width=True)
+            st.plotly_chart(style(fig, 340, ytitle="USD m"), width="stretch")
         with b:
             st.subheader("P&L attribution by product")
             g = pd.DataFrame(res["by_product"]).sort_values("pnl")
@@ -395,7 +395,7 @@ with tab3:
                                    customdata=g["positions"],
                                    hovertemplate="%{y}: %{x:,.1f}m (%{customdata} positions)<extra></extra>"))
             fig.add_vline(x=0, line_color=AXIS)
-            st.plotly_chart(style(fig, 340, legend=False, xtitle="Stress P&L (USD m)"), use_container_width=True)
+            st.plotly_chart(style(fig, 340, legend=False, xtitle="Stress P&L (USD m)"), width="stretch")
 
         a, b = st.columns(2)
         with a:
@@ -406,7 +406,7 @@ with tab3:
                                                  ("#e98b89" if v < 0 else POS) for v, s in zip(g["pnl"], g["sector"])],
                                    hovertemplate="%{y}: %{x:,.1f}m<extra></extra>"))
             st.plotly_chart(style(fig, 380, legend=False, xtitle="USD m · darker red = sector named in the news"),
-                            use_container_width=True)
+                            width="stretch")
         with b:
             st.subheader("Loss by region")
             g = pd.DataFrame(res["by_region"]).sort_values("pnl", ascending=False)
@@ -415,11 +415,11 @@ with tab3:
                                                  ("#e98b89" if v < 0 else POS) for v, r in zip(g["pnl"], g["region"])],
                                    hovertemplate="%{y}: %{x:,.1f}m<extra></extra>"))
             st.plotly_chart(style(fig, 380, legend=False, xtitle="USD m · darker red = region named in the news"),
-                            use_container_width=True)
+                            width="stretch")
 
         st.subheader("Largest position losses")
         tl = pd.DataFrame(res["top_losses"])
-        st.dataframe(tl, use_container_width=True, hide_index=True, column_config={
+        st.dataframe(tl, width="stretch", hide_index=True, column_config={
             "market_value_usd": st.column_config.NumberColumn("Value (USD)", format="%,.0f"),
             "stress_pnl_usd": st.column_config.NumberColumn("Stress P&L (USD)", format="%,.0f"),
             "jump_to_default": st.column_config.CheckboxColumn("Default")})
@@ -433,7 +433,7 @@ with tab3:
                                customdata=tl[["event", "impact", "cet1", "headline"]].values,
                                hovertemplate="%{customdata[0]} · impact %{customdata[1]:.1f}<br>%{customdata[3]}"
                                              "<br>P&L %{y:,.0f}m · CET1 after %{customdata[2]:.2f}%<extra></extra>"))
-        st.plotly_chart(style(fig, 260, legend=False, ytitle="Stress P&L (USD m)"), use_container_width=True)
+        st.plotly_chart(style(fig, 260, legend=False, ytitle="Stress P&L (USD m)"), width="stretch")
 
 # =============================================================================================
 # TAB 4: Engine
@@ -453,7 +453,7 @@ with tab4:
                             f"**{m['macro_f1']:.3f}** on {m['n']} items")
             if "module_a_ablation" in evaluation:
                 st.markdown("**Module A ablation** (same data)")
-                st.dataframe(pd.DataFrame(evaluation["module_a_ablation"]), hide_index=True, use_container_width=True)
+                st.dataframe(pd.DataFrame(evaluation["module_a_ablation"]), hide_index=True, width="stretch")
         else:
             st.caption("Run `python -m src.cli evaluate` to populate.")
     with b:

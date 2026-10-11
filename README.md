@@ -207,7 +207,7 @@ correlated shocks in Module B; Kafka in place of the in-process bus.
 ├── models/            text_models.joblib (TF-IDF/LR; auto-retrains if incompatible)
 ├── data/              sample/ · eval/ · lexicons/ · output/
 ├── tests/             pytest suite
-└── docs/              presentation.pdf · architecture.png · screenshots/ · demo_script.md
+└── docs/              presentation.pdf/.pptx · architecture.png/.dot · screenshots/ · demo_script.md
 ```
 
 ### Screenshots
