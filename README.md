@@ -96,7 +96,7 @@ GDELT DOC 2.0 API, Google News RSS, Reddit public JSON, and yfinance for real pr
 
 ## 4. Quickstart & Installation
 
-Runtime: Python 3.10+ (developed and tested on Python 3.13, Linux; runs on macOS/Windows).
+Runtime: Python 3.10+ (tested on Python 3.10 and 3.13, Linux; pure-Python dependencies, so it also runs on macOS and Windows).
 
 ```bash
 git clone https://github.com/<your-username>/kau-sreedaya-gs-hackathon.git
