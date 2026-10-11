@@ -49,6 +49,7 @@ class StressTester:
         self.scenarios = sh["scenarios"]
         self.rw = sh["risk_weights"]
         self.results: list[dict] = []
+        self._triggers: list[RiskSignal] = []
         self._last_trigger: dict[str, tuple[datetime, int]] = {}
         self.cooldown = timedelta(hours=12)
         self.counterparties = sorted(self.book["counterparty"].unique(), key=len, reverse=True)
@@ -60,23 +61,33 @@ class StressTester:
                 and (sig.sentiment_score < 0 or not self.p.get("require_adverse", True)))
 
     def on_signal(self, sig: RiskSignal) -> Optional[dict]:
+        """Trigger (or refresh) a stress test. Reports of the same event type within the cooldown
+        window form one *event cluster*: the cluster keeps the highest impact seen and the union of
+        sectors, regions and named counterparties, and is re-run only when that state worsens."""
         if not self.should_trigger(sig):
             return None
-        prev = self._last_trigger.get(sig.event_type)
         named = self.named_counterparties(sig.headline)
+        prev = self._last_trigger.get(sig.event_type)
         if prev and sig.timestamp - prev[0] < self.cooldown:
-            # same event cluster: only re-run if this report is more severe or names a counterparty
             idx = prev[1]
-            if sig.impact_score <= self.results[idx]["impact_score"] and not named:
-                self.results[idx]["supporting_signals"] += 1
+            cur = self.results[idx]
+            cur["supporting_signals"] += 1
+            sectors = sorted(set(cur["sectors_hit"]) | set(sig.sectors))
+            regions = sorted(set(cur["regions_hit"]) | set(sig.regions))
+            defaulted = sorted(set(cur["defaulted_counterparties"]) | set(named))
+            worse = (sig.impact_score > cur["impact_score"] or sectors != sorted(cur["sectors_hit"])
+                     or regions != sorted(cur["regions_hit"]) or defaulted != sorted(cur["defaulted_counterparties"]))
+            if not worse:
                 return None
-            res = self.run(sig.event_type, sig.impact_score, sig.sectors, sig.regions, named,
-                           trigger=sig, cluster_start=self.results[idx]["triggered_at"])
-            res["supporting_signals"] = self.results[idx]["supporting_signals"] + 1
-            self.results[idx] = res
+            best = sig if sig.impact_score > cur["impact_score"] else self._triggers[idx]
+            res = self.run(sig.event_type, max(sig.impact_score, cur["impact_score"]), sectors, regions,
+                           defaulted, trigger=best, cluster_start=cur["triggered_at"])
+            res["supporting_signals"] = cur["supporting_signals"]
+            self.results[idx], self._triggers[idx] = res, best
             return res
         res = self.run(sig.event_type, sig.impact_score, sig.sectors, sig.regions, named, trigger=sig)
         self.results.append(res)
+        self._triggers.append(sig)
         self._last_trigger[sig.event_type] = (sig.timestamp, len(self.results) - 1)
         return res
 

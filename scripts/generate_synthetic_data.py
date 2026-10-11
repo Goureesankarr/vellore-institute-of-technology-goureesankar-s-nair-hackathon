@@ -554,7 +554,8 @@ def build_trades(rng: random.Random) -> pd.DataFrame:
             r["lgd"] = 0.6 if sector != "Sovereign" else 0.45
             r["market_value_usd"] = round(notional * rng.uniform(0.96, 1.03), -3)
         elif product == "Interest Rate Swap":
-            r["direction"] = rng.choice([1, -1])  # +1 = pay fixed (gains when rates rise)
+            r["direction"] = rng.choice([1, 1, 1, -1])  # +1 = pay fixed (hedges fixed-rate assets; gains when rates rise)
+            r["notional_usd"] = round(notional * 2.5, -4)
             r["mod_duration"] = round(min(maturity, 10) * 0.9, 2)
             r["market_value_usd"] = round(notional * rng.uniform(-0.01, 0.01), -3)
             r["rating"] = rating if sector != "Sovereign" else "A"

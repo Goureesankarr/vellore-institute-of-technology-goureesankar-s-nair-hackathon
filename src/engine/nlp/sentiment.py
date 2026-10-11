@@ -33,6 +33,9 @@ NEGATORS = {"not", "no", "never", "n't", "without", "hardly", "neither", "nor", 
 # Curated phrase lexicon: regex -> weight. Checked before single words; matched spans are not
 # double-counted by the word lists. Order matters only for readability.
 PHRASES: dict[str, float] = {
+    # ---- dismissals of risk (must precede the risk words they contain)
+    r"(contagion |recession |crash |sell-?off )?(fears|worries|concerns) (are|look|seem) (overdone|overblown|exaggerated)": 2.0,
+    r"(is|remains) a fortress|fortress balance sheet": 1.5,
     # ---- earnings / guidance / analysts
     r"beat(s|ing)? (analyst )?(estimates|expectations|forecasts|consensus)": 2.0,
     r"(top|tops|topped|above|ahead of) (analyst )?(estimates|expectations|consensus|forecasts)": 2.0,
@@ -60,7 +63,7 @@ PHRASES: dict[str, float] = {
     r"bankrupt(cy)?|chapter 11|insolven(t|cy)": -2.5,
     r"contagion|bank run|deposit (outflows|flight)|liquidity crisis": -2.0,
     r"spreads? (widen(s|ed|ing)?|blow(ing)? out)|blowing out": -1.5,
-    r"credit quality (remains|remained) strong|fortress balance sheet": 1.5,
+    r"credit quality (remains|remained) strong": 1.5,
     r"loan losses|write-?downs?|impairments?": -1.5,
     # ---- geopolitics / operations / legal
     r"\bwar\b|invasion|airstrikes?|drone strikes?|attack(s|ed)?|military escalation|escalat(es|ed|ion)": -2.0,
