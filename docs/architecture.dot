@@ -1,0 +1,44 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=14, bgcolor="white", pad=0.4, nodesep=0.35, ranksep=0.6, dpi=200];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, color="#c3c2b7", fillcolor="#fcfcfb", penwidth=1.2, margin="0.18,0.10"];
+  edge  [color="#898781", penwidth=1.3, arrowsize=0.7, fontname="Helvetica", fontsize=10, fontcolor="#52514e"];
+
+  subgraph cluster_src {
+    label="1 · Ingestion (connectors)"; style="rounded"; color="#c3c2b7"; fontcolor="#0b0b0b";
+    news   [label="Financial news\nNewsAPI · GDELT · RSS\n(+ bundled news CSV)"];
+    social [label="Social media\nReddit · X/Twitter-style\n(+ bundled posts CSV)"];
+  }
+
+  subgraph cluster_engine {
+    label="2 · AI/NLP Risk Engine"; style="rounded,filled"; fillcolor="#eef4fc"; color="#2a78d6"; fontcolor="#0b0b0b";
+    norm   [label="Normalise → Document\nclean · dedupe · timestamp"];
+    ent    [label="Entity linking\ntickers · cashtags\nsectors · regions"];
+    sent   [label="Sentiment  (−1…+1)\nFinBERT  |  LM lexicon +\nphrases + VADER + TF-IDF/LR\nentity-targeted"];
+    evt    [label="Event classification\ntaxonomy rules (+ TF-IDF/LR\nor zero-shot fallback)"];
+    imp    [label="Impact score (1–10)\nseverity + tone + intensity\n+ reach + burst × credibility"];
+    norm -> ent -> {sent evt};
+    sent -> imp; evt -> imp;
+  }
+
+  subgraph cluster_out {
+    label="3 · Signal delivery"; style="rounded"; color="#c3c2b7";
+    store  [label="Signal store\nSQLite + JSONL"];
+    bus    [label="Pub/sub bus\n(topic: signals)"];
+    api    [label="REST API (FastAPI)\n/signals · /sentiment\n/analyze · /modules/*"];
+  }
+
+  subgraph cluster_mod {
+    label="4 · Downstream modules"; style="rounded,filled"; fillcolor="#fdf1ec"; color="#eb6834";
+    ma [label="Module A · Tactical rebalancer\nsubscribes: Sentiment\ndecay · tilt · bounds · smoothing"];
+    mb [label="Module B · Stress tester\nsubscribes: Event + Impact\ntrigger > 7 → scaled shocks\nloans · bonds · derivatives · CET1"];
+  }
+  dash [label="Streamlit dashboard\nsignal feed · weights over time\nbefore/after stress · what-if", fillcolor="#f0efec"];
+  prices [label="Prices\nyfinance (live)\nsample CSV (replay)", fillcolor="#f0efec"];
+  book [label="Wholesale banking book\ntrade-level CSV", fillcolor="#f0efec"];
+
+  news -> norm; social -> norm;
+  imp -> store; imp -> bus; store -> api;
+  bus -> ma [label="sentiment"]; bus -> mb [label="event, impact"];
+  prices -> ma; book -> mb;
+  ma -> dash; mb -> dash; store -> dash;
+}

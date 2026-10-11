@@ -1,0 +1,16 @@
+# Core runtime (Python 3.10+). Tested on Python 3.13 / Linux.
+pandas>=2.0
+numpy>=1.24
+pyyaml>=6.0
+pydantic>=2.5
+requests>=2.31
+vaderSentiment>=3.3.2
+scikit-learn>=1.3
+joblib>=1.3
+fastapi>=0.110
+uvicorn>=0.27
+httpx>=0.27
+streamlit>=1.36
+plotly>=5.18
+yfinance>=0.2.40
+pytest>=8.0

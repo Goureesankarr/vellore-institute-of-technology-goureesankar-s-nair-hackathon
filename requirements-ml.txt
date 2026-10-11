@@ -1,0 +1,5 @@
+# Optional: transformer backends (FinBERT sentiment, zero-shot events, PhraseBank benchmark).
+# pip install -r requirements-ml.txt   (downloads ~1.5 GB incl. torch + model weights on first use)
+torch>=2.2
+transformers>=4.40
+datasets>=2.19
